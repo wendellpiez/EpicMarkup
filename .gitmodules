@@ -1,0 +1,3 @@
+[submodule "lib/Laminator"]
+	path = lib/Laminator
+	url = https://github.com/wendellpiez/Laminator.git
