@@ -30,6 +30,28 @@ OOO LINKS to project files (here and elsewhere) OOO
 
 Planned: some project results will be published on the developer's [Raven Tracks portal](https://raventracks.org) alongside other resources and projects.
 
+## Cloning the repository
+
+This project uses the Laminator for LMNL processing (see below).
+
+When cloning this repository use `--recurse-submodules`, or to set up the submodule:
+
+```
+> git submodule init
+```
+
+And
+
+```
+> git submodule update
+```
+
+(Or your preferred method.)
+
+The latter command can be used alone to refresh (update) the submodule after it has been initialized.
+
+See the [`lib` folder](./lib/readme.md) for submodules.
+
 ## Coming attractions
 
 - [ ] XProc pipeline to acquire and archive a copy of the open-source PerseusDL TEI Iliad (edition of Monro and Allen, encoded by Crane et al.)
@@ -62,7 +84,9 @@ Think of XProc as a document- and data-oriented 'build' language. You can learn 
 
 The Laminator is a library written by the developer to handle a useful subset of LMNL, MNML. MNML sacrifices some of the useful features of LMNL in favor of an implementation of core functionality -- annotating ranges with markup, including overlapping ranges -- that is much easier to design and test for its simplicity. MNML LMNL is "Minimally Annotated Markup in LMNL".
 
-Support for this variant (subset) of LMNL is provided by a subrepository module, the [Laminator](https://github.com/wendellpiez/Laminator/) (also by the developer). While only a subset of LMNL is supported, it is entirely generic and agnostic with respect to vocabularies used for tagging; in this project, we prefer [TEI](https://tei-c.org) as a *lingua franca*.
+[The Laminator](https://github.com/wendellpiez/Laminator/)  is included with the project as subrepository module. While only a subset of LMNL is supported, it is entirely generic and agnostic with respect to vocabularies used for tagging; in this project, we prefer [TEI](https://tei-c.org) as a *lingua franca*.
+
+Students of literature are invited to try working with LMNL and the Laminator on their own favorite epic poetry, or on any works of literature or scripture -- since overlap happens.
 
 ===
 20260607
