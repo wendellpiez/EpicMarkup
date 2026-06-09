@@ -1,4 +1,4 @@
-# `epic-markup` Epic Markup
+# Epic Markup
 
 Epic poetry - Homer's Iliad - with LMNL markup: overlapping hierarchies on an XML/XProc/XSLT/TEI platform
 
@@ -26,11 +26,13 @@ More examples can be found in the [Laminator repository](https://github.com/wend
 
 </details>
 
-OOO LINKS to project files (here and elsewhere) OOO
+*Winged Words*: Some preliminary research results can be seen in the [data/Iliad/rangemaps](data/Iliad/rangemaps) folder.
 
 Planned: some project results will be published on the developer's [Raven Tracks portal](https://raventracks.org) alongside other resources and projects.
 
 ## Cloning the repository
+
+To run the processes for yourself: all the pipelines in the repository should run in a conformant XProc 3.0/3.1 engine. Some pipelines require MarkupBlitz (bundled with XML Calabash). For ease of use, the pipelines are set up like scripts, which can be executed 'standalone', i.e. without configuring any bindings or dependencies.
 
 This project uses the Laminator for LMNL processing (see below).
 
@@ -55,12 +57,13 @@ See the [`lib` folder](./lib/readme.md) for submodules.
 ## Coming attractions
 
 - [x] XProc pipeline to acquire and archive a copy of the open-source PerseusDL TEI Iliad (edition of Monro and Allen, encoded by Crane et al.)
-- [ ] XProc pipeline to convert the TEI XML to LMNL
-- [ ] *Iliad*, encoded in LMNL "sawtooth" syntax ("PerseusDL TEI LMNL")
+- [x] XProc pipeline to convert the TEI XML to LMNL
+- [x] *Iliad*, encoded in LMNL "sawtooth" syntax ("PerseusDL TEI LMNL")
 - [ ] A design for MYTHOI tagging (TEI tagging of narrative and rhetorical structures)
 - [ ] An enhanced version of the epic, also in LMNL, using MYTHOI tagging
+     - Books 1 and 2 so far 
 - [ ] Αn XProc pipeline for producing TEI XML from LMNL (MYTHOI, TEI or other)
-- [ ] An Xproc pipeline for producing 'Range Map' visual renditions of the epic and its parts
+- [x] An Xproc pipeline for producing 'Range Map' visual renditions of the epic and its parts
 - [ ] (Maybe) an XProc pipeline for producing a dynamic *Iliad Illuminated* web publication
 
 ## Acknowledgements
