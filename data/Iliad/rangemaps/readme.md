@@ -17,8 +17,19 @@ Each SVG illustration produced illustrated the relative sizes and positions of r
 - lines are marked but you really have to zoom in to see them
 - yes, a unified 24-book image is feasible
 
+The images presented are released under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+Materials and code in the repository are produced under an MIT license (open source, use freely with acknowledgement, like CC-BY-SA), but should be regarded as copyright 2026, by Wendell Piez.
+
+
 Here we are so far (June 2026):
 
-![Iliad Book 1 Mythoi range map](book01.svg "Iliad Book I Mythoi range map")
+## Book 1 - Achilles takes offense
 
-![Iliad Book 2 Mythoi range map](book02.svg "Iliad Book 2 Mythoi range map")
+![Iliad Book 1 Mythoi range map](edited/book01.svg "Iliad Book I Mythoi range map")
+
+## Book 2 - Agamememnon gathers the Achaians
+
+The latter part of Book 2 is given to the Catalog of the Ships listing the Greek navies, with a shorter account of the Trojan allies.
+
+![Iliad Book 2 Mythoi range map](edited/book02.svg "Iliad Book 2 Mythoi range map")
