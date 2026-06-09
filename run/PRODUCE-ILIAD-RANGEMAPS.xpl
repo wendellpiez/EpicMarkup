@@ -39,7 +39,10 @@
       <p:with-input port="source" pipe="LAYERS"/>
       <p:with-input port="stylesheet" href="src/mythoi-svg-rangemap.xsl"/>
     </p:xslt>
-    <p:store href="{ $svg-path}"/>
+    
+    <p:string-replace match="@d | @width | @height" replace="tokenize(.,'\s+') ! (if (. castable as xs:decimal) then round(number(.),3) else .) "/>
+    
+    <p:store href="{ $svg-path}" serialization="map { 'indent': true() }"/>
   </p:for-each>
     
 </p:declare-step>

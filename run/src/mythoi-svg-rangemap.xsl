@@ -3,8 +3,9 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:ml="http://wendellpiez.com/ns/xMNML"
   xmlns="http://www.w3.org/2000/svg"
-   xpath-default-namespace="http://wendellpiez.com/ns/xMNML"
-   version="3.0">
+  xpath-default-namespace="http://wendellpiez.com/ns/xMNML"
+  exclude-result-prefixes="#all"
+  version="3.0">
 
 
 <!-- Expected input: rangemap spec, with xMNML document as a parameter -->
@@ -28,7 +29,7 @@
   <xsl:variable name="aspect" select="($sheetSpec/@aspect,1)[1]"/>
   
   <!-- pageHeight accounts for extra drop for multiple layers -->
-  <xsl:variable name="pageHeight" select="$pageWidth * $aspect"/>
+  <xsl:variable name="pageHeight" select="($fullWidth * $aspect) + ($sheetSpec/@paddingUL + $sheetSpec/@paddingLR)"/>
 
   
   <xsl:template match="/*" name="build-map" expand-text="true">
