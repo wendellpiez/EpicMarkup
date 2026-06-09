@@ -55,19 +55,5 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:variable name="speeches" select="document('../../Sources/RAVENTRACKS_ILIAD_quotes-index.xml')"/>
-  
-  <xsl:key match="q" use="@from" name="speeches"/>
-  
-  <xsl:template match="q">
-    <xsl:variable name="lineNo" expand-text="true">{ ancestor::div[@subtype='Book']/@n }.{ child::l[1]/@n }</xsl:variable>
-    <xsl:variable name="speech" select="key('speeches',$lineNo,$speeches)"/>
-    <xsl:copy>
-      <xsl:apply-templates select="@*"/>
-      <xsl:copy-of select="$speech/@who, $speech/@toWhom"/>
-      <xsl:apply-templates/>      
-    </xsl:copy>
-  </xsl:template>
-
 </xsl:stylesheet>
 
