@@ -17,8 +17,10 @@
   <!--<p:output serialization="map { 'indent': true() }"/>-->
 
 
-  <p:load href="{ $filepath }" message="DOWNLOADING { $filename } from { $repo } ..."/>
+  <p:load href="{ $filepath }" message="DOWNLOADING { $filename } from { $repo } ..." content-type="application/xml"/>
 
+  <p:delete match="/processing-instruction()"/>
+  
   <p:store message="... Saving" href="{ $repo }/{ $filename }"/>
 
 </p:declare-step>

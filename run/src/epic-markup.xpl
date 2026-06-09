@@ -8,6 +8,8 @@
   xmlns="http://www.tei-c.org/ns/1.0"
   exclude-inline-prefixes="#all">
 
+  <!-- emulates p:store, indented
+       writing results relative to .. (run directory) -->
   <p:declare-step type="EPIC:store">
     <p:input port="source"/>
     <p:output port="result"/>
@@ -19,6 +21,8 @@
       message="Storing { $hint } { $href }"/>
   </p:declare-step>
 
+  <!-- Modify received Perseus TEI Header for project
+       (make further edits in further steps) -->
   <p:declare-step type="EPIC:teiHeader_update">
     <p:input port="source"/>
     <p:output port="result"/>

@@ -7,7 +7,11 @@
   <!-- Purpose: From downloaded PerseusDL source data:
 
     Produce a LMNL-encoded version (in a TEI wrapper, with metadata)
-    Produce LMNL versions - both extracted, and revised and enhanced 
+    Produce LMNL versions - both extracted, and revised and enhanced
+    
+    This XProc executes in 32 sec in oXygen 28.1, but only 12 sec
+    when run from the CLI using a recent XML Calabash (script calling Java)
+    
   -->
   
   <p:import href="src/epic-markup.xpl"/>
@@ -21,7 +25,7 @@
   <p:viewport match="/TEI/text/body/div/div" name="each_book">
     <p:variable name="book00" select="p:iteration-position() => format-number('00')"/>
 
-    <p:delete match="l/text()[normalize-space(.) => not()]"/>
+    <p:delete match="l//text()[normalize-space(.) => not()]"/>
     <p:xslt name="lmnlizer">
       <p:with-input port="stylesheet" href="../lib/Laminator/lib/common/xml-to-lmnl.xsl"/>
     </p:xslt>
@@ -52,9 +56,14 @@
     <p:with-input port="source" pipe="result@PerseusDL-TEI"/>
     <p:with-input port="stylesheet" href="src/perseus-Iliad-fixup.xsl"/>
   </p:xslt>
+  
+  <EPIC:store href="../data/Iliad/tei/ILIAD_epicmarkup_tei.xml" hint="TEI, with adjustments"/>
+  
+  <!-- The next couple of steps include tailored modifications for this data -->
   <p:xslt name="adjusted">
     <p:with-input port="stylesheet" href="src/perseus_Iliad-adjust.xsl"/>
   </p:xslt>
+  
   <p:xslt>
     <p:with-input port="stylesheet" href="src/adjustedIliad-to-sawteeth.xsl"/>
   </p:xslt>
