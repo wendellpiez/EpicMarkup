@@ -8,7 +8,6 @@
 
     Produce a LMNL-encoded version (in a TEI wrapper, with metadata)
     Produce LMNL versions - both extracted, and revised and enhanced 
-  
   -->
   
   <p:import href="src/epic-markup.xpl"/>
