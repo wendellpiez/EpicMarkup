@@ -54,7 +54,7 @@ See the [`lib` folder](./lib/readme.md) for submodules.
 
 ## Coming attractions
 
-- [ ] XProc pipeline to acquire and archive a copy of the open-source PerseusDL TEI Iliad (edition of Monro and Allen, encoded by Crane et al.)
+- [x] XProc pipeline to acquire and archive a copy of the open-source PerseusDL TEI Iliad (edition of Monro and Allen, encoded by Crane et al.)
 - [ ] XProc pipeline to convert the TEI XML to LMNL
 - [ ] *Iliad*, encoded in LMNL "sawtooth" syntax ("PerseusDL TEI LMNL")
 - [ ] A design for MYTHOI tagging (TEI tagging of narrative and rhetorical structures)
@@ -72,21 +72,24 @@ This work builds on foundations laid by others:
 - TEI developers and community
 - iXML developers and community
 
-It is dedicated to everyone who believed in LMNL and everyone who has challenged it, with grateful thanks, as well as to the memory of that Titan of Markup, C. Michael Sperberg-McQueen.
+It is dedicated to everyone who believed in LMNL and everyone who has thoughtfully challenged it, with grateful thanks, as well as to the memory of that Titan of Markup, C. Michael Sperberg-McQueen.
 
 ## XProc 3.0
 
-XProc 3.0 is a language, defined by a standardized open specification, describing operations - "defining jobs" - to be performed over XML or other data (HTML, plain text). These operations include both transformations (using XSLT and other means) and interactions with the system, such as reading and writing resources.
+XProc 3.0 is a language defined by a standardized open specification, used to describe simple and complex operations - to "define jobs" - to be performed over XML or other data (including HTML, JSON, plain text and other formats). These operations include both transformations (using XSLT and other means) and interactions with the system, such as reading, writing, segmenting and merging resources.
 
 Think of XProc as a document- and data-oriented 'build' language. You can learn more about it on the Internet, or see another project by the developer, the [XProc Zone](https://xproc.zone).
-
 ## Laminator
 
-The Laminator is a library written by the developer to handle a useful subset of LMNL, MNML. MNML sacrifices some of the useful features of LMNL in favor of an implementation of core functionality -- annotating ranges with markup, including overlapping ranges -- that is much easier to design and test for its simplicity. MNML LMNL is "Minimally Annotated Markup in LMNL".
+The Laminator is a library written by the developer to handle a useful subset of LMNL, MNML. MNML sacrifices some of the useful features of LMNL in favor of an implementation of core functionality -- annotating ranges with markup, including overlapping ranges -- that is much easier to design and test for its simplicity. MNML LMNL is **Minimally Annotated Markup in LMNL**.
 
-[The Laminator](https://github.com/wendellpiez/Laminator/)  is included with the project as subrepository module. While only a subset of LMNL is supported, it is entirely generic and agnostic with respect to vocabularies used for tagging; in this project, we prefer [TEI](https://tei-c.org) as a *lingua franca*.
+[The Laminator](https://github.com/wendellpiez/Laminator/)  is included with the project as repository submodule. While the Laminator supports only a subset of LMNL, it is entirely generic and agnostic with respect to vocabularies used for tagging; this permits this project to stick close to [TEI](https://tei-c.org) as a *lingua franca*.
 
-Students of literature are invited to try working with LMNL and the Laminator on their own favorite epic poetry, or on any works of literature or scripture -- since overlap happens.
+## Editing LMNL
+
+If you have gotten this far, possibly you will be glad to know you can edit LMNL in a text editor with some dedicated tooling and syntax coloring.
+
+TODO: details and files for TextPad
 
 ===
 20260607
