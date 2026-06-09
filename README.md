@@ -7,7 +7,7 @@ LMNL is the Layered Markup and Annotation Language, which defines a markup synta
 
 Think of it as similar to XML, except:
 
-- Different syntax for tags
+- Different syntax for tags (*sawteeth*)
 - Permits spans of tagged text to overlap one another (tagging 'does not always nest')
 
 ```
@@ -22,9 +22,13 @@ Think of it as similar to XML, except:
 ...{book]
 ```
 
-More examples can be found in the [Laminator repository](https://github.com/wendellpiez/Laminator/tree/main/sources/Luminescent)
+More information about LMNL, with more examples, can be found in the [Laminator repository](https://github.com/wendellpiez/Laminator)
 
 </details>
+
+This repository holds several editions of Homer's Iliad all sharing a common source, the PerseusDL encoding of the Monro and Allen OUP edition.
+
+[LMNL encoded versions of the data](data/Iliad/lmnl/) intend to show what can be done with a markup tagging syntax, and markup languages enabled by such a syntax, for research into epic poetry, and by implication, into much else.
 
 *Winged Words*: Some preliminary research results can be seen in the [data/Iliad/rangemaps](data/Iliad/rangemaps) folder.
 

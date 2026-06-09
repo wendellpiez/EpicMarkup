@@ -40,7 +40,9 @@
       <p:with-input port="stylesheet" href="src/mythoi-svg-rangemap.xsl"/>
     </p:xslt>
     
-    <p:string-replace match="@d | @width | @height" replace="tokenize(.,'\s+') ! (if (. castable as xs:decimal) then round(number(.),3) else .) "/>
+    <!-- TODO: an XSLT to do even more to help the SVG -->
+    <p:string-replace match="@d | @width | @height"
+      replace="tokenize(.,'\s+') ! (if (. castable as xs:decimal) then round(number(.),3) else .) "/>
     
     <p:store href="{ $svg-path}" serialization="map { 'indent': true() }"/>
   </p:for-each>

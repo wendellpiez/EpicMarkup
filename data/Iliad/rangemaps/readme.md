@@ -26,10 +26,14 @@ Here we are so far (June 2026):
 
 ## Book 1 - Achilles takes offense
 
+See the [source LMNL](../lmnl/edited/book01.lmnl)
+
 ![Iliad Book 1 Mythoi range map](edited/book01.svg "Iliad Book I Mythoi range map")
 
 ## Book 2 - Agamememnon gathers the Achaians
 
 The latter part of Book 2 is given to the Catalog of the Ships listing the Greek navies, with a shorter account of the Trojan allies.
+
+See the [source LMNL](../lmnl/edited/book02.lmnl)
 
 ![Iliad Book 2 Mythoi range map](edited/book02.svg "Iliad Book 2 Mythoi range map")
