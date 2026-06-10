@@ -11,17 +11,24 @@ Each SVG illustrates the relative sizes and positions of ranges in the respectiv
 - The course of the book proceeds from upper left (first lines) to lower right (last lines)
 - The book is a big blue "lozenge" or leaf shape
 - Paragraphs are the same shape, much smaller (zoom in)
-- SCENE ranges are gold wedges (triangles), annotated with the scene setting
-- SPEECH ranges are green 'sails', marked with the speaker and who is spoken to
-- 'prayer' and 'simile' ranges are also marked (they are smaller)
+- **scene** ranges are gold wedges (triangles), annotated with the scene setting
+- **speech** ranges are green 'sails', marked with the speaker and who is spoken to
+- **prayer**, **tale** and **simile** ranges are also marked (they are smaller)
+  - prayer - invocations to a god or to the Muses
+  - tale - a nested narrative
+  - simile - likening or comparing
+  - prolepsis - looking forward
 - lines are marked as well (but you really have to zoom in to see them)
 - yes, a unified image showing all 24 books is feasible
 
 The images presented are released under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
-Images are available for use under a CC-BY-SA license, crediting Wendell Piez (EpicMarkup).
+Images are available for use under a CC-BY-SA license, with credit:
 
-But we can also make even nicer images: these are just prototypes.
+  - [PerseusDL](https://github.com/PerseusDL) for data sources (canonical TEI markup of Monro and Allen edition)
+  - Wendell Piez (EpicMarkup) for markup enhancements and images
+
+But we can also make nicer images: these are just prototypes.
 
 Here we are so far (June 2026):
 
@@ -38,3 +45,6 @@ The latter part of Book 2 is given to the Catalog of the Ships listing the Greek
 See the [source LMNL](../lmnl/edited/book02.lmnl)
 
 ![Iliad Book 2 Mythoi range map](edited/book02.svg "Iliad Book 2 Mythoi range map")
+
+---
+20260610
