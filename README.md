@@ -36,7 +36,7 @@ Planned: some project results will be published on the developer's [Raven Tracks
 
 ## Cloning the repository
 
-To run the processes for yourself: all the pipelines in the repository have successfully been run in a conformant XProc 3.0/3.1 engine. Some pipelines require MarkupBlitz (bundled with XML Calabash). For ease of use, "build" pipelines are deployed (recognizable by names in `ALL-CAPITALS.xpl`), which can be executed 'standalone', i.e. without configuring any bindings or dependencies.
+To run the processes for yourself: all the pipelines in the repository have successfully been run in a conformant XProc 3.0/3.1 engine. Some pipelines require MarkupBlitz (bundled with XML Calabash). For ease of use, "build" pipelines are deployed (recognizable by names in `ALL-CAPITALS.xpl`), which can be executed standalone, i.e. without configuring any bindings or dependencies.
 
 This project uses the Laminator for LMNL processing (see below), installed in the [`lib` folder](./lib/).
 

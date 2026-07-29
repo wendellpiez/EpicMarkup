@@ -100,7 +100,7 @@
     <xsl:apply-templates select="." mode="label"/>
   </xsl:template>
   
-  <xsl:template mode="draw" match="range[@gi=('div','para')]" priority="11" name="lozenge">
+  <xsl:template mode="draw" match="range[@gi=('div','para','BOOK')]" priority="11" name="lozenge">
     <xsl:param name="placement" as="map(*)" tunnel="true"/>
     <xsl:variable name="strokeWeight" select="0.01 * $placement?height"/>
     <path d="M { $placement?x1 } { $placement?y1 } Q { $placement?x2 } { $placement?y1 } { $placement?x2 } { $placement?y2 } 
@@ -194,7 +194,7 @@
   
   <xsl:template match="*" mode="decorate"/>
   
-  <xsl:template match="ml:range[@gi='div']" mode="decorate" expand-text="true">
+  <xsl:template match="ml:range[@gi=('div','BOOK')]" mode="decorate" expand-text="true">
     <xsl:attribute name="fill">lightsteelblue</xsl:attribute>
     <xsl:attribute name="fill-opacity">0.2</xsl:attribute>
     <xsl:attribute name="stroke">lightsteelblue</xsl:attribute>
@@ -282,7 +282,7 @@
     <xsl:next-match/>
   </xsl:template>
   
-  <xsl:template match="range[@gi='div']" mode="label-text" expand-text="true">
+  <xsl:template match="range[@gi=('div','BOOK')]" mode="label-text" expand-text="true">
     <xsl:attribute name="font-weight">bold</xsl:attribute>
     <xsl:attribute name="fill">none</xsl:attribute>
     <xsl:text>Book { child::annotation[@gi='n'] }</xsl:text>

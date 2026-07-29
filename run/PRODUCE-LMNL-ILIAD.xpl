@@ -33,7 +33,8 @@
     <p:text-replace pattern="^\s+" replacement="" flags="m"/>
     <p:variable name="lmnl" select="."/>
 
-    <EPIC:store href="../data/Iliad/lmnl/PerseusDL_src/book{ $book00 }.lmnl"
+    <!-- SAVES a fresh LMNL version in folder ../data/Iliad/lmnl/generated/PerseusDL_src -->
+    <EPIC:store href="../data/Iliad/lmnl/generated/PerseusDL_src/book{ $book00 }.lmnl"
       hint="PerseusDL source, encoded in LMNL"/>
 
     <p:delete match="/*/node()">
@@ -48,28 +49,37 @@
 
   <EPIC:teiHeader_update/>
 
+<!-- Now saving a 'nominal' TEI version with updated header and LMNL as a text brick.
+     NB adjustments to the header can be made in the subpipeline-->
+
   <EPIC:store href="../data/Iliad/tei/PerseusDL_lmnl-tei.xml"
     hint="PerseusDL TEI, with books in LMNL syntax"/>
 
+  <!--Next going back to source and making a few adjustments to XML source
+      for cleaner mapping -->
 
   <p:xslt>
     <p:with-input port="source" pipe="result@PerseusDL-TEI"/>
     <p:with-input port="stylesheet" href="src/perseus-Iliad-fixup.xsl"/>
   </p:xslt>
   
+  <!-- Result is comparable not to LMNL but to the original input -->
   <EPIC:store href="../data/Iliad/tei/ILIAD_epicmarkup_tei.xml" hint="TEI, with adjustments"/>
   
-  <!-- The next couple of steps include tailored modifications for this data -->
+  <!-- Further tailored modifications for this data -->
   <p:xslt name="adjusted">
     <p:with-input port="stylesheet" href="src/perseus_Iliad-adjust.xsl"/>
   </p:xslt>
   
+  <!-- Writing LMNL notation now -->
   <p:xslt>
     <p:with-input port="stylesheet" href="src/adjustedIliad-to-sawteeth.xsl"/>
   </p:xslt>
 
-  <EPIC:store href="../data/Iliad/lmnl/ILIAD_pages.lmnl" hint="LMNL, improved"/>
+  <!-- Full text, in LMNL -->
+  <EPIC:store href="../data/Iliad/lmnl/generated/ILIAD_pages.lmnl" hint="LMNL, improved"/>
 
+  <!-- Again, except this time each book -->
   <p:for-each>
     <p:with-input select="//EPIC/book" pipe="result@adjusted"/>
     <p:variable name="book00" select="p:iteration-position() => format-number('00')"/>
@@ -77,7 +87,7 @@
     <p:xslt>
       <p:with-input port="stylesheet" href="src/adjustedIliad-to-sawteeth.xsl"/>
     </p:xslt>
-    <EPIC:store href="../data/Iliad/lmnl/enhanced/book{ $book00 }.lmnl" hint="LMNL, with enhancements"/>
+    <EPIC:store href="../data/Iliad/lmnl/generated/enhanced/book{ $book00 }.lmnl" hint="LMNL, with enhancements"/>
   </p:for-each>
 
 </p:declare-step>
