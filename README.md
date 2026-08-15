@@ -42,6 +42,18 @@ This project uses the Laminator for LMNL processing (see below), installed in th
 
 It is set up as a git submodule, so it requires initialization and update for the repository runtimes to work: see git documentation on initializing (`git submodule init`) and updating (`git submodule update --remote`).
 
+## Namespaces
+
+Internally, pipelines may sometimes handle XML without namespaces. Caution is warranted lest your assumptions betray you.
+
+When needed, a common namespace may be assigned for elements not expected to be useful outside this repository:
+
+```
+xmlns:EPIC="https://github.com/wendellpiez/EpicMarkup/ns"
+```
+
+Caveat Proscriptor!
+
 ## Coming attractions
 
 - [x] XProc pipeline to acquire and archive a copy of the open-source PerseusDL TEI Iliad (edition of Monro and Allen, encoded by Crane et al.)

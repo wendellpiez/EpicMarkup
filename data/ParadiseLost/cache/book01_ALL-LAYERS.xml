@@ -1,0 +1,2788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LAYERS xmlns="http://wendellpiez.com/ns/xMNML">
+   <layer form="ohco" ranges="BOOK lg l">
+      <range gi="BOOK" starting="0" ending="34403" rID="r001_BOOK"/>
+      <range gi="lg" starting="0" ending="1104" rID="r002_lg"/>
+      <range gi="l" starting="1" ending="43" rID="r003_l"/>
+      <range gi="l" starting="44" ending="85" rID="r004_l"/>
+      <range gi="l" starting="86" ending="132" rID="r005_l"/>
+      <range gi="l" starting="133" ending="172" rID="r006_l"/>
+      <range gi="l" starting="173" ending="214" rID="r007_l"/>
+      <range gi="l" starting="215" ending="259" rID="r008_l"/>
+      <range gi="l" starting="260" ending="295" rID="r009_l"/>
+      <range gi="l" starting="296" ending="342" rID="r010_l"/>
+      <range gi="l" starting="343" ending="385" rID="r011_l"/>
+      <range gi="l" starting="386" ending="421" rID="r012_l"/>
+      <range gi="l" starting="422" ending="470" rID="r013_l"/>
+      <range gi="l" starting="471" ending="506" rID="r014_l"/>
+      <range gi="l" starting="507" ending="545" rID="r015_l"/>
+      <range gi="l" starting="546" ending="588" rID="r016_l"/>
+      <range gi="l" starting="589" ending="629" rID="r017_l"/>
+      <range gi="l" starting="630" ending="671" rID="r018_l"/>
+      <range gi="l" starting="672" ending="716" rID="r019_l"/>
+      <range gi="l" starting="717" ending="763" rID="r020_l"/>
+      <range gi="l" starting="764" ending="814" rID="r021_l"/>
+      <range gi="l" starting="815" ending="862" rID="r022_l"/>
+      <range gi="l" starting="863" ending="907" rID="r023_l"/>
+      <range gi="l" starting="908" ending="950" rID="r024_l"/>
+      <range gi="l" starting="951" ending="991" rID="r025_l"/>
+      <range gi="l" starting="992" ending="1035" rID="r026_l"/>
+      <range gi="l" starting="1036" ending="1068" rID="r027_l"/>
+      <range gi="l" starting="1069" ending="1104" rID="r028_l"/>
+      <range gi="lg" starting="1105" ending="1428" rID="r029_lg"/>
+      <range gi="l" starting="1106" ending="1156" rID="r030_l"/>
+      <range gi="l" starting="1157" ending="1205" rID="r031_l"/>
+      <range gi="l" starting="1206" ending="1251" rID="r032_l"/>
+      <range gi="l" starting="1252" ending="1293" rID="r033_l"/>
+      <range gi="l" starting="1294" ending="1337" rID="r034_l"/>
+      <range gi="l" starting="1338" ending="1384" rID="r035_l"/>
+      <range gi="l" starting="1385" ending="1428" rID="r036_l"/>
+      <range gi="lg" starting="1429" ending="2101" rID="r037_lg"/>
+      <range gi="l" starting="1430" ending="1474" rID="r038_l"/>
+      <range gi="l" starting="1475" ending="1517" rID="r039_l"/>
+      <range gi="l" starting="1518" ending="1560" rID="r040_l"/>
+      <range gi="l" starting="1561" ending="1608" rID="r041_l"/>
+      <range gi="l" starting="1609" ending="1648" rID="r042_l"/>
+      <range gi="l" starting="1649" ending="1689" rID="r043_l"/>
+      <range gi="l" starting="1690" ending="1732" rID="r044_l"/>
+      <range gi="l" starting="1733" ending="1770" rID="r045_l"/>
+      <range gi="l" starting="1771" ending="1810" rID="r046_l"/>
+      <range gi="l" starting="1811" ending="1857" rID="r047_l"/>
+      <range gi="l" starting="1858" ending="1899" rID="r048_l"/>
+      <range gi="l" starting="1900" ending="1946" rID="r049_l"/>
+      <range gi="l" starting="1947" ending="1985" rID="r050_l"/>
+      <range gi="l" starting="1986" ending="2025" rID="r051_l"/>
+      <range gi="l" starting="2026" ending="2062" rID="r052_l"/>
+      <range gi="l" starting="2063" ending="2101" rID="r053_l"/>
+      <range gi="lg" starting="2102" ending="3579" rID="r054_lg"/>
+      <range gi="l" starting="2103" ending="2151" rID="r055_l"/>
+      <range gi="l" starting="2152" ending="2192" rID="r056_l"/>
+      <range gi="l" starting="2193" ending="2235" rID="r057_l"/>
+      <range gi="l" starting="2236" ending="2277" rID="r058_l"/>
+      <range gi="l" starting="2278" ending="2325" rID="r059_l"/>
+      <range gi="l" starting="2326" ending="2365" rID="r060_l"/>
+      <range gi="l" starting="2366" ending="2413" rID="r061_l"/>
+      <range gi="l" starting="2414" ending="2456" rID="r062_l"/>
+      <range gi="l" starting="2457" ending="2502" rID="r063_l"/>
+      <range gi="l" starting="2503" ending="2542" rID="r064_l"/>
+      <range gi="l" starting="2543" ending="2579" rID="r065_l"/>
+      <range gi="l" starting="2580" ending="2619" rID="r066_l"/>
+      <range gi="l" starting="2620" ending="2670" rID="r067_l"/>
+      <range gi="l" starting="2671" ending="2708" rID="r068_l"/>
+      <range gi="l" starting="2709" ending="2747" rID="r069_l"/>
+      <range gi="l" starting="2748" ending="2794" rID="r070_l"/>
+      <range gi="l" starting="2795" ending="2837" rID="r071_l"/>
+      <range gi="l" starting="2838" ending="2880" rID="r072_l"/>
+      <range gi="l" starting="2881" ending="2917" rID="r073_l"/>
+      <range gi="l" starting="2918" ending="2955" rID="r074_l"/>
+      <range gi="l" starting="2956" ending="2995" rID="r075_l"/>
+      <range gi="l" starting="2996" ending="3044" rID="r076_l"/>
+      <range gi="l" starting="3045" ending="3086" rID="r077_l"/>
+      <range gi="l" starting="3087" ending="3130" rID="r078_l"/>
+      <range gi="l" starting="3131" ending="3176" rID="r079_l"/>
+      <range gi="l" starting="3177" ending="3223" rID="r080_l"/>
+      <range gi="l" starting="3224" ending="3269" rID="r081_l"/>
+      <range gi="l" starting="3270" ending="3317" rID="r082_l"/>
+      <range gi="l" starting="3318" ending="3363" rID="r083_l"/>
+      <range gi="l" starting="3364" ending="3409" rID="r084_l"/>
+      <range gi="l" starting="3410" ending="3450" rID="r085_l"/>
+      <range gi="l" starting="3451" ending="3485" rID="r086_l"/>
+      <range gi="l" starting="3486" ending="3536" rID="r087_l"/>
+      <range gi="l" starting="3537" ending="3579" rID="r088_l"/>
+      <range gi="lg" starting="3580" ending="5367" rID="r089_lg"/>
+      <range gi="l" starting="3581" ending="3628" rID="r090_l"/>
+      <range gi="l" starting="3629" ending="3671" rID="r091_l"/>
+      <range gi="l" starting="3672" ending="3724" rID="r092_l"/>
+      <range gi="l" starting="3725" ending="3775" rID="r093_l"/>
+      <range gi="l" starting="3776" ending="3816" rID="r094_l"/>
+      <range gi="l" starting="3817" ending="3854" rID="r095_l"/>
+      <range gi="l" starting="3855" ending="3898" rID="r096_l"/>
+      <range gi="l" starting="3899" ending="3938" rID="r097_l"/>
+      <range gi="l" starting="3939" ending="3991" rID="r098_l"/>
+      <range gi="l" starting="3992" ending="4035" rID="r099_l"/>
+      <range gi="l" starting="4036" ending="4084" rID="r100_l"/>
+      <range gi="l" starting="4085" ending="4123" rID="r101_l"/>
+      <range gi="l" starting="4124" ending="4165" rID="r102_l"/>
+      <range gi="l" starting="4166" ending="4216" rID="r103_l"/>
+      <range gi="l" starting="4217" ending="4262" rID="r104_l"/>
+      <range gi="l" starting="4263" ending="4308" rID="r105_l"/>
+      <range gi="l" starting="4309" ending="4352" rID="r106_l"/>
+      <range gi="l" starting="4353" ending="4388" rID="r107_l"/>
+      <range gi="l" starting="4389" ending="4438" rID="r108_l"/>
+      <range gi="l" starting="4439" ending="4482" rID="r109_l"/>
+      <range gi="l" starting="4483" ending="4525" rID="r110_l"/>
+      <range gi="l" starting="4526" ending="4578" rID="r111_l"/>
+      <range gi="l" starting="4579" ending="4619" rID="r112_l"/>
+      <range gi="l" starting="4620" ending="4656" rID="r113_l"/>
+      <range gi="l" starting="4657" ending="4694" rID="r114_l"/>
+      <range gi="l" starting="4695" ending="4731" rID="r115_l"/>
+      <range gi="l" starting="4732" ending="4773" rID="r116_l"/>
+      <range gi="l" starting="4774" ending="4814" rID="r117_l"/>
+      <range gi="l" starting="4815" ending="4855" rID="r118_l"/>
+      <range gi="l" starting="4856" ending="4897" rID="r119_l"/>
+      <range gi="l" starting="4898" ending="4939" rID="r120_l"/>
+      <range gi="l" starting="4940" ending="4979" rID="r121_l"/>
+      <range gi="l" starting="4980" ending="5032" rID="r122_l"/>
+      <range gi="l" starting="5033" ending="5074" rID="r123_l"/>
+      <range gi="l" starting="5075" ending="5121" rID="r124_l"/>
+      <range gi="l" starting="5122" ending="5168" rID="r125_l"/>
+      <range gi="l" starting="5169" ending="5209" rID="r126_l"/>
+      <range gi="l" starting="5210" ending="5248" rID="r127_l"/>
+      <range gi="l" starting="5249" ending="5281" rID="r128_l"/>
+      <range gi="l" starting="5282" ending="5324" rID="r129_l"/>
+      <range gi="l" starting="5325" ending="5367" rID="r130_l"/>
+      <range gi="lg" starting="5368" ending="5506" rID="r131_lg"/>
+      <range gi="l" starting="5369" ending="5413" rID="r132_l"/>
+      <range gi="l" starting="5414" ending="5459" rID="r133_l"/>
+      <range gi="l" starting="5460" ending="5506" rID="r134_l"/>
+      <range gi="lg" starting="5507" ending="6673" rID="r135_lg"/>
+      <range gi="l" starting="5508" ending="5548" rID="r136_l"/>
+      <range gi="l" starting="5549" ending="5587" rID="r137_l"/>
+      <range gi="l" starting="5588" ending="5629" rID="r138_l"/>
+      <range gi="l" starting="5630" ending="5675" rID="r139_l"/>
+      <range gi="l" starting="5676" ending="5712" rID="r140_l"/>
+      <range gi="l" starting="5713" ending="5760" rID="r141_l"/>
+      <range gi="l" starting="5761" ending="5798" rID="r142_l"/>
+      <range gi="l" starting="5799" ending="5840" rID="r143_l"/>
+      <range gi="l" starting="5841" ending="5886" rID="r144_l"/>
+      <range gi="l" starting="5887" ending="5925" rID="r145_l"/>
+      <range gi="l" starting="5926" ending="5962" rID="r146_l"/>
+      <range gi="l" starting="5963" ending="6006" rID="r147_l"/>
+      <range gi="l" starting="6007" ending="6043" rID="r148_l"/>
+      <range gi="l" starting="6044" ending="6089" rID="r149_l"/>
+      <range gi="l" starting="6090" ending="6126" rID="r150_l"/>
+      <range gi="l" starting="6127" ending="6167" rID="r151_l"/>
+      <range gi="l" starting="6168" ending="6208" rID="r152_l"/>
+      <range gi="l" starting="6209" ending="6261" rID="r153_l"/>
+      <range gi="l" starting="6262" ending="6311" rID="r154_l"/>
+      <range gi="l" starting="6312" ending="6353" rID="r155_l"/>
+      <range gi="l" starting="6354" ending="6394" rID="r156_l"/>
+      <range gi="l" starting="6395" ending="6436" rID="r157_l"/>
+      <range gi="l" starting="6437" ending="6479" rID="r158_l"/>
+      <range gi="l" starting="6480" ending="6522" rID="r159_l"/>
+      <range gi="l" starting="6523" ending="6560" rID="r160_l"/>
+      <range gi="l" starting="6561" ending="6602" rID="r161_l"/>
+      <range gi="l" starting="6603" ending="6642" rID="r162_l"/>
+      <range gi="l" starting="6643" ending="6673" rID="r163_l"/>
+      <range gi="lg" starting="6674" ending="8201" rID="r164_lg"/>
+      <range gi="l" starting="6675" ending="6726" rID="r165_l"/>
+      <range gi="l" starting="6727" ending="6766" rID="r166_l"/>
+      <range gi="l" starting="6767" ending="6808" rID="r167_l"/>
+      <range gi="l" starting="6809" ending="6849" rID="r168_l"/>
+      <range gi="l" starting="6850" ending="6886" rID="r169_l"/>
+      <range gi="l" starting="6887" ending="6925" rID="r170_l"/>
+      <range gi="l" starting="6926" ending="6964" rID="r171_l"/>
+      <range gi="l" starting="6965" ending="7006" rID="r172_l"/>
+      <range gi="l" starting="7007" ending="7046" rID="r173_l"/>
+      <range gi="l" starting="7047" ending="7091" rID="r174_l"/>
+      <range gi="l" starting="7092" ending="7132" rID="r175_l"/>
+      <range gi="l" starting="7133" ending="7177" rID="r176_l"/>
+      <range gi="l" starting="7178" ending="7222" rID="r177_l"/>
+      <range gi="l" starting="7223" ending="7262" rID="r178_l"/>
+      <range gi="l" starting="7263" ending="7301" rID="r179_l"/>
+      <range gi="l" starting="7302" ending="7351" rID="r180_l"/>
+      <range gi="l" starting="7352" ending="7395" rID="r181_l"/>
+      <range gi="l" starting="7396" ending="7435" rID="r182_l"/>
+      <range gi="l" starting="7436" ending="7483" rID="r183_l"/>
+      <range gi="l" starting="7484" ending="7529" rID="r184_l"/>
+      <range gi="l" starting="7530" ending="7575" rID="r185_l"/>
+      <range gi="l" starting="7576" ending="7622" rID="r186_l"/>
+      <range gi="l" starting="7623" ending="7666" rID="r187_l"/>
+      <range gi="l" starting="7667" ending="7705" rID="r188_l"/>
+      <range gi="l" starting="7706" ending="7752" rID="r189_l"/>
+      <range gi="l" starting="7753" ending="7791" rID="r190_l"/>
+      <range gi="l" starting="7792" ending="7838" rID="r191_l"/>
+      <range gi="l" starting="7839" ending="7883" rID="r192_l"/>
+      <range gi="l" starting="7884" ending="7926" rID="r193_l"/>
+      <range gi="l" starting="7927" ending="7969" rID="r194_l"/>
+      <range gi="l" starting="7970" ending="8010" rID="r195_l"/>
+      <range gi="l" starting="8011" ending="8052" rID="r196_l"/>
+      <range gi="l" starting="8053" ending="8088" rID="r197_l"/>
+      <range gi="l" starting="8089" ending="8121" rID="r198_l"/>
+      <range gi="l" starting="8122" ending="8163" rID="r199_l"/>
+      <range gi="l" starting="8164" ending="8201" rID="r200_l"/>
+      <range gi="lg" starting="8202" ending="9438" rID="r201_lg"/>
+      <range gi="l" starting="8203" ending="8243" rID="r202_l"/>
+      <range gi="l" starting="8244" ending="8285" rID="r203_l"/>
+      <range gi="l" starting="8286" ending="8332" rID="r204_l"/>
+      <range gi="l" starting="8333" ending="8377" rID="r205_l"/>
+      <range gi="l" starting="8378" ending="8419" rID="r206_l"/>
+      <range gi="l" starting="8420" ending="8462" rID="r207_l"/>
+      <range gi="l" starting="8463" ending="8507" rID="r208_l"/>
+      <range gi="l" starting="8508" ending="8540" rID="r209_l"/>
+      <range gi="l" starting="8541" ending="8582" rID="r210_l"/>
+      <range gi="l" starting="8583" ending="8620" rID="r211_l"/>
+      <range gi="l" starting="8621" ending="8663" rID="r212_l"/>
+      <range gi="l" starting="8664" ending="8705" rID="r213_l"/>
+      <range gi="l" starting="8706" ending="8752" rID="r214_l"/>
+      <range gi="l" starting="8753" ending="8794" rID="r215_l"/>
+      <range gi="l" starting="8795" ending="8831" rID="r216_l"/>
+      <range gi="l" starting="8832" ending="8876" rID="r217_l"/>
+      <range gi="l" starting="8877" ending="8917" rID="r218_l"/>
+      <range gi="l" starting="8918" ending="8969" rID="r219_l"/>
+      <range gi="l" starting="8970" ending="9014" rID="r220_l"/>
+      <range gi="l" starting="9015" ending="9063" rID="r221_l"/>
+      <range gi="l" starting="9064" ending="9104" rID="r222_l"/>
+      <range gi="l" starting="9105" ending="9147" rID="r223_l"/>
+      <range gi="l" starting="9148" ending="9184" rID="r224_l"/>
+      <range gi="l" starting="9185" ending="9227" rID="r225_l"/>
+      <range gi="l" starting="9228" ending="9265" rID="r226_l"/>
+      <range gi="l" starting="9266" ending="9310" rID="r227_l"/>
+      <range gi="l" starting="9311" ending="9353" rID="r228_l"/>
+      <range gi="l" starting="9354" ending="9391" rID="r229_l"/>
+      <range gi="l" starting="9392" ending="9438" rID="r230_l"/>
+      <range gi="lg" starting="9439" ending="10360" rID="r231_lg"/>
+      <range gi="l" starting="9440" ending="9484" rID="r232_l"/>
+      <range gi="l" starting="9485" ending="9528" rID="r233_l"/>
+      <range gi="l" starting="9529" ending="9585" rID="r234_l"/>
+      <range gi="l" starting="9586" ending="9631" rID="r235_l"/>
+      <range gi="l" starting="9632" ending="9677" rID="r236_l"/>
+      <range gi="l" starting="9678" ending="9712" rID="r237_l"/>
+      <range gi="l" starting="9713" ending="9755" rID="r238_l"/>
+      <range gi="l" starting="9756" ending="9799" rID="r239_l"/>
+      <range gi="l" starting="9800" ending="9841" rID="r240_l"/>
+      <range gi="l" starting="9842" ending="9884" rID="r241_l"/>
+      <range gi="l" starting="9885" ending="9923" rID="r242_l"/>
+      <range gi="l" starting="9924" ending="9964" rID="r243_l"/>
+      <range gi="l" starting="9965" ending="10002" rID="r244_l"/>
+      <range gi="l" starting="10003" ending="10048" rID="r245_l"/>
+      <range gi="l" starting="10049" ending="10091" rID="r246_l"/>
+      <range gi="l" starting="10092" ending="10130" rID="r247_l"/>
+      <range gi="l" starting="10131" ending="10181" rID="r248_l"/>
+      <range gi="l" starting="10182" ending="10226" rID="r249_l"/>
+      <range gi="l" starting="10227" ending="10273" rID="r250_l"/>
+      <range gi="l" starting="10274" ending="10319" rID="r251_l"/>
+      <range gi="l" starting="10320" ending="10360" rID="r252_l"/>
+      <range gi="lg" starting="10361" ending="11657" rID="r253_lg"/>
+      <range gi="l" starting="10362" ending="10407" rID="r254_l"/>
+      <range gi="l" starting="10408" ending="10451" rID="r255_l"/>
+      <range gi="l" starting="10452" ending="10504" rID="r256_l"/>
+      <range gi="l" starting="10505" ending="10549" rID="r257_l"/>
+      <range gi="l" starting="10550" ending="10590" rID="r258_l"/>
+      <range gi="l" starting="10591" ending="10637" rID="r259_l"/>
+      <range gi="l" starting="10638" ending="10688" rID="r260_l"/>
+      <range gi="l" starting="10689" ending="10730" rID="r261_l"/>
+      <range gi="l" starting="10731" ending="10778" rID="r262_l"/>
+      <range gi="l" starting="10779" ending="10822" rID="r263_l"/>
+      <range gi="l" starting="10823" ending="10864" rID="r264_l"/>
+      <range gi="l" starting="10865" ending="10907" rID="r265_l"/>
+      <range gi="l" starting="10908" ending="10948" rID="r266_l"/>
+      <range gi="l" starting="10949" ending="10993" rID="r267_l"/>
+      <range gi="l" starting="10994" ending="11036" rID="r268_l"/>
+      <range gi="l" starting="11037" ending="11079" rID="r269_l"/>
+      <range gi="l" starting="11080" ending="11125" rID="r270_l"/>
+      <range gi="l" starting="11126" ending="11171" rID="r271_l"/>
+      <range gi="l" starting="11172" ending="11215" rID="r272_l"/>
+      <range gi="l" starting="11216" ending="11260" rID="r273_l"/>
+      <range gi="l" starting="11261" ending="11304" rID="r274_l"/>
+      <range gi="l" starting="11305" ending="11350" rID="r275_l"/>
+      <range gi="l" starting="11351" ending="11398" rID="r276_l"/>
+      <range gi="l" starting="11399" ending="11442" rID="r277_l"/>
+      <range gi="l" starting="11443" ending="11485" rID="r278_l"/>
+      <range gi="l" starting="11486" ending="11531" rID="r279_l"/>
+      <range gi="l" starting="11532" ending="11569" rID="r280_l"/>
+      <range gi="l" starting="11570" ending="11610" rID="r281_l"/>
+      <range gi="l" starting="11611" ending="11657" rID="r282_l"/>
+      <range gi="lg" starting="11658" ending="12186" rID="r283_lg"/>
+      <range gi="l" starting="11659" ending="11692" rID="r284_l"/>
+      <range gi="l" starting="11693" ending="11738" rID="r285_l"/>
+      <range gi="l" starting="11739" ending="11789" rID="r286_l"/>
+      <range gi="l" starting="11790" ending="11842" rID="r287_l"/>
+      <range gi="l" starting="11843" ending="11885" rID="r288_l"/>
+      <range gi="l" starting="11886" ending="11929" rID="r289_l"/>
+      <range gi="l" starting="11930" ending="11971" rID="r290_l"/>
+      <range gi="l" starting="11972" ending="12014" rID="r291_l"/>
+      <range gi="l" starting="12015" ending="12058" rID="r292_l"/>
+      <range gi="l" starting="12059" ending="12104" rID="r293_l"/>
+      <range gi="l" starting="12105" ending="12142" rID="r294_l"/>
+      <range gi="l" starting="12143" ending="12186" rID="r295_l"/>
+      <range gi="lg" starting="12187" ending="14235" rID="r296_lg"/>
+      <range gi="l" starting="12188" ending="12232" rID="r297_l"/>
+      <range gi="l" starting="12233" ending="12283" rID="r298_l"/>
+      <range gi="l" starting="12284" ending="12325" rID="r299_l"/>
+      <range gi="l" starting="12326" ending="12366" rID="r300_l"/>
+      <range gi="l" starting="12367" ending="12413" rID="r301_l"/>
+      <range gi="l" starting="12414" ending="12457" rID="r302_l"/>
+      <range gi="l" starting="12458" ending="12493" rID="r303_l"/>
+      <range gi="l" starting="12494" ending="12530" rID="r304_l"/>
+      <range gi="l" starting="12531" ending="12573" rID="r305_l"/>
+      <range gi="l" starting="12574" ending="12616" rID="r306_l"/>
+      <range gi="l" starting="12617" ending="12656" rID="r307_l"/>
+      <range gi="l" starting="12657" ending="12697" rID="r308_l"/>
+      <range gi="l" starting="12698" ending="12737" rID="r309_l"/>
+      <range gi="l" starting="12738" ending="12781" rID="r310_l"/>
+      <range gi="l" starting="12782" ending="12821" rID="r311_l"/>
+      <range gi="l" starting="12822" ending="12867" rID="r312_l"/>
+      <range gi="l" starting="12868" ending="12909" rID="r313_l"/>
+      <range gi="l" starting="12910" ending="12951" rID="r314_l"/>
+      <range gi="l" starting="12952" ending="12995" rID="r315_l"/>
+      <range gi="l" starting="12996" ending="13042" rID="r316_l"/>
+      <range gi="l" starting="13043" ending="13084" rID="r317_l"/>
+      <range gi="l" starting="13085" ending="13129" rID="r318_l"/>
+      <range gi="l" starting="13130" ending="13172" rID="r319_l"/>
+      <range gi="l" starting="13173" ending="13224" rID="r320_l"/>
+      <range gi="l" starting="13225" ending="13259" rID="r321_l"/>
+      <range gi="l" starting="13260" ending="13301" rID="r322_l"/>
+      <range gi="l" starting="13302" ending="13338" rID="r323_l"/>
+      <range gi="l" starting="13339" ending="13382" rID="r324_l"/>
+      <range gi="l" starting="13383" ending="13428" rID="r325_l"/>
+      <range gi="l" starting="13429" ending="13476" rID="r326_l"/>
+      <range gi="l" starting="13477" ending="13517" rID="r327_l"/>
+      <range gi="l" starting="13518" ending="13560" rID="r328_l"/>
+      <range gi="l" starting="13561" ending="13601" rID="r329_l"/>
+      <range gi="l" starting="13602" ending="13655" rID="r330_l"/>
+      <range gi="l" starting="13656" ending="13694" rID="r331_l"/>
+      <range gi="l" starting="13695" ending="13740" rID="r332_l"/>
+      <range gi="l" starting="13741" ending="13775" rID="r333_l"/>
+      <range gi="l" starting="13776" ending="13818" rID="r334_l"/>
+      <range gi="l" starting="13819" ending="13862" rID="r335_l"/>
+      <range gi="l" starting="13863" ending="13902" rID="r336_l"/>
+      <range gi="l" starting="13903" ending="13942" rID="r337_l"/>
+      <range gi="l" starting="13943" ending="13981" rID="r338_l"/>
+      <range gi="l" starting="13982" ending="14024" rID="r339_l"/>
+      <range gi="l" starting="14025" ending="14069" rID="r340_l"/>
+      <range gi="l" starting="14070" ending="14115" rID="r341_l"/>
+      <range gi="l" starting="14116" ending="14158" rID="r342_l"/>
+      <range gi="l" starting="14159" ending="14198" rID="r343_l"/>
+      <range gi="l" starting="14199" ending="14235" rID="r344_l"/>
+      <range gi="lg" starting="14236" ending="16175" rID="r345_lg"/>
+      <range gi="l" starting="14237" ending="14285" rID="r346_l"/>
+      <range gi="l" starting="14286" ending="14326" rID="r347_l"/>
+      <range gi="l" starting="14327" ending="14370" rID="r348_l"/>
+      <range gi="l" starting="14371" ending="14414" rID="r349_l"/>
+      <range gi="l" starting="14415" ending="14456" rID="r350_l"/>
+      <range gi="l" starting="14457" ending="14506" rID="r351_l"/>
+      <range gi="l" starting="14507" ending="14552" rID="r352_l"/>
+      <range gi="l" starting="14553" ending="14588" rID="r353_l"/>
+      <range gi="l" starting="14589" ending="14625" rID="r354_l"/>
+      <range gi="l" starting="14626" ending="14673" rID="r355_l"/>
+      <range gi="l" starting="14674" ending="14714" rID="r356_l"/>
+      <range gi="l" starting="14715" ending="14758" rID="r357_l"/>
+      <range gi="l" starting="14759" ending="14805" rID="r358_l"/>
+      <range gi="l" starting="14806" ending="14846" rID="r359_l"/>
+      <range gi="l" starting="14847" ending="14887" rID="r360_l"/>
+      <range gi="l" starting="14888" ending="14932" rID="r361_l"/>
+      <range gi="l" starting="14933" ending="14976" rID="r362_l"/>
+      <range gi="l" starting="14977" ending="15015" rID="r363_l"/>
+      <range gi="l" starting="15016" ending="15061" rID="r364_l"/>
+      <range gi="l" starting="15062" ending="15108" rID="r365_l"/>
+      <range gi="l" starting="15109" ending="15150" rID="r366_l"/>
+      <range gi="l" starting="15151" ending="15193" rID="r367_l"/>
+      <range gi="l" starting="15194" ending="15237" rID="r368_l"/>
+      <range gi="l" starting="15238" ending="15281" rID="r369_l"/>
+      <range gi="l" starting="15282" ending="15320" rID="r370_l"/>
+      <range gi="l" starting="15321" ending="15366" rID="r371_l"/>
+      <range gi="l" starting="15367" ending="15414" rID="r372_l"/>
+      <range gi="l" starting="15415" ending="15463" rID="r373_l"/>
+      <range gi="l" starting="15464" ending="15500" rID="r374_l"/>
+      <range gi="l" starting="15501" ending="15547" rID="r375_l"/>
+      <range gi="l" starting="15548" ending="15593" rID="r376_l"/>
+      <range gi="l" starting="15594" ending="15631" rID="r377_l"/>
+      <range gi="l" starting="15632" ending="15674" rID="r378_l"/>
+      <range gi="l" starting="15675" ending="15713" rID="r379_l"/>
+      <range gi="l" starting="15714" ending="15765" rID="r380_l"/>
+      <range gi="l" starting="15766" ending="15817" rID="r381_l"/>
+      <range gi="l" starting="15818" ending="15857" rID="r382_l"/>
+      <range gi="l" starting="15858" ending="15894" rID="r383_l"/>
+      <range gi="l" starting="15895" ending="15931" rID="r384_l"/>
+      <range gi="l" starting="15932" ending="15972" rID="r385_l"/>
+      <range gi="l" starting="15973" ending="16009" rID="r386_l"/>
+      <range gi="l" starting="16010" ending="16051" rID="r387_l"/>
+      <range gi="l" starting="16052" ending="16084" rID="r388_l"/>
+      <range gi="l" starting="16085" ending="16130" rID="r389_l"/>
+      <range gi="l" starting="16131" ending="16175" rID="r390_l"/>
+      <range gi="lg" starting="16176" ending="16417" rID="r391_lg"/>
+      <range gi="l" starting="16177" ending="16232" rID="r392_l"/>
+      <range gi="l" starting="16233" ending="16277" rID="r393_l"/>
+      <range gi="l" starting="16278" ending="16325" rID="r394_l"/>
+      <range gi="l" starting="16326" ending="16372" rID="r395_l"/>
+      <range gi="l" starting="16373" ending="16417" rID="r396_l"/>
+      <range gi="lg" starting="16418" ending="21648" rID="r397_lg"/>
+      <range gi="l" starting="16419" ending="16465" rID="r398_l"/>
+      <range gi="l" starting="16466" ending="16512" rID="r399_l"/>
+      <range gi="l" starting="16513" ending="16559" rID="r400_l"/>
+      <range gi="l" starting="16560" ending="16598" rID="r401_l"/>
+      <range gi="l" starting="16599" ending="16639" rID="r402_l"/>
+      <range gi="l" starting="16640" ending="16679" rID="r403_l"/>
+      <range gi="l" starting="16680" ending="16719" rID="r404_l"/>
+      <range gi="l" starting="16720" ending="16762" rID="r405_l"/>
+      <range gi="l" starting="16763" ending="16799" rID="r406_l"/>
+      <range gi="l" starting="16800" ending="16842" rID="r407_l"/>
+      <range gi="l" starting="16843" ending="16891" rID="r408_l"/>
+      <range gi="l" starting="16892" ending="16940" rID="r409_l"/>
+      <range gi="l" starting="16941" ending="16980" rID="r410_l"/>
+      <range gi="l" starting="16981" ending="17030" rID="r411_l"/>
+      <range gi="l" starting="17031" ending="17086" rID="r412_l"/>
+      <range gi="l" starting="17087" ending="17121" rID="r413_l"/>
+      <range gi="l" starting="17122" ending="17162" rID="r414_l"/>
+      <range gi="l" starting="17163" ending="17199" rID="r415_l"/>
+      <range gi="l" starting="17200" ending="17238" rID="r416_l"/>
+      <range gi="l" starting="17239" ending="17280" rID="r417_l"/>
+      <range gi="l" starting="17281" ending="17316" rID="r418_l"/>
+      <range gi="l" starting="17317" ending="17359" rID="r419_l"/>
+      <range gi="l" starting="17360" ending="17404" rID="r420_l"/>
+      <range gi="l" starting="17405" ending="17449" rID="r421_l"/>
+      <range gi="l" starting="17450" ending="17493" rID="r422_l"/>
+      <range gi="l" starting="17494" ending="17540" rID="r423_l"/>
+      <range gi="l" starting="17541" ending="17572" rID="r424_l"/>
+      <range gi="l" starting="17573" ending="17604" rID="r425_l"/>
+      <range gi="l" starting="17605" ending="17638" rID="r426_l"/>
+      <range gi="l" starting="17639" ending="17681" rID="r427_l"/>
+      <range gi="l" starting="17682" ending="17715" rID="r428_l"/>
+      <range gi="l" starting="17716" ending="17752" rID="r429_l"/>
+      <range gi="l" starting="17753" ending="17796" rID="r430_l"/>
+      <range gi="l" starting="17797" ending="17841" rID="r431_l"/>
+      <range gi="l" starting="17842" ending="17883" rID="r432_l"/>
+      <range gi="l" starting="17884" ending="17926" rID="r433_l"/>
+      <range gi="l" starting="17927" ending="17965" rID="r434_l"/>
+      <range gi="l" starting="17966" ending="18009" rID="r435_l"/>
+      <range gi="l" starting="18010" ending="18060" rID="r436_l"/>
+      <range gi="l" starting="18061" ending="18101" rID="r437_l"/>
+      <range gi="l" starting="18102" ending="18145" rID="r438_l"/>
+      <range gi="l" starting="18146" ending="18182" rID="r439_l"/>
+      <range gi="l" starting="18183" ending="18229" rID="r440_l"/>
+      <range gi="l" starting="18230" ending="18269" rID="r441_l"/>
+      <range gi="l" starting="18270" ending="18309" rID="r442_l"/>
+      <range gi="l" starting="18310" ending="18351" rID="r443_l"/>
+      <range gi="l" starting="18352" ending="18397" rID="r444_l"/>
+      <range gi="l" starting="18398" ending="18450" rID="r445_l"/>
+      <range gi="l" starting="18451" ending="18491" rID="r446_l"/>
+      <range gi="l" starting="18492" ending="18524" rID="r447_l"/>
+      <range gi="l" starting="18525" ending="18560" rID="r448_l"/>
+      <range gi="l" starting="18561" ending="18601" rID="r449_l"/>
+      <range gi="l" starting="18602" ending="18646" rID="r450_l"/>
+      <range gi="l" starting="18647" ending="18685" rID="r451_l"/>
+      <range gi="l" starting="18686" ending="18731" rID="r452_l"/>
+      <range gi="l" starting="18732" ending="18775" rID="r453_l"/>
+      <range gi="l" starting="18776" ending="18815" rID="r454_l"/>
+      <range gi="l" starting="18816" ending="18858" rID="r455_l"/>
+      <range gi="l" starting="18859" ending="18905" rID="r456_l"/>
+      <range gi="l" starting="18906" ending="18947" rID="r457_l"/>
+      <range gi="l" starting="18948" ending="18991" rID="r458_l"/>
+      <range gi="l" starting="18992" ending="19028" rID="r459_l"/>
+      <range gi="l" starting="19029" ending="19072" rID="r460_l"/>
+      <range gi="l" starting="19073" ending="19121" rID="r461_l"/>
+      <range gi="l" starting="19122" ending="19157" rID="r462_l"/>
+      <range gi="l" starting="19158" ending="19198" rID="r463_l"/>
+      <range gi="l" starting="19199" ending="19236" rID="r464_l"/>
+      <range gi="l" starting="19237" ending="19274" rID="r465_l"/>
+      <range gi="l" starting="19275" ending="19313" rID="r466_l"/>
+      <range gi="l" starting="19314" ending="19354" rID="r467_l"/>
+      <range gi="l" starting="19355" ending="19397" rID="r468_l"/>
+      <range gi="l" starting="19398" ending="19438" rID="r469_l"/>
+      <range gi="l" starting="19439" ending="19480" rID="r470_l"/>
+      <range gi="l" starting="19481" ending="19522" rID="r471_l"/>
+      <range gi="l" starting="19523" ending="19560" rID="r472_l"/>
+      <range gi="l" starting="19561" ending="19597" rID="r473_l"/>
+      <range gi="l" starting="19598" ending="19631" rID="r474_l"/>
+      <range gi="l" starting="19632" ending="19676" rID="r475_l"/>
+      <range gi="l" starting="19677" ending="19725" rID="r476_l"/>
+      <range gi="l" starting="19726" ending="19765" rID="r477_l"/>
+      <range gi="l" starting="19766" ending="19812" rID="r478_l"/>
+      <range gi="l" starting="19813" ending="19852" rID="r479_l"/>
+      <range gi="l" starting="19853" ending="19895" rID="r480_l"/>
+      <range gi="l" starting="19896" ending="19939" rID="r481_l"/>
+      <range gi="l" starting="19940" ending="19974" rID="r482_l"/>
+      <range gi="l" starting="19975" ending="20014" rID="r483_l"/>
+      <range gi="l" starting="20015" ending="20057" rID="r484_l"/>
+      <range gi="l" starting="20058" ending="20097" rID="r485_l"/>
+      <range gi="l" starting="20098" ending="20136" rID="r486_l"/>
+      <range gi="l" starting="20137" ending="20179" rID="r487_l"/>
+      <range gi="l" starting="20180" ending="20221" rID="r488_l"/>
+      <range gi="l" starting="20222" ending="20263" rID="r489_l"/>
+      <range gi="l" starting="20264" ending="20301" rID="r490_l"/>
+      <range gi="l" starting="20302" ending="20341" rID="r491_l"/>
+      <range gi="l" starting="20342" ending="20382" rID="r492_l"/>
+      <range gi="l" starting="20383" ending="20427" rID="r493_l"/>
+      <range gi="l" starting="20428" ending="20467" rID="r494_l"/>
+      <range gi="l" starting="20468" ending="20505" rID="r495_l"/>
+      <range gi="l" starting="20506" ending="20548" rID="r496_l"/>
+      <range gi="l" starting="20549" ending="20586" rID="r497_l"/>
+      <range gi="l" starting="20587" ending="20634" rID="r498_l"/>
+      <range gi="l" starting="20635" ending="20674" rID="r499_l"/>
+      <range gi="l" starting="20675" ending="20723" rID="r500_l"/>
+      <range gi="l" starting="20724" ending="20760" rID="r501_l"/>
+      <range gi="l" starting="20761" ending="20799" rID="r502_l"/>
+      <range gi="l" starting="20800" ending="20837" rID="r503_l"/>
+      <range gi="l" starting="20838" ending="20880" rID="r504_l"/>
+      <range gi="l" starting="20881" ending="20926" rID="r505_l"/>
+      <range gi="l" starting="20927" ending="20973" rID="r506_l"/>
+      <range gi="l" starting="20974" ending="21020" rID="r507_l"/>
+      <range gi="l" starting="21021" ending="21064" rID="r508_l"/>
+      <range gi="l" starting="21065" ending="21104" rID="r509_l"/>
+      <range gi="l" starting="21105" ending="21146" rID="r510_l"/>
+      <range gi="l" starting="21147" ending="21188" rID="r511_l"/>
+      <range gi="l" starting="21189" ending="21233" rID="r512_l"/>
+      <range gi="l" starting="21234" ending="21274" rID="r513_l"/>
+      <range gi="l" starting="21275" ending="21312" rID="r514_l"/>
+      <range gi="l" starting="21313" ending="21353" rID="r515_l"/>
+      <range gi="l" starting="21354" ending="21398" rID="r516_l"/>
+      <range gi="l" starting="21399" ending="21438" rID="r517_l"/>
+      <range gi="l" starting="21439" ending="21486" rID="r518_l"/>
+      <range gi="l" starting="21487" ending="21528" rID="r519_l"/>
+      <range gi="l" starting="21529" ending="21573" rID="r520_l"/>
+      <range gi="l" starting="21574" ending="21609" rID="r521_l"/>
+      <range gi="l" starting="21610" ending="21648" rID="r522_l"/>
+      <range gi="lg" starting="21649" ending="22352" rID="r523_lg"/>
+      <range gi="l" starting="21650" ending="21693" rID="r524_l"/>
+      <range gi="l" starting="21694" ending="21741" rID="r525_l"/>
+      <range gi="l" starting="21742" ending="21780" rID="r526_l"/>
+      <range gi="l" starting="21781" ending="21829" rID="r527_l"/>
+      <range gi="l" starting="21830" ending="21881" rID="r528_l"/>
+      <range gi="l" starting="21882" ending="21928" rID="r529_l"/>
+      <range gi="l" starting="21929" ending="21970" rID="r530_l"/>
+      <range gi="l" starting="21971" ending="22014" rID="r531_l"/>
+      <range gi="l" starting="22015" ending="22062" rID="r532_l"/>
+      <range gi="l" starting="22063" ending="22101" rID="r533_l"/>
+      <range gi="l" starting="22102" ending="22139" rID="r534_l"/>
+      <range gi="l" starting="22140" ending="22187" rID="r535_l"/>
+      <range gi="l" starting="22188" ending="22228" rID="r536_l"/>
+      <range gi="l" starting="22229" ending="22266" rID="r537_l"/>
+      <range gi="l" starting="22267" ending="22307" rID="r538_l"/>
+      <range gi="l" starting="22308" ending="22352" rID="r539_l"/>
+      <range gi="lg" starting="22353" ending="26746" rID="r540_lg"/>
+      <range gi="l" starting="22354" ending="22402" rID="r541_l"/>
+      <range gi="l" starting="22403" ending="22447" rID="r542_l"/>
+      <range gi="l" starting="22448" ending="22501" rID="r543_l"/>
+      <range gi="l" starting="22502" ending="22551" rID="r544_l"/>
+      <range gi="l" starting="22552" ending="22597" rID="r545_l"/>
+      <range gi="l" starting="22598" ending="22641" rID="r546_l"/>
+      <range gi="l" starting="22642" ending="22687" rID="r547_l"/>
+      <range gi="l" starting="22688" ending="22736" rID="r548_l"/>
+      <range gi="l" starting="22737" ending="22787" rID="r549_l"/>
+      <range gi="l" starting="22788" ending="22837" rID="r550_l"/>
+      <range gi="l" starting="22838" ending="22880" rID="r551_l"/>
+      <range gi="l" starting="22881" ending="22927" rID="r552_l"/>
+      <range gi="l" starting="22928" ending="22963" rID="r553_l"/>
+      <range gi="l" starting="22964" ending="23012" rID="r554_l"/>
+      <range gi="l" starting="23013" ending="23060" rID="r555_l"/>
+      <range gi="l" starting="23061" ending="23103" rID="r556_l"/>
+      <range gi="l" starting="23104" ending="23146" rID="r557_l"/>
+      <range gi="l" starting="23147" ending="23188" rID="r558_l"/>
+      <range gi="l" starting="23189" ending="23227" rID="r559_l"/>
+      <range gi="l" starting="23228" ending="23263" rID="r560_l"/>
+      <range gi="l" starting="23264" ending="23308" rID="r561_l"/>
+      <range gi="l" starting="23309" ending="23351" rID="r562_l"/>
+      <range gi="l" starting="23352" ending="23395" rID="r563_l"/>
+      <range gi="l" starting="23396" ending="23435" rID="r564_l"/>
+      <range gi="l" starting="23436" ending="23478" rID="r565_l"/>
+      <range gi="l" starting="23479" ending="23523" rID="r566_l"/>
+      <range gi="l" starting="23524" ending="23568" rID="r567_l"/>
+      <range gi="l" starting="23569" ending="23606" rID="r568_l"/>
+      <range gi="l" starting="23607" ending="23644" rID="r569_l"/>
+      <range gi="l" starting="23645" ending="23689" rID="r570_l"/>
+      <range gi="l" starting="23690" ending="23728" rID="r571_l"/>
+      <range gi="l" starting="23729" ending="23766" rID="r572_l"/>
+      <range gi="l" starting="23767" ending="23812" rID="r573_l"/>
+      <range gi="l" starting="23813" ending="23859" rID="r574_l"/>
+      <range gi="l" starting="23860" ending="23899" rID="r575_l"/>
+      <range gi="l" starting="23900" ending="23948" rID="r576_l"/>
+      <range gi="l" starting="23949" ending="23995" rID="r577_l"/>
+      <range gi="l" starting="23996" ending="24037" rID="r578_l"/>
+      <range gi="l" starting="24038" ending="24080" rID="r579_l"/>
+      <range gi="l" starting="24081" ending="24127" rID="r580_l"/>
+      <range gi="l" starting="24128" ending="24176" rID="r581_l"/>
+      <range gi="l" starting="24177" ending="24220" rID="r582_l"/>
+      <range gi="l" starting="24221" ending="24267" rID="r583_l"/>
+      <range gi="l" starting="24268" ending="24315" rID="r584_l"/>
+      <range gi="l" starting="24316" ending="24356" rID="r585_l"/>
+      <range gi="l" starting="24357" ending="24398" rID="r586_l"/>
+      <range gi="l" starting="24399" ending="24443" rID="r587_l"/>
+      <range gi="l" starting="24444" ending="24487" rID="r588_l"/>
+      <range gi="l" starting="24488" ending="24525" rID="r589_l"/>
+      <range gi="l" starting="24526" ending="24570" rID="r590_l"/>
+      <range gi="l" starting="24571" ending="24623" rID="r591_l"/>
+      <range gi="l" starting="24624" ending="24662" rID="r592_l"/>
+      <range gi="l" starting="24663" ending="24708" rID="r593_l"/>
+      <range gi="l" starting="24709" ending="24750" rID="r594_l"/>
+      <range gi="l" starting="24751" ending="24798" rID="r595_l"/>
+      <range gi="l" starting="24799" ending="24842" rID="r596_l"/>
+      <range gi="l" starting="24843" ending="24888" rID="r597_l"/>
+      <range gi="l" starting="24889" ending="24932" rID="r598_l"/>
+      <range gi="l" starting="24933" ending="24968" rID="r599_l"/>
+      <range gi="l" starting="24969" ending="25009" rID="r600_l"/>
+      <range gi="l" starting="25010" ending="25049" rID="r601_l"/>
+      <range gi="l" starting="25050" ending="25085" rID="r602_l"/>
+      <range gi="l" starting="25086" ending="25120" rID="r603_l"/>
+      <range gi="l" starting="25121" ending="25158" rID="r604_l"/>
+      <range gi="l" starting="25159" ending="25200" rID="r605_l"/>
+      <range gi="l" starting="25201" ending="25238" rID="r606_l"/>
+      <range gi="l" starting="25239" ending="25278" rID="r607_l"/>
+      <range gi="l" starting="25279" ending="25320" rID="r608_l"/>
+      <range gi="l" starting="25321" ending="25358" rID="r609_l"/>
+      <range gi="l" starting="25359" ending="25404" rID="r610_l"/>
+      <range gi="l" starting="25405" ending="25446" rID="r611_l"/>
+      <range gi="l" starting="25447" ending="25489" rID="r612_l"/>
+      <range gi="l" starting="25490" ending="25534" rID="r613_l"/>
+      <range gi="l" starting="25535" ending="25573" rID="r614_l"/>
+      <range gi="l" starting="25574" ending="25619" rID="r615_l"/>
+      <range gi="l" starting="25620" ending="25661" rID="r616_l"/>
+      <range gi="l" starting="25662" ending="25706" rID="r617_l"/>
+      <range gi="l" starting="25707" ending="25749" rID="r618_l"/>
+      <range gi="l" starting="25750" ending="25792" rID="r619_l"/>
+      <range gi="l" starting="25793" ending="25839" rID="r620_l"/>
+      <range gi="l" starting="25840" ending="25879" rID="r621_l"/>
+      <range gi="l" starting="25880" ending="25923" rID="r622_l"/>
+      <range gi="l" starting="25924" ending="25964" rID="r623_l"/>
+      <range gi="l" starting="25965" ending="26004" rID="r624_l"/>
+      <range gi="l" starting="26005" ending="26051" rID="r625_l"/>
+      <range gi="l" starting="26052" ending="26095" rID="r626_l"/>
+      <range gi="l" starting="26096" ending="26136" rID="r627_l"/>
+      <range gi="l" starting="26137" ending="26178" rID="r628_l"/>
+      <range gi="l" starting="26179" ending="26223" rID="r629_l"/>
+      <range gi="l" starting="26224" ending="26268" rID="r630_l"/>
+      <range gi="l" starting="26269" ending="26313" rID="r631_l"/>
+      <range gi="l" starting="26314" ending="26361" rID="r632_l"/>
+      <range gi="l" starting="26362" ending="26412" rID="r633_l"/>
+      <range gi="l" starting="26413" ending="26457" rID="r634_l"/>
+      <range gi="l" starting="26458" ending="26505" rID="r635_l"/>
+      <range gi="l" starting="26506" ending="26551" rID="r636_l"/>
+      <range gi="l" starting="26552" ending="26597" rID="r637_l"/>
+      <range gi="l" starting="26598" ending="26647" rID="r638_l"/>
+      <range gi="l" starting="26648" ending="26696" rID="r639_l"/>
+      <range gi="l" starting="26697" ending="26746" rID="r640_l"/>
+      <range gi="lg" starting="26747" ending="28529" rID="r641_lg"/>
+      <range gi="l" starting="26748" ending="26787" rID="r642_l"/>
+      <range gi="l" starting="26788" ending="26838" rID="r643_l"/>
+      <range gi="l" starting="26839" ending="26885" rID="r644_l"/>
+      <range gi="l" starting="26886" ending="26932" rID="r645_l"/>
+      <range gi="l" starting="26933" ending="26974" rID="r646_l"/>
+      <range gi="l" starting="26975" ending="27013" rID="r647_l"/>
+      <range gi="l" starting="27014" ending="27061" rID="r648_l"/>
+      <range gi="l" starting="27062" ending="27101" rID="r649_l"/>
+      <range gi="l" starting="27102" ending="27147" rID="r650_l"/>
+      <range gi="l" starting="27148" ending="27191" rID="r651_l"/>
+      <range gi="l" starting="27192" ending="27236" rID="r652_l"/>
+      <range gi="l" starting="27237" ending="27282" rID="r653_l"/>
+      <range gi="l" starting="27283" ending="27328" rID="r654_l"/>
+      <range gi="l" starting="27329" ending="27371" rID="r655_l"/>
+      <range gi="l" starting="27372" ending="27412" rID="r656_l"/>
+      <range gi="l" starting="27413" ending="27458" rID="r657_l"/>
+      <range gi="l" starting="27459" ending="27500" rID="r658_l"/>
+      <range gi="l" starting="27501" ending="27541" rID="r659_l"/>
+      <range gi="l" starting="27542" ending="27580" rID="r660_l"/>
+      <range gi="l" starting="27581" ending="27634" rID="r661_l"/>
+      <range gi="l" starting="27635" ending="27683" rID="r662_l"/>
+      <range gi="l" starting="27684" ending="27731" rID="r663_l"/>
+      <range gi="l" starting="27732" ending="27769" rID="r664_l"/>
+      <range gi="l" starting="27770" ending="27811" rID="r665_l"/>
+      <range gi="l" starting="27812" ending="27855" rID="r666_l"/>
+      <range gi="l" starting="27856" ending="27896" rID="r667_l"/>
+      <range gi="l" starting="27897" ending="27938" rID="r668_l"/>
+      <range gi="l" starting="27939" ending="27979" rID="r669_l"/>
+      <range gi="l" starting="27980" ending="28025" rID="r670_l"/>
+      <range gi="l" starting="28026" ending="28070" rID="r671_l"/>
+      <range gi="l" starting="28071" ending="28108" rID="r672_l"/>
+      <range gi="l" starting="28109" ending="28144" rID="r673_l"/>
+      <range gi="l" starting="28145" ending="28187" rID="r674_l"/>
+      <range gi="l" starting="28188" ending="28228" rID="r675_l"/>
+      <range gi="l" starting="28229" ending="28271" rID="r676_l"/>
+      <range gi="l" starting="28272" ending="28310" rID="r677_l"/>
+      <range gi="l" starting="28311" ending="28354" rID="r678_l"/>
+      <range gi="l" starting="28355" ending="28400" rID="r679_l"/>
+      <range gi="l" starting="28401" ending="28446" rID="r680_l"/>
+      <range gi="l" starting="28447" ending="28491" rID="r681_l"/>
+      <range gi="l" starting="28492" ending="28529" rID="r682_l"/>
+      <range gi="lg" starting="28530" ending="28851" rID="r683_lg"/>
+      <range gi="l" starting="28531" ending="28575" rID="r684_l"/>
+      <range gi="l" starting="28576" ending="28625" rID="r685_l"/>
+      <range gi="l" starting="28626" ending="28662" rID="r686_l"/>
+      <range gi="l" starting="28663" ending="28706" rID="r687_l"/>
+      <range gi="l" starting="28707" ending="28756" rID="r688_l"/>
+      <range gi="l" starting="28757" ending="28806" rID="r689_l"/>
+      <range gi="l" starting="28807" ending="28851" rID="r690_l"/>
+      <range gi="lg" starting="28852" ending="32353" rID="r691_lg"/>
+      <range gi="l" starting="28853" ending="28897" rID="r692_l"/>
+      <range gi="l" starting="28898" ending="28945" rID="r693_l"/>
+      <range gi="l" starting="28946" ending="28987" rID="r694_l"/>
+      <range gi="l" starting="28988" ending="29026" rID="r695_l"/>
+      <range gi="l" starting="29027" ending="29075" rID="r696_l"/>
+      <range gi="l" starting="29076" ending="29118" rID="r697_l"/>
+      <range gi="l" starting="29119" ending="29161" rID="r698_l"/>
+      <range gi="l" starting="29162" ending="29204" rID="r699_l"/>
+      <range gi="l" starting="29205" ending="29244" rID="r700_l"/>
+      <range gi="l" starting="29245" ending="29287" rID="r701_l"/>
+      <range gi="l" starting="29288" ending="29342" rID="r702_l"/>
+      <range gi="l" starting="29343" ending="29383" rID="r703_l"/>
+      <range gi="l" starting="29384" ending="29430" rID="r704_l"/>
+      <range gi="l" starting="29431" ending="29469" rID="r705_l"/>
+      <range gi="l" starting="29470" ending="29502" rID="r706_l"/>
+      <range gi="l" starting="29503" ending="29542" rID="r707_l"/>
+      <range gi="l" starting="29543" ending="29587" rID="r708_l"/>
+      <range gi="l" starting="29588" ending="29627" rID="r709_l"/>
+      <range gi="l" starting="29628" ending="29671" rID="r710_l"/>
+      <range gi="l" starting="29672" ending="29710" rID="r711_l"/>
+      <range gi="l" starting="29711" ending="29755" rID="r712_l"/>
+      <range gi="l" starting="29756" ending="29800" rID="r713_l"/>
+      <range gi="l" starting="29801" ending="29846" rID="r714_l"/>
+      <range gi="l" starting="29847" ending="29893" rID="r715_l"/>
+      <range gi="l" starting="29894" ending="29936" rID="r716_l"/>
+      <range gi="l" starting="29937" ending="29979" rID="r717_l"/>
+      <range gi="l" starting="29980" ending="30021" rID="r718_l"/>
+      <range gi="l" starting="30022" ending="30058" rID="r719_l"/>
+      <range gi="l" starting="30059" ending="30099" rID="r720_l"/>
+      <range gi="l" starting="30100" ending="30138" rID="r721_l"/>
+      <range gi="l" starting="30139" ending="30181" rID="r722_l"/>
+      <range gi="l" starting="30182" ending="30222" rID="r723_l"/>
+      <range gi="l" starting="30223" ending="30264" rID="r724_l"/>
+      <range gi="l" starting="30265" ending="30305" rID="r725_l"/>
+      <range gi="l" starting="30306" ending="30356" rID="r726_l"/>
+      <range gi="l" starting="30357" ending="30401" rID="r727_l"/>
+      <range gi="l" starting="30402" ending="30445" rID="r728_l"/>
+      <range gi="l" starting="30446" ending="30492" rID="r729_l"/>
+      <range gi="l" starting="30493" ending="30532" rID="r730_l"/>
+      <range gi="l" starting="30533" ending="30581" rID="r731_l"/>
+      <range gi="l" starting="30582" ending="30617" rID="r732_l"/>
+      <range gi="l" starting="30618" ending="30657" rID="r733_l"/>
+      <range gi="l" starting="30658" ending="30697" rID="r734_l"/>
+      <range gi="l" starting="30698" ending="30740" rID="r735_l"/>
+      <range gi="l" starting="30741" ending="30777" rID="r736_l"/>
+      <range gi="l" starting="30778" ending="30820" rID="r737_l"/>
+      <range gi="l" starting="30821" ending="30869" rID="r738_l"/>
+      <range gi="l" starting="30870" ending="30908" rID="r739_l"/>
+      <range gi="l" starting="30909" ending="30944" rID="r740_l"/>
+      <range gi="l" starting="30945" ending="30987" rID="r741_l"/>
+      <range gi="l" starting="30988" ending="31024" rID="r742_l"/>
+      <range gi="l" starting="31025" ending="31068" rID="r743_l"/>
+      <range gi="l" starting="31069" ending="31109" rID="r744_l"/>
+      <range gi="l" starting="31110" ending="31165" rID="r745_l"/>
+      <range gi="l" starting="31166" ending="31208" rID="r746_l"/>
+      <range gi="l" starting="31209" ending="31249" rID="r747_l"/>
+      <range gi="l" starting="31250" ending="31291" rID="r748_l"/>
+      <range gi="l" starting="31292" ending="31327" rID="r749_l"/>
+      <range gi="l" starting="31328" ending="31369" rID="r750_l"/>
+      <range gi="l" starting="31370" ending="31410" rID="r751_l"/>
+      <range gi="l" starting="31411" ending="31445" rID="r752_l"/>
+      <range gi="l" starting="31446" ending="31489" rID="r753_l"/>
+      <range gi="l" starting="31490" ending="31532" rID="r754_l"/>
+      <range gi="l" starting="31533" ending="31576" rID="r755_l"/>
+      <range gi="l" starting="31577" ending="31620" rID="r756_l"/>
+      <range gi="l" starting="31621" ending="31662" rID="r757_l"/>
+      <range gi="l" starting="31663" ending="31703" rID="r758_l"/>
+      <range gi="l" starting="31704" ending="31745" rID="r759_l"/>
+      <range gi="l" starting="31746" ending="31782" rID="r760_l"/>
+      <range gi="l" starting="31783" ending="31822" rID="r761_l"/>
+      <range gi="l" starting="31823" ending="31863" rID="r762_l"/>
+      <range gi="l" starting="31864" ending="31909" rID="r763_l"/>
+      <range gi="l" starting="31910" ending="31955" rID="r764_l"/>
+      <range gi="l" starting="31956" ending="31995" rID="r765_l"/>
+      <range gi="l" starting="31996" ending="32036" rID="r766_l"/>
+      <range gi="l" starting="32037" ending="32080" rID="r767_l"/>
+      <range gi="l" starting="32081" ending="32127" rID="r768_l"/>
+      <range gi="l" starting="32128" ending="32168" rID="r769_l"/>
+      <range gi="l" starting="32169" ending="32211" rID="r770_l"/>
+      <range gi="l" starting="32212" ending="32265" rID="r771_l"/>
+      <range gi="l" starting="32266" ending="32308" rID="r772_l"/>
+      <range gi="l" starting="32309" ending="32353" rID="r773_l"/>
+      <range gi="lg" starting="32354" ending="34403" rID="r774_lg"/>
+      <range gi="l" starting="32355" ending="32395" rID="r775_l"/>
+      <range gi="l" starting="32396" ending="32435" rID="r776_l"/>
+      <range gi="l" starting="32436" ending="32485" rID="r777_l"/>
+      <range gi="l" starting="32486" ending="32523" rID="r778_l"/>
+      <range gi="l" starting="32524" ending="32556" rID="r779_l"/>
+      <range gi="l" starting="32557" ending="32601" rID="r780_l"/>
+      <range gi="l" starting="32602" ending="32638" rID="r781_l"/>
+      <range gi="l" starting="32639" ending="32682" rID="r782_l"/>
+      <range gi="l" starting="32683" ending="32729" rID="r783_l"/>
+      <range gi="l" starting="32730" ending="32774" rID="r784_l"/>
+      <range gi="l" starting="32775" ending="32820" rID="r785_l"/>
+      <range gi="l" starting="32821" ending="32871" rID="r786_l"/>
+      <range gi="l" starting="32872" ending="32917" rID="r787_l"/>
+      <range gi="l" starting="32918" ending="32952" rID="r788_l"/>
+      <range gi="l" starting="32953" ending="32993" rID="r789_l"/>
+      <range gi="l" starting="32994" ending="33043" rID="r790_l"/>
+      <range gi="l" starting="33044" ending="33092" rID="r791_l"/>
+      <range gi="l" starting="33093" ending="33140" rID="r792_l"/>
+      <range gi="l" starting="33141" ending="33187" rID="r793_l"/>
+      <range gi="l" starting="33188" ending="33234" rID="r794_l"/>
+      <range gi="l" starting="33235" ending="33276" rID="r795_l"/>
+      <range gi="l" starting="33277" ending="33317" rID="r796_l"/>
+      <range gi="l" starting="33318" ending="33361" rID="r797_l"/>
+      <range gi="l" starting="33362" ending="33406" rID="r798_l"/>
+      <range gi="l" starting="33407" ending="33459" rID="r799_l"/>
+      <range gi="l" starting="33460" ending="33500" rID="r800_l"/>
+      <range gi="l" starting="33501" ending="33542" rID="r801_l"/>
+      <range gi="l" starting="33543" ending="33588" rID="r802_l"/>
+      <range gi="l" starting="33589" ending="33630" rID="r803_l"/>
+      <range gi="l" starting="33631" ending="33671" rID="r804_l"/>
+      <range gi="l" starting="33672" ending="33711" rID="r805_l"/>
+      <range gi="l" starting="33712" ending="33751" rID="r806_l"/>
+      <range gi="l" starting="33752" ending="33794" rID="r807_l"/>
+      <range gi="l" starting="33795" ending="33834" rID="r808_l"/>
+      <range gi="l" starting="33835" ending="33889" rID="r809_l"/>
+      <range gi="l" starting="33890" ending="33930" rID="r810_l"/>
+      <range gi="l" starting="33931" ending="33976" rID="r811_l"/>
+      <range gi="l" starting="33977" ending="34019" rID="r812_l"/>
+      <range gi="l" starting="34020" ending="34068" rID="r813_l"/>
+      <range gi="l" starting="34069" ending="34113" rID="r814_l"/>
+      <range gi="l" starting="34114" ending="34153" rID="r815_l"/>
+      <range gi="l" starting="34154" ending="34198" rID="r816_l"/>
+      <range gi="l" starting="34199" ending="34236" rID="r817_l"/>
+      <range gi="l" starting="34237" ending="34277" rID="r818_l"/>
+      <range gi="l" starting="34278" ending="34315" rID="r819_l"/>
+      <range gi="l" starting="34316" ending="34360" rID="r820_l"/>
+      <range gi="l" starting="34361" ending="34403" rID="r821_l"/>
+   </layer>
+   <layer form="ohco" ranges="BOOK quote">
+      <range gi="BOOK" starting="0" ending="34403" rID="r1_BOOK"/>
+      <range gi="quote" starting="3581" ending="5367" rID="r2_quote"/>
+      <range gi="quote" starting="5508" ending="6673" rID="r3_quote"/>
+      <range gi="quote" starting="6727" ending="8201" rID="r4_quote"/>
+      <range gi="quote" starting="10362" ending="10407" rID="r5_quote"/>
+      <range gi="quote" starting="10438" ending="11657" rID="r6_quote"/>
+      <range gi="quote" starting="11709" ending="12186" rID="r7_quote"/>
+      <range gi="quote" starting="13581" ending="14235" rID="r8_quote"/>
+      <range gi="quote" starting="26748" ending="28529" rID="r9_quote"/>
+   </layer>
+   <layer form="ohco" ranges="RUN s phr">
+      <range gi="RUN" starting="0" ending="34403" rID="r0001_RUN"/>
+      <range gi="s" starting="1" ending="671" rID="r0002_s"/>
+      <range gi="phr" starting="1" ending="28" rID="r0003_phr"/>
+      <range gi="phr" starting="30" ending="114" rID="r0004_phr"/>
+      <range gi="phr" starting="116" ending="131" rID="r0005_phr"/>
+      <range gi="phr" starting="133" ending="150" rID="r0006_phr"/>
+      <range gi="phr" starting="152" ending="183" rID="r0007_phr"/>
+      <range gi="phr" starting="185" ending="213" rID="r0008_phr"/>
+      <range gi="phr" starting="215" ending="219" rID="r0009_phr"/>
+      <range gi="phr" starting="221" ending="234" rID="r0010_phr"/>
+      <range gi="phr" starting="236" ending="240" rID="r0011_phr"/>
+      <range gi="phr" starting="242" ending="267" rID="r0012_phr"/>
+      <range gi="phr" starting="269" ending="280" rID="r0013_phr"/>
+      <range gi="phr" starting="282" ending="403" rID="r0014_phr"/>
+      <range gi="phr" starting="405" ending="407" rID="r0015_phr"/>
+      <range gi="phr" starting="409" ending="439" rID="r0016_phr"/>
+      <range gi="phr" starting="441" ending="496" rID="r0017_phr"/>
+      <range gi="phr" starting="498" ending="544" rID="r0018_phr"/>
+      <range gi="phr" starting="546" ending="611" rID="r0019_phr"/>
+      <range gi="phr" starting="613" ending="670" rID="r0020_phr"/>
+      <range gi="s" starting="672" ending="1104" rID="r0021_s"/>
+      <range gi="phr" starting="672" ending="688" rID="r0022_phr"/>
+      <range gi="phr" starting="690" ending="698" rID="r0023_phr"/>
+      <range gi="phr" starting="700" ending="762" rID="r0024_phr"/>
+      <range gi="phr" starting="764" ending="775" rID="r0025_phr"/>
+      <range gi="phr" starting="777" ending="793" rID="r0026_phr"/>
+      <range gi="phr" starting="795" ending="827" rID="r0027_phr"/>
+      <range gi="phr" starting="829" ending="832" rID="r0028_phr"/>
+      <range gi="phr" starting="834" ending="861" rID="r0029_phr"/>
+      <range gi="phr" starting="863" ending="906" rID="r0030_phr"/>
+      <range gi="phr" starting="908" ending="930" rID="r0031_phr"/>
+      <range gi="phr" starting="932" ending="959" rID="r0032_phr"/>
+      <range gi="phr" starting="961" ending="990" rID="r0033_phr"/>
+      <range gi="phr" starting="992" ending="996" rID="r0034_phr"/>
+      <range gi="phr" starting="998" ending="1034" rID="r0035_phr"/>
+      <range gi="phr" starting="1036" ending="1067" rID="r0036_phr"/>
+      <range gi="phr" starting="1069" ending="1103" rID="r0037_phr"/>
+      <range gi="s" starting="1106" ending="1384" rID="r0038_s"/>
+      <range gi="phr" starting="1106" ending="1115" rID="r0039_phr"/>
+      <range gi="phr" starting="1117" ending="1155" rID="r0040_phr"/>
+      <range gi="phr" starting="1157" ending="1183" rID="r0041_phr"/>
+      <range gi="phr" starting="1185" ending="1229" rID="r0042_phr"/>
+      <range gi="phr" starting="1231" ending="1250" rID="r0043_phr"/>
+      <range gi="phr" starting="1252" ending="1280" rID="r0044_phr"/>
+      <range gi="phr" starting="1282" ending="1312" rID="r0045_phr"/>
+      <range gi="phr" starting="1314" ending="1355" rID="r0046_phr"/>
+      <range gi="phr" starting="1357" ending="1383" rID="r0047_phr"/>
+      <range gi="s" starting="1385" ending="1428" rID="r0048_s"/>
+      <range gi="phr" starting="1385" ending="1427" rID="r0049_phr"/>
+      <range gi="s" starting="1430" ending="1876" rID="r0050_s"/>
+      <range gi="phr" starting="1430" ending="1450" rID="r0051_phr"/>
+      <range gi="phr" starting="1452" ending="1473" rID="r0052_phr"/>
+      <range gi="phr" starting="1475" ending="1507" rID="r0053_phr"/>
+      <range gi="phr" starting="1509" ending="1539" rID="r0054_phr"/>
+      <range gi="phr" starting="1541" ending="1589" rID="r0055_phr"/>
+      <range gi="phr" starting="1591" ending="1624" rID="r0056_phr"/>
+      <range gi="phr" starting="1626" ending="1638" rID="r0057_phr"/>
+      <range gi="phr" starting="1640" ending="1688" rID="r0058_phr"/>
+      <range gi="phr" starting="1690" ending="1731" rID="r0059_phr"/>
+      <range gi="phr" starting="1733" ending="1746" rID="r0060_phr"/>
+      <range gi="phr" starting="1748" ending="1809" rID="r0061_phr"/>
+      <range gi="phr" starting="1811" ending="1856" rID="r0062_phr"/>
+      <range gi="phr" starting="1858" ending="1875" rID="r0063_phr"/>
+      <range gi="s" starting="1877" ending="2101" rID="r0064_s"/>
+      <range gi="phr" starting="1877" ending="1945" rID="r0065_phr"/>
+      <range gi="phr" starting="1947" ending="1979" rID="r0066_phr"/>
+      <range gi="phr" starting="1981" ending="2009" rID="r0067_phr"/>
+      <range gi="phr" starting="2011" ending="2061" rID="r0068_phr"/>
+      <range gi="phr" starting="2063" ending="2100" rID="r0069_phr"/>
+      <range gi="s" starting="2103" ending="2264" rID="r0070_s"/>
+      <range gi="phr" starting="2103" ending="2165" rID="r0071_phr"/>
+      <range gi="phr" starting="2167" ending="2169" rID="r0072_phr"/>
+      <range gi="phr" starting="2171" ending="2191" rID="r0073_phr"/>
+      <range gi="phr" starting="2193" ending="2207" rID="r0074_phr"/>
+      <range gi="phr" starting="2209" ending="2234" rID="r0075_phr"/>
+      <range gi="phr" starting="2236" ending="2246" rID="r0076_phr"/>
+      <range gi="phr" starting="2248" ending="2263" rID="r0077_phr"/>
+      <range gi="s" starting="2265" ending="2502" rID="r0078_s"/>
+      <range gi="phr" starting="2265" ending="2304" rID="r0079_phr"/>
+      <range gi="phr" starting="2306" ending="2378" rID="r0080_phr"/>
+      <range gi="phr" starting="2380" ending="2412" rID="r0081_phr"/>
+      <range gi="phr" starting="2414" ending="2455" rID="r0082_phr"/>
+      <range gi="phr" starting="2457" ending="2501" rID="r0083_phr"/>
+      <range gi="s" starting="2503" ending="2579" rID="r0084_s"/>
+      <range gi="phr" starting="2503" ending="2510" rID="r0085_phr"/>
+      <range gi="phr" starting="2512" ending="2532" rID="r0086_phr"/>
+      <range gi="phr" starting="2534" ending="2578" rID="r0087_phr"/>
+      <range gi="s" starting="2580" ending="2955" rID="r0088_s"/>
+      <range gi="phr" starting="2580" ending="2598" rID="r0089_phr"/>
+      <range gi="phr" starting="2600" ending="2618" rID="r0090_phr"/>
+      <range gi="phr" starting="2620" ending="2647" rID="r0091_phr"/>
+      <range gi="phr" starting="2649" ending="2679" rID="r0092_phr"/>
+      <range gi="phr" starting="2681" ending="2746" rID="r0093_phr"/>
+      <range gi="phr" starting="2748" ending="2765" rID="r0094_phr"/>
+      <range gi="phr" starting="2767" ending="2781" rID="r0095_phr"/>
+      <range gi="phr" starting="2783" ending="2819" rID="r0096_phr"/>
+      <range gi="phr" starting="2821" ending="2855" rID="r0097_phr"/>
+      <range gi="phr" starting="2857" ending="2892" rID="r0098_phr"/>
+      <range gi="phr" starting="2894" ending="2912" rID="r0099_phr"/>
+      <range gi="phr" starting="2914" ending="2954" rID="r0100_phr"/>
+      <range gi="s" starting="2956" ending="3176" rID="r0101_s"/>
+      <range gi="phr" starting="2956" ending="3016" rID="r0102_phr"/>
+      <range gi="phr" starting="3018" ending="3062" rID="r0103_phr"/>
+      <range gi="phr" starting="3064" ending="3085" rID="r0104_phr"/>
+      <range gi="phr" starting="3087" ending="3175" rID="r0105_phr"/>
+      <range gi="s" starting="3177" ending="3223" rID="r0106_s"/>
+      <range gi="phr" starting="3177" ending="3222" rID="r0107_phr"/>
+      <range gi="s" starting="3224" ending="3461" rID="r0108_s"/>
+      <range gi="phr" starting="3224" ending="3256" rID="r0109_phr"/>
+      <range gi="phr" starting="3258" ending="3316" rID="r0110_phr"/>
+      <range gi="phr" starting="3318" ending="3334" rID="r0111_phr"/>
+      <range gi="phr" starting="3336" ending="3339" rID="r0112_phr"/>
+      <range gi="phr" starting="3341" ending="3362" rID="r0113_phr"/>
+      <range gi="phr" starting="3364" ending="3389" rID="r0114_phr"/>
+      <range gi="phr" starting="3391" ending="3408" rID="r0115_phr"/>
+      <range gi="phr" starting="3410" ending="3439" rID="r0116_phr"/>
+      <range gi="phr" starting="3441" ending="3460" rID="r0117_phr"/>
+      <range gi="s" starting="3462" ending="3616" rID="r0118_s"/>
+      <range gi="phr" starting="3462" ending="3484" rID="r0119_phr"/>
+      <range gi="phr" starting="3486" ending="3519" rID="r0120_phr"/>
+      <range gi="phr" starting="3521" ending="3564" rID="r0121_phr"/>
+      <range gi="phr" starting="3566" ending="3576" rID="r0122_phr"/>
+      <range gi="phr" starting="3581" ending="3597" rID="r0123_phr"/>
+      <range gi="phr" starting="3599" ending="3615" rID="r0124_phr"/>
+      <range gi="s" starting="3617" ending="4065" rID="r0125_s"/>
+      <range gi="phr" starting="3617" ending="3641" rID="r0126_phr"/>
+      <range gi="phr" starting="3643" ending="3708" rID="r0127_phr"/>
+      <range gi="phr" starting="3710" ending="3732" rID="r0128_phr"/>
+      <range gi="phr" starting="3734" ending="3747" rID="r0129_phr"/>
+      <range gi="phr" starting="3750" ending="3774" rID="r0130_phr"/>
+      <range gi="phr" starting="3776" ending="3804" rID="r0131_phr"/>
+      <range gi="phr" starting="3806" ending="3874" rID="r0132_phr"/>
+      <range gi="phr" starting="3876" ending="3912" rID="r0133_phr"/>
+      <range gi="phr" starting="3914" ending="3962" rID="r0134_phr"/>
+      <range gi="phr" starting="3964" ending="4011" rID="r0135_phr"/>
+      <range gi="phr" starting="4013" ending="4064" rID="r0136_phr"/>
+      <range gi="s" starting="4066" ending="4547" rID="r0137_s"/>
+      <range gi="phr" starting="4066" ending="4083" rID="r0138_phr"/>
+      <range gi="phr" starting="4085" ending="4140" rID="r0139_phr"/>
+      <range gi="phr" starting="4142" ending="4153" rID="r0140_phr"/>
+      <range gi="phr" starting="4155" ending="4164" rID="r0141_phr"/>
+      <range gi="phr" starting="4166" ending="4198" rID="r0142_phr"/>
+      <range gi="phr" starting="4200" ending="4215" rID="r0143_phr"/>
+      <range gi="phr" starting="4217" ending="4261" rID="r0144_phr"/>
+      <range gi="phr" starting="4263" ending="4307" rID="r0145_phr"/>
+      <range gi="phr" starting="4309" ending="4387" rID="r0146_phr"/>
+      <range gi="phr" starting="4389" ending="4417" rID="r0147_phr"/>
+      <range gi="phr" starting="4419" ending="4422" rID="r0148_phr"/>
+      <range gi="phr" starting="4424" ending="4437" rID="r0149_phr"/>
+      <range gi="phr" starting="4439" ending="4524" rID="r0150_phr"/>
+      <range gi="phr" starting="4526" ending="4546" rID="r0151_phr"/>
+      <range gi="s" starting="4548" ending="4578" rID="r0152_s"/>
+      <range gi="phr" starting="4548" ending="4577" rID="r0153_phr"/>
+      <range gi="s" starting="4579" ending="4731" rID="r0154_s"/>
+      <range gi="phr" starting="4579" ending="4594" rID="r0155_phr"/>
+      <range gi="phr" starting="4596" ending="4618" rID="r0156_phr"/>
+      <range gi="phr" starting="4620" ending="4640" rID="r0157_phr"/>
+      <range gi="phr" starting="4642" ending="4655" rID="r0158_phr"/>
+      <range gi="phr" starting="4657" ending="4693" rID="r0159_phr"/>
+      <range gi="phr" starting="4695" ending="4730" rID="r0160_phr"/>
+      <range gi="s" starting="4732" ending="4789" rID="r0161_s"/>
+      <range gi="phr" starting="4732" ending="4788" rID="r0162_phr"/>
+      <range gi="s" starting="4790" ending="5367" rID="r0163_s"/>
+      <range gi="phr" starting="4790" ending="4834" rID="r0164_phr"/>
+      <range gi="phr" starting="4836" ending="4859" rID="r0165_phr"/>
+      <range gi="phr" starting="4861" ending="4888" rID="r0166_phr"/>
+      <range gi="phr" starting="4890" ending="4916" rID="r0167_phr"/>
+      <range gi="phr" starting="4918" ending="4938" rID="r0168_phr"/>
+      <range gi="phr" starting="4940" ending="4993" rID="r0169_phr"/>
+      <range gi="phr" starting="4995" ending="5000" rID="r0170_phr"/>
+      <range gi="phr" starting="5002" ending="5009" rID="r0171_phr"/>
+      <range gi="phr" starting="5011" ending="5031" rID="r0172_phr"/>
+      <range gi="phr" starting="5033" ending="5060" rID="r0173_phr"/>
+      <range gi="phr" starting="5062" ending="5073" rID="r0174_phr"/>
+      <range gi="phr" starting="5075" ending="5080" rID="r0175_phr"/>
+      <range gi="phr" starting="5082" ending="5120" rID="r0176_phr"/>
+      <range gi="phr" starting="5122" ending="5139" rID="r0177_phr"/>
+      <range gi="phr" starting="5141" ending="5167" rID="r0178_phr"/>
+      <range gi="phr" starting="5169" ending="5247" rID="r0179_phr"/>
+      <range gi="phr" starting="5249" ending="5280" rID="r0180_phr"/>
+      <range gi="phr" starting="5282" ending="5298" rID="r0181_phr"/>
+      <range gi="phr" starting="5300" ending="5366" rID="r0182_phr"/>
+      <range gi="s" starting="5369" ending="6126" rID="r0183_s"/>
+      <range gi="phr" starting="5369" ending="5396" rID="r0184_phr"/>
+      <range gi="phr" starting="5398" ending="5412" rID="r0185_phr"/>
+      <range gi="phr" starting="5414" ending="5428" rID="r0186_phr"/>
+      <range gi="phr" starting="5430" ending="5458" rID="r0187_phr"/>
+      <range gi="phr" starting="5460" ending="5503" rID="r0188_phr"/>
+      <range gi="phr" starting="5508" ending="5516" rID="r0189_phr"/>
+      <range gi="phr" starting="5518" ending="5605" rID="r0190_phr"/>
+      <range gi="phr" starting="5607" ending="5610" rID="r0191_phr"/>
+      <range gi="phr" starting="5612" ending="5638" rID="r0192_phr"/>
+      <range gi="phr" starting="5640" ending="5674" rID="r0193_phr"/>
+      <range gi="phr" starting="5676" ending="5711" rID="r0194_phr"/>
+      <range gi="phr" starting="5713" ending="5739" rID="r0195_phr"/>
+      <range gi="phr" starting="5741" ending="5750" rID="r0196_phr"/>
+      <range gi="phr" starting="5752" ending="5759" rID="r0197_phr"/>
+      <range gi="phr" starting="5761" ending="5803" rID="r0198_phr"/>
+      <range gi="phr" starting="5805" ending="5839" rID="r0199_phr"/>
+      <range gi="phr" starting="5841" ending="5860" rID="r0200_phr"/>
+      <range gi="phr" starting="5862" ending="5924" rID="r0201_phr"/>
+      <range gi="phr" starting="5926" ending="5973" rID="r0202_phr"/>
+      <range gi="phr" starting="5975" ending="6017" rID="r0203_phr"/>
+      <range gi="phr" starting="6019" ending="6042" rID="r0204_phr"/>
+      <range gi="phr" starting="6044" ending="6072" rID="r0205_phr"/>
+      <range gi="phr" starting="6074" ending="6125" rID="r0206_phr"/>
+      <range gi="s" starting="6127" ending="6560" rID="r0207_s"/>
+      <range gi="phr" starting="6127" ending="6193" rID="r0208_phr"/>
+      <range gi="phr" starting="6195" ending="6310" rID="r0209_phr"/>
+      <range gi="phr" starting="6312" ending="6352" rID="r0210_phr"/>
+      <range gi="phr" starting="6354" ending="6393" rID="r0211_phr"/>
+      <range gi="phr" starting="6395" ending="6452" rID="r0212_phr"/>
+      <range gi="phr" starting="6454" ending="6478" rID="r0213_phr"/>
+      <range gi="phr" starting="6480" ending="6521" rID="r0214_phr"/>
+      <range gi="phr" starting="6523" ending="6559" rID="r0215_phr"/>
+      <range gi="s" starting="6561" ending="6673" rID="r0216_s"/>
+      <range gi="phr" starting="6561" ending="6624" rID="r0217_phr"/>
+      <range gi="phr" starting="6626" ending="6672" rID="r0218_phr"/>
+      <range gi="s" starting="6675" ending="6941" rID="r0219_s"/>
+      <range gi="phr" starting="6675" ending="6723" rID="r0220_phr"/>
+      <range gi="phr" starting="6727" ending="6740" rID="r0221_phr"/>
+      <range gi="phr" starting="6742" ending="6765" rID="r0222_phr"/>
+      <range gi="phr" starting="6767" ending="6785" rID="r0223_phr"/>
+      <range gi="phr" starting="6787" ending="6806" rID="r0224_phr"/>
+      <range gi="phr" starting="6809" ending="6848" rID="r0225_phr"/>
+      <range gi="phr" starting="6850" ending="6885" rID="r0226_phr"/>
+      <range gi="phr" starting="6887" ending="6940" rID="r0227_phr"/>
+      <range gi="s" starting="6942" ending="7222" rID="r0228_s"/>
+      <range gi="phr" starting="6942" ending="7005" rID="r0229_phr"/>
+      <range gi="phr" starting="7007" ending="7045" rID="r0230_phr"/>
+      <range gi="phr" starting="7047" ending="7090" rID="r0231_phr"/>
+      <range gi="phr" starting="7092" ending="7149" rID="r0232_phr"/>
+      <range gi="phr" starting="7151" ending="7164" rID="r0233_phr"/>
+      <range gi="phr" starting="7166" ending="7221" rID="r0234_phr"/>
+      <range gi="s" starting="7223" ending="7231" rID="r0235_s"/>
+      <range gi="phr" starting="7223" ending="7230" rID="r0236_phr"/>
+      <range gi="s" starting="7232" ending="7622" rID="r0237_s"/>
+      <range gi="phr" starting="7232" ending="7329" rID="r0238_phr"/>
+      <range gi="phr" starting="7331" ending="7350" rID="r0239_phr"/>
+      <range gi="phr" starting="7352" ending="7374" rID="r0240_phr"/>
+      <range gi="phr" starting="7376" ending="7465" rID="r0241_phr"/>
+      <range gi="phr" starting="7467" ending="7482" rID="r0242_phr"/>
+      <range gi="phr" starting="7484" ending="7528" rID="r0243_phr"/>
+      <range gi="phr" starting="7530" ending="7559" rID="r0244_phr"/>
+      <range gi="phr" starting="7561" ending="7621" rID="r0245_phr"/>
+      <range gi="s" starting="7623" ending="7705" rID="r0246_s"/>
+      <range gi="phr" starting="7623" ending="7651" rID="r0247_phr"/>
+      <range gi="phr" starting="7653" ending="7704" rID="r0248_phr"/>
+      <range gi="s" starting="7706" ending="7863" rID="r0249_s"/>
+      <range gi="phr" starting="7706" ending="7733" rID="r0250_phr"/>
+      <range gi="phr" starting="7735" ending="7751" rID="r0251_phr"/>
+      <range gi="phr" starting="7753" ending="7775" rID="r0252_phr"/>
+      <range gi="phr" starting="7777" ending="7790" rID="r0253_phr"/>
+      <range gi="phr" starting="7792" ending="7862" rID="r0254_phr"/>
+      <range gi="s" starting="7864" ending="8201" rID="r0255_s"/>
+      <range gi="phr" starting="7864" ending="7925" rID="r0256_phr"/>
+      <range gi="phr" starting="7927" ending="7937" rID="r0257_phr"/>
+      <range gi="phr" starting="7939" ending="7968" rID="r0258_phr"/>
+      <range gi="phr" starting="7970" ending="7973" rID="r0259_phr"/>
+      <range gi="phr" starting="7975" ending="8009" rID="r0260_phr"/>
+      <range gi="phr" starting="8011" ending="8062" rID="r0261_phr"/>
+      <range gi="phr" starting="8064" ending="8087" rID="r0262_phr"/>
+      <range gi="phr" starting="8089" ending="8120" rID="r0263_phr"/>
+      <range gi="phr" starting="8122" ending="8162" rID="r0264_phr"/>
+      <range gi="phr" starting="8164" ending="8170" rID="r0265_phr"/>
+      <range gi="phr" starting="8172" ending="8200" rID="r0266_phr"/>
+      <range gi="s" starting="8203" ending="8663" rID="r0267_s"/>
+      <range gi="phr" starting="8203" ending="8213" rID="r0268_phr"/>
+      <range gi="phr" starting="8215" ending="8242" rID="r0269_phr"/>
+      <range gi="phr" starting="8244" ending="8275" rID="r0270_phr"/>
+      <range gi="phr" starting="8277" ending="8307" rID="r0271_phr"/>
+      <range gi="phr" starting="8309" ending="8351" rID="r0272_phr"/>
+      <range gi="phr" starting="8353" ending="8376" rID="r0273_phr"/>
+      <range gi="phr" starting="8378" ending="8402" rID="r0274_phr"/>
+      <range gi="phr" starting="8404" ending="8461" rID="r0275_phr"/>
+      <range gi="phr" starting="8463" ending="8485" rID="r0276_phr"/>
+      <range gi="phr" starting="8487" ending="8506" rID="r0277_phr"/>
+      <range gi="phr" starting="8508" ending="8526" rID="r0278_phr"/>
+      <range gi="phr" starting="8528" ending="8563" rID="r0279_phr"/>
+      <range gi="phr" starting="8565" ending="8592" rID="r0280_phr"/>
+      <range gi="phr" starting="8594" ending="8662" rID="r0281_phr"/>
+      <range gi="s" starting="8664" ending="8917" rID="r0282_s"/>
+      <range gi="phr" starting="8664" ending="8667" rID="r0283_phr"/>
+      <range gi="phr" starting="8669" ending="8704" rID="r0284_phr"/>
+      <range gi="phr" starting="8706" ending="8751" rID="r0285_phr"/>
+      <range gi="phr" starting="8753" ending="8772" rID="r0286_phr"/>
+      <range gi="phr" starting="8774" ending="8777" rID="r0287_phr"/>
+      <range gi="phr" starting="8779" ending="8793" rID="r0288_phr"/>
+      <range gi="phr" starting="8795" ending="8830" rID="r0289_phr"/>
+      <range gi="phr" starting="8832" ending="8863" rID="r0290_phr"/>
+      <range gi="phr" starting="8865" ending="8892" rID="r0291_phr"/>
+      <range gi="phr" starting="8894" ending="8916" rID="r0292_phr"/>
+      <range gi="s" starting="8918" ending="9438" rID="r0293_s"/>
+      <range gi="phr" starting="8918" ending="8968" rID="r0294_phr"/>
+      <range gi="phr" starting="8970" ending="8997" rID="r0295_phr"/>
+      <range gi="phr" starting="8999" ending="9024" rID="r0296_phr"/>
+      <range gi="phr" starting="9026" ending="9044" rID="r0297_phr"/>
+      <range gi="phr" starting="9046" ending="9146" rID="r0298_phr"/>
+      <range gi="phr" starting="9148" ending="9210" rID="r0299_phr"/>
+      <range gi="phr" starting="9212" ending="9242" rID="r0300_phr"/>
+      <range gi="phr" starting="9244" ending="9328" rID="r0301_phr"/>
+      <range gi="phr" starting="9330" ending="9335" rID="r0302_phr"/>
+      <range gi="phr" starting="9337" ending="9346" rID="r0303_phr"/>
+      <range gi="phr" starting="9348" ending="9375" rID="r0304_phr"/>
+      <range gi="phr" starting="9377" ending="9408" rID="r0305_phr"/>
+      <range gi="phr" starting="9410" ending="9415" rID="r0306_phr"/>
+      <range gi="phr" starting="9417" ending="9437" rID="r0307_phr"/>
+      <range gi="s" starting="9440" ending="9631" rID="r0308_s"/>
+      <range gi="phr" starting="9440" ending="9503" rID="r0309_phr"/>
+      <range gi="phr" starting="9505" ending="9572" rID="r0310_phr"/>
+      <range gi="phr" starting="9574" ending="9577" rID="r0311_phr"/>
+      <range gi="phr" starting="9579" ending="9596" rID="r0312_phr"/>
+      <range gi="phr" starting="9598" ending="9630" rID="r0313_phr"/>
+      <range gi="s" starting="9632" ending="10153" rID="r0314_s"/>
+      <range gi="phr" starting="9632" ending="9683" rID="r0315_phr"/>
+      <range gi="phr" starting="9685" ending="9711" rID="r0316_phr"/>
+      <range gi="phr" starting="9713" ending="9737" rID="r0317_phr"/>
+      <range gi="phr" starting="9739" ending="9765" rID="r0318_phr"/>
+      <range gi="phr" starting="9767" ending="9810" rID="r0319_phr"/>
+      <range gi="phr" starting="9812" ending="9840" rID="r0320_phr"/>
+      <range gi="phr" starting="9842" ending="9941" rID="r0321_phr"/>
+      <range gi="phr" starting="9943" ending="9983" rID="r0322_phr"/>
+      <range gi="phr" starting="9985" ending="10023" rID="r0323_phr"/>
+      <range gi="phr" starting="10025" ending="10047" rID="r0324_phr"/>
+      <range gi="phr" starting="10049" ending="10075" rID="r0325_phr"/>
+      <range gi="phr" starting="10077" ending="10090" rID="r0326_phr"/>
+      <range gi="phr" starting="10092" ending="10152" rID="r0327_phr"/>
+      <range gi="s" starting="10154" ending="10198" rID="r0328_s"/>
+      <range gi="phr" starting="10154" ending="10197" rID="r0329_phr"/>
+      <range gi="s" starting="10199" ending="10360" rID="r0330_s"/>
+      <range gi="phr" starting="10199" ending="10225" rID="r0331_phr"/>
+      <range gi="phr" starting="10227" ending="10281" rID="r0332_phr"/>
+      <range gi="phr" starting="10283" ending="10318" rID="r0333_phr"/>
+      <range gi="phr" starting="10320" ending="10359" rID="r0334_phr"/>
+      <range gi="s" starting="10362" ending="10530" rID="r0335_s"/>
+      <range gi="phr" starting="10362" ending="10380" rID="r0336_phr"/>
+      <range gi="phr" starting="10382" ending="10395" rID="r0337_phr"/>
+      <range gi="phr" starting="10397" ending="10406" rID="r0338_phr"/>
+      <range gi="phr" starting="10408" ending="10436" rID="r0339_phr"/>
+      <range gi="phr" starting="10438" ending="10482" rID="r0340_phr"/>
+      <range gi="phr" starting="10485" ending="10529" rID="r0341_phr"/>
+      <range gi="s" starting="10531" ending="10706" rID="r0342_s"/>
+      <range gi="phr" starting="10531" ending="10539" rID="r0343_phr"/>
+      <range gi="phr" starting="10541" ending="10610" rID="r0344_phr"/>
+      <range gi="phr" starting="10612" ending="10663" rID="r0345_phr"/>
+      <range gi="phr" starting="10665" ending="10705" rID="r0346_phr"/>
+      <range gi="s" starting="10707" ending="10757" rID="r0347_s"/>
+      <range gi="phr" starting="10707" ending="10715" rID="r0348_phr"/>
+      <range gi="phr" starting="10717" ending="10729" rID="r0349_phr"/>
+      <range gi="phr" starting="10731" ending="10756" rID="r0350_phr"/>
+      <range gi="s" starting="10758" ending="10772" rID="r0351_s"/>
+      <range gi="phr" starting="10758" ending="10762" rID="r0352_phr"/>
+      <range gi="phr" starting="10764" ending="10771" rID="r0353_phr"/>
+      <range gi="s" starting="10773" ending="10794" rID="r0354_s"/>
+      <range gi="phr" starting="10773" ending="10777" rID="r0355_phr"/>
+      <range gi="phr" starting="10779" ending="10793" rID="r0356_phr"/>
+      <range gi="s" starting="10795" ending="10907" rID="r0357_s"/>
+      <range gi="phr" starting="10795" ending="10803" rID="r0358_phr"/>
+      <range gi="phr" starting="10805" ending="10821" rID="r0359_phr"/>
+      <range gi="phr" starting="10823" ending="10848" rID="r0360_phr"/>
+      <range gi="phr" starting="10850" ending="10906" rID="r0361_phr"/>
+      <range gi="s" starting="10908" ending="10993" rID="r0362_s"/>
+      <range gi="phr" starting="10908" ending="10933" rID="r0363_phr"/>
+      <range gi="phr" starting="10935" ending="10974" rID="r0364_phr"/>
+      <range gi="phr" starting="10976" ending="10992" rID="r0365_phr"/>
+      <range gi="s" starting="10994" ending="11111" rID="r0366_s"/>
+      <range gi="phr" starting="10994" ending="11011" rID="r0367_phr"/>
+      <range gi="phr" starting="11013" ending="11035" rID="r0368_phr"/>
+      <range gi="phr" starting="11037" ending="11057" rID="r0369_phr"/>
+      <range gi="phr" starting="11059" ending="11110" rID="r0370_phr"/>
+      <range gi="s" starting="11112" ending="11350" rID="r0371_s"/>
+      <range gi="phr" starting="11112" ending="11142" rID="r0372_phr"/>
+      <range gi="phr" starting="11144" ending="11189" rID="r0373_phr"/>
+      <range gi="phr" starting="11191" ending="11214" rID="r0374_phr"/>
+      <range gi="phr" starting="11216" ending="11240" rID="r0375_phr"/>
+      <range gi="phr" starting="11242" ending="11245" rID="r0376_phr"/>
+      <range gi="phr" starting="11247" ending="11259" rID="r0377_phr"/>
+      <range gi="phr" starting="11261" ending="11287" rID="r0378_phr"/>
+      <range gi="phr" starting="11289" ending="11303" rID="r0379_phr"/>
+      <range gi="phr" starting="11305" ending="11349" rID="r0380_phr"/>
+      <range gi="s" starting="11351" ending="11657" rID="r0381_s"/>
+      <range gi="phr" starting="11351" ending="11397" rID="r0382_phr"/>
+      <range gi="phr" starting="11399" ending="11441" rID="r0383_phr"/>
+      <range gi="phr" starting="11443" ending="11484" rID="r0384_phr"/>
+      <range gi="phr" starting="11486" ending="11555" rID="r0385_phr"/>
+      <range gi="phr" starting="11557" ending="11629" rID="r0386_phr"/>
+      <range gi="phr" starting="11631" ending="11656" rID="r0387_phr"/>
+      <range gi="s" starting="11659" ending="11789" rID="r0388_s"/>
+      <range gi="phr" starting="11659" ending="11673" rID="r0389_phr"/>
+      <range gi="phr" starting="11675" ending="11706" rID="r0390_phr"/>
+      <range gi="phr" starting="11709" ending="11744" rID="r0391_phr"/>
+      <range gi="phr" starting="11746" ending="11764" rID="r0392_phr"/>
+      <range gi="phr" starting="11766" ending="11788" rID="r0393_phr"/>
+      <range gi="s" starting="11790" ending="12186" rID="r0394_s"/>
+      <range gi="phr" starting="11790" ending="11818" rID="r0395_phr"/>
+      <range gi="phr" starting="11820" ending="11871" rID="r0396_phr"/>
+      <range gi="phr" starting="11873" ending="11903" rID="r0397_phr"/>
+      <range gi="phr" starting="11905" ending="11939" rID="r0398_phr"/>
+      <range gi="phr" starting="11941" ending="11954" rID="r0399_phr"/>
+      <range gi="phr" starting="11956" ending="11991" rID="r0400_phr"/>
+      <range gi="phr" starting="11993" ending="12037" rID="r0401_phr"/>
+      <range gi="phr" starting="12039" ending="12103" rID="r0402_phr"/>
+      <range gi="phr" starting="12105" ending="12119" rID="r0403_phr"/>
+      <range gi="phr" starting="12121" ending="12141" rID="r0404_phr"/>
+      <range gi="phr" starting="12143" ending="12152" rID="r0405_phr"/>
+      <range gi="phr" starting="12154" ending="12185" rID="r0406_phr"/>
+      <range gi="s" starting="12188" ending="12342" rID="r0407_s"/>
+      <range gi="phr" starting="12188" ending="12260" rID="r0408_phr"/>
+      <range gi="phr" starting="12262" ending="12282" rID="r0409_phr"/>
+      <range gi="phr" starting="12284" ending="12299" rID="r0410_phr"/>
+      <range gi="phr" starting="12301" ending="12306" rID="r0411_phr"/>
+      <range gi="phr" starting="12308" ending="12313" rID="r0412_phr"/>
+      <range gi="phr" starting="12315" ending="12324" rID="r0413_phr"/>
+      <range gi="phr" starting="12326" ending="12341" rID="r0414_phr"/>
+      <range gi="s" starting="12343" ending="12573" rID="r0415_s"/>
+      <range gi="phr" starting="12343" ending="12402" rID="r0416_phr"/>
+      <range gi="phr" starting="12404" ending="12468" rID="r0417_phr"/>
+      <range gi="phr" starting="12470" ending="12492" rID="r0418_phr"/>
+      <range gi="phr" starting="12494" ending="12508" rID="r0419_phr"/>
+      <range gi="phr" starting="12510" ending="12529" rID="r0420_phr"/>
+      <range gi="phr" starting="12531" ending="12537" rID="r0421_phr"/>
+      <range gi="phr" starting="12539" ending="12551" rID="r0422_phr"/>
+      <range gi="phr" starting="12553" ending="12572" rID="r0423_phr"/>
+      <range gi="s" starting="12574" ending="12867" rID="r0424_s"/>
+      <range gi="phr" starting="12574" ending="12583" rID="r0425_phr"/>
+      <range gi="phr" starting="12585" ending="12640" rID="r0426_phr"/>
+      <range gi="phr" starting="12642" ending="12678" rID="r0427_phr"/>
+      <range gi="phr" starting="12680" ending="12695" rID="r0428_phr"/>
+      <range gi="phr" starting="12698" ending="12712" rID="r0429_phr"/>
+      <range gi="phr" starting="12714" ending="12759" rID="r0430_phr"/>
+      <range gi="phr" starting="12761" ending="12799" rID="r0431_phr"/>
+      <range gi="phr" starting="12801" ending="12847" rID="r0432_phr"/>
+      <range gi="phr" starting="12849" ending="12866" rID="r0433_phr"/>
+      <range gi="s" starting="12868" ending="13409" rID="r0434_s"/>
+      <range gi="phr" starting="12868" ending="12890" rID="r0435_phr"/>
+      <range gi="phr" starting="12892" ending="12939" rID="r0436_phr"/>
+      <range gi="phr" starting="12941" ending="12963" rID="r0437_phr"/>
+      <range gi="phr" starting="12965" ending="12976" rID="r0438_phr"/>
+      <range gi="phr" starting="12978" ending="13057" rID="r0439_phr"/>
+      <range gi="phr" starting="13059" ending="13109" rID="r0440_phr"/>
+      <range gi="phr" starting="13111" ending="13136" rID="r0441_phr"/>
+      <range gi="phr" starting="13138" ending="13201" rID="r0442_phr"/>
+      <range gi="phr" starting="13203" ending="13258" rID="r0443_phr"/>
+      <range gi="phr" starting="13260" ending="13326" rID="r0444_phr"/>
+      <range gi="phr" starting="13328" ending="13408" rID="r0445_phr"/>
+      <range gi="s" starting="13410" ending="13517" rID="r0446_s"/>
+      <range gi="phr" starting="13410" ending="13427" rID="r0447_phr"/>
+      <range gi="phr" starting="13429" ending="13444" rID="r0448_phr"/>
+      <range gi="phr" starting="13446" ending="13455" rID="r0449_phr"/>
+      <range gi="phr" starting="13457" ending="13475" rID="r0450_phr"/>
+      <range gi="phr" starting="13477" ending="13516" rID="r0451_phr"/>
+      <range gi="s" starting="13518" ending="13711" rID="r0452_s"/>
+      <range gi="phr" starting="13518" ending="13578" rID="r0453_phr"/>
+      <range gi="phr" starting="13581" ending="13588" rID="r0454_phr"/>
+      <range gi="phr" starting="13590" ending="13600" rID="r0455_phr"/>
+      <range gi="phr" starting="13602" ending="13610" rID="r0456_phr"/>
+      <range gi="phr" starting="13612" ending="13632" rID="r0457_phr"/>
+      <range gi="phr" starting="13634" ending="13644" rID="r0458_phr"/>
+      <range gi="phr" starting="13646" ending="13654" rID="r0459_phr"/>
+      <range gi="phr" starting="13656" ending="13710" rID="r0460_phr"/>
+      <range gi="s" starting="13712" ending="13862" rID="r0461_s"/>
+      <range gi="phr" starting="13712" ending="13795" rID="r0462_phr"/>
+      <range gi="phr" starting="13797" ending="13834" rID="r0463_phr"/>
+      <range gi="phr" starting="13836" ending="13861" rID="r0464_phr"/>
+      <range gi="s" starting="13863" ending="14198" rID="r0465_s"/>
+      <range gi="phr" starting="13863" ending="13925" rID="r0466_phr"/>
+      <range gi="phr" starting="13927" ending="14013" rID="r0467_phr"/>
+      <range gi="phr" starting="14015" ending="14083" rID="r0468_phr"/>
+      <range gi="phr" starting="14085" ending="14088" rID="r0469_phr"/>
+      <range gi="phr" starting="14090" ending="14100" rID="r0470_phr"/>
+      <range gi="phr" starting="14102" ending="14129" rID="r0471_phr"/>
+      <range gi="phr" starting="14131" ending="14197" rID="r0472_phr"/>
+      <range gi="s" starting="14199" ending="14235" rID="r0473_s"/>
+      <range gi="phr" starting="14199" ending="14204" rID="r0474_phr"/>
+      <range gi="phr" starting="14206" ending="14211" rID="r0475_phr"/>
+      <range gi="phr" starting="14213" ending="14234" rID="r0476_phr"/>
+      <range gi="s" starting="14237" ending="14414" rID="r0477_s"/>
+      <range gi="phr" starting="14237" ending="14247" rID="r0478_phr"/>
+      <range gi="phr" starting="14249" ending="14265" rID="r0479_phr"/>
+      <range gi="phr" starting="14267" ending="14299" rID="r0480_phr"/>
+      <range gi="phr" starting="14301" ending="14334" rID="r0481_phr"/>
+      <range gi="phr" starting="14336" ending="14369" rID="r0482_phr"/>
+      <range gi="phr" starting="14371" ending="14413" rID="r0483_phr"/>
+      <range gi="s" starting="14415" ending="14565" rID="r0484_s"/>
+      <range gi="phr" starting="14415" ending="14475" rID="r0485_phr"/>
+      <range gi="phr" starting="14477" ending="14505" rID="r0486_phr"/>
+      <range gi="phr" starting="14507" ending="14564" rID="r0487_phr"/>
+      <range gi="s" starting="14566" ending="15320" rID="r0488_s"/>
+      <range gi="phr" starting="14566" ending="14603" rID="r0489_phr"/>
+      <range gi="phr" starting="14605" ending="14624" rID="r0490_phr"/>
+      <range gi="phr" starting="14626" ending="14647" rID="r0491_phr"/>
+      <range gi="phr" starting="14649" ending="14684" rID="r0492_phr"/>
+      <range gi="phr" starting="14686" ending="14713" rID="r0493_phr"/>
+      <range gi="phr" starting="14715" ending="14769" rID="r0494_phr"/>
+      <range gi="phr" starting="14771" ending="14804" rID="r0495_phr"/>
+      <range gi="phr" starting="14806" ending="14886" rID="r0496_phr"/>
+      <range gi="phr" starting="14888" ending="14900" rID="r0497_phr"/>
+      <range gi="phr" starting="14902" ending="14908" rID="r0498_phr"/>
+      <range gi="phr" starting="14910" ending="14931" rID="r0499_phr"/>
+      <range gi="phr" starting="14933" ending="14937" rID="r0500_phr"/>
+      <range gi="phr" starting="14939" ending="14956" rID="r0501_phr"/>
+      <range gi="phr" starting="14958" ending="15028" rID="r0502_phr"/>
+      <range gi="phr" starting="15030" ending="15083" rID="r0503_phr"/>
+      <range gi="phr" starting="15085" ending="15107" rID="r0504_phr"/>
+      <range gi="phr" starting="15109" ending="15212" rID="r0505_phr"/>
+      <range gi="phr" starting="15214" ending="15269" rID="r0506_phr"/>
+      <range gi="phr" starting="15271" ending="15319" rID="r0507_phr"/>
+      <range gi="s" starting="15321" ending="15674" rID="r0508_s"/>
+      <range gi="phr" starting="15321" ending="15330" rID="r0509_phr"/>
+      <range gi="phr" starting="15332" ending="15365" rID="r0510_phr"/>
+      <range gi="phr" starting="15367" ending="15436" rID="r0511_phr"/>
+      <range gi="phr" starting="15438" ending="15452" rID="r0512_phr"/>
+      <range gi="phr" starting="15454" ending="15479" rID="r0513_phr"/>
+      <range gi="phr" starting="15481" ending="15499" rID="r0514_phr"/>
+      <range gi="phr" starting="15501" ending="15546" rID="r0515_phr"/>
+      <range gi="phr" starting="15548" ending="15608" rID="r0516_phr"/>
+      <range gi="phr" starting="15610" ending="15673" rID="r0517_phr"/>
+      <range gi="s" starting="15675" ending="16175" rID="r0518_s"/>
+      <range gi="phr" starting="15675" ending="15732" rID="r0519_phr"/>
+      <range gi="phr" starting="15734" ending="15738" rID="r0520_phr"/>
+      <range gi="phr" starting="15740" ending="15764" rID="r0521_phr"/>
+      <range gi="phr" starting="15766" ending="15816" rID="r0522_phr"/>
+      <range gi="phr" starting="15818" ending="15912" rID="r0523_phr"/>
+      <range gi="phr" starting="15914" ending="16000" rID="r0524_phr"/>
+      <range gi="phr" starting="16002" ending="16050" rID="r0525_phr"/>
+      <range gi="phr" starting="16052" ending="16083" rID="r0526_phr"/>
+      <range gi="phr" starting="16085" ending="16129" rID="r0527_phr"/>
+      <range gi="phr" starting="16131" ending="16174" rID="r0528_phr"/>
+      <range gi="s" starting="16177" ending="16417" rID="r0529_s"/>
+      <range gi="phr" starting="16177" ending="16180" rID="r0530_phr"/>
+      <range gi="phr" starting="16182" ending="16186" rID="r0531_phr"/>
+      <range gi="phr" starting="16188" ending="16210" rID="r0532_phr"/>
+      <range gi="phr" starting="16212" ending="16221" rID="r0533_phr"/>
+      <range gi="phr" starting="16223" ending="16231" rID="r0534_phr"/>
+      <range gi="phr" starting="16233" ending="16276" rID="r0535_phr"/>
+      <range gi="phr" starting="16278" ending="16307" rID="r0536_phr"/>
+      <range gi="phr" starting="16309" ending="16371" rID="r0537_phr"/>
+      <range gi="phr" starting="16373" ending="16416" rID="r0538_phr"/>
+      <range gi="s" starting="16419" ending="16891" rID="r0539_s"/>
+      <range gi="phr" starting="16419" ending="16443" rID="r0540_phr"/>
+      <range gi="phr" starting="16445" ending="16501" rID="r0541_phr"/>
+      <range gi="phr" starting="16503" ending="16524" rID="r0542_phr"/>
+      <range gi="phr" starting="16526" ending="16536" rID="r0543_phr"/>
+      <range gi="phr" starting="16538" ending="16558" rID="r0544_phr"/>
+      <range gi="phr" starting="16560" ending="16585" rID="r0545_phr"/>
+      <range gi="phr" starting="16587" ending="16622" rID="r0546_phr"/>
+      <range gi="phr" starting="16624" ending="16670" rID="r0547_phr"/>
+      <range gi="phr" starting="16672" ending="16700" rID="r0548_phr"/>
+      <range gi="phr" starting="16702" ending="16705" rID="r0549_phr"/>
+      <range gi="phr" starting="16707" ending="16761" rID="r0550_phr"/>
+      <range gi="phr" starting="16763" ending="16775" rID="r0551_phr"/>
+      <range gi="phr" starting="16777" ending="16841" rID="r0552_phr"/>
+      <range gi="phr" starting="16843" ending="16890" rID="r0553_phr"/>
+      <range gi="s" starting="16892" ending="17104" rID="r0554_s"/>
+      <range gi="phr" starting="16892" ending="16897" rID="r0555_phr"/>
+      <range gi="phr" starting="16899" ending="16905" rID="r0556_phr"/>
+      <range gi="phr" starting="16907" ending="16918" rID="r0557_phr"/>
+      <range gi="phr" starting="16920" ending="16959" rID="r0558_phr"/>
+      <range gi="phr" starting="16961" ending="16979" rID="r0559_phr"/>
+      <range gi="phr" starting="16981" ending="16987" rID="r0560_phr"/>
+      <range gi="phr" starting="16989" ending="17029" rID="r0561_phr"/>
+      <range gi="phr" starting="17031" ending="17103" rID="r0562_phr"/>
+      <range gi="s" starting="17105" ending="17216" rID="r0563_s"/>
+      <range gi="phr" starting="17105" ending="17161" rID="r0564_phr"/>
+      <range gi="phr" starting="17163" ending="17184" rID="r0565_phr"/>
+      <range gi="phr" starting="17186" ending="17215" rID="r0566_phr"/>
+      <range gi="s" starting="17217" ending="17493" rID="r0567_s"/>
+      <range gi="phr" starting="17217" ending="17262" rID="r0568_phr"/>
+      <range gi="phr" starting="17264" ending="17384" rID="r0569_phr"/>
+      <range gi="phr" starting="17386" ending="17434" rID="r0570_phr"/>
+      <range gi="phr" starting="17436" ending="17474" rID="r0571_phr"/>
+      <range gi="phr" starting="17476" ending="17492" rID="r0572_phr"/>
+      <range gi="s" starting="17494" ending="17841" rID="r0573_s"/>
+      <range gi="phr" starting="17494" ending="17505" rID="r0574_phr"/>
+      <range gi="phr" starting="17507" ending="17539" rID="r0575_phr"/>
+      <range gi="phr" starting="17541" ending="17592" rID="r0576_phr"/>
+      <range gi="phr" starting="17594" ending="17617" rID="r0577_phr"/>
+      <range gi="phr" starting="17619" ending="17630" rID="r0578_phr"/>
+      <range gi="phr" starting="17632" ending="17680" rID="r0579_phr"/>
+      <range gi="phr" starting="17682" ending="17714" rID="r0580_phr"/>
+      <range gi="phr" starting="17716" ending="17735" rID="r0581_phr"/>
+      <range gi="phr" starting="17737" ending="17769" rID="r0582_phr"/>
+      <range gi="phr" starting="17771" ending="17795" rID="r0583_phr"/>
+      <range gi="phr" starting="17797" ending="17819" rID="r0584_phr"/>
+      <range gi="phr" starting="17821" ending="17840" rID="r0585_phr"/>
+      <range gi="s" starting="17842" ending="18009" rID="r0586_s"/>
+      <range gi="phr" starting="17842" ending="17912" rID="r0587_phr"/>
+      <range gi="phr" starting="17914" ending="17945" rID="r0588_phr"/>
+      <range gi="phr" starting="17947" ending="17964" rID="r0589_phr"/>
+      <range gi="phr" starting="17966" ending="18008" rID="r0590_phr"/>
+      <range gi="s" starting="18010" ending="18198" rID="r0591_s"/>
+      <range gi="phr" starting="18010" ending="18034" rID="r0592_phr"/>
+      <range gi="phr" starting="18036" ending="18126" rID="r0593_phr"/>
+      <range gi="phr" starting="18128" ending="18169" rID="r0594_phr"/>
+      <range gi="phr" starting="18171" ending="18181" rID="r0595_phr"/>
+      <range gi="phr" starting="18183" ending="18197" rID="r0596_phr"/>
+      <range gi="s" starting="18199" ending="18560" rID="r0597_s"/>
+      <range gi="phr" starting="18199" ending="18210" rID="r0598_phr"/>
+      <range gi="phr" starting="18212" ending="18228" rID="r0599_phr"/>
+      <range gi="phr" starting="18230" ending="18251" rID="r0600_phr"/>
+      <range gi="phr" starting="18253" ending="18260" rID="r0601_phr"/>
+      <range gi="phr" starting="18262" ending="18308" rID="r0602_phr"/>
+      <range gi="phr" starting="18310" ending="18350" rID="r0603_phr"/>
+      <range gi="phr" starting="18352" ending="18396" rID="r0604_phr"/>
+      <range gi="phr" starting="18398" ending="18417" rID="r0605_phr"/>
+      <range gi="phr" starting="18419" ending="18422" rID="r0606_phr"/>
+      <range gi="phr" starting="18424" ending="18449" rID="r0607_phr"/>
+      <range gi="phr" starting="18451" ending="18471" rID="r0608_phr"/>
+      <range gi="phr" starting="18473" ending="18490" rID="r0609_phr"/>
+      <range gi="phr" starting="18492" ending="18523" rID="r0610_phr"/>
+      <range gi="phr" starting="18525" ending="18559" rID="r0611_phr"/>
+      <range gi="s" starting="18561" ending="18795" rID="r0612_s"/>
+      <range gi="phr" starting="18561" ending="18623" rID="r0613_phr"/>
+      <range gi="phr" starting="18625" ending="18666" rID="r0614_phr"/>
+      <range gi="phr" starting="18668" ending="18701" rID="r0615_phr"/>
+      <range gi="phr" starting="18703" ending="18752" rID="r0616_phr"/>
+      <range gi="phr" starting="18754" ending="18794" rID="r0617_phr"/>
+      <range gi="s" starting="18796" ending="19172" rID="r0618_s"/>
+      <range gi="phr" starting="18796" ending="18829" rID="r0619_phr"/>
+      <range gi="phr" starting="18831" ending="18866" rID="r0620_phr"/>
+      <range gi="phr" starting="18868" ending="18883" rID="r0621_phr"/>
+      <range gi="phr" starting="18885" ending="18904" rID="r0622_phr"/>
+      <range gi="phr" starting="18906" ending="18990" rID="r0623_phr"/>
+      <range gi="phr" starting="18992" ending="19015" rID="r0624_phr"/>
+      <range gi="phr" starting="19017" ending="19065" rID="r0625_phr"/>
+      <range gi="phr" starting="19067" ending="19106" rID="r0626_phr"/>
+      <range gi="phr" starting="19108" ending="19120" rID="r0627_phr"/>
+      <range gi="phr" starting="19122" ending="19151" rID="r0628_phr"/>
+      <range gi="phr" starting="19153" ending="19171" rID="r0629_phr"/>
+      <range gi="s" starting="19173" ending="19617" rID="r0630_s"/>
+      <range gi="phr" starting="19173" ending="19197" rID="r0631_phr"/>
+      <range gi="phr" starting="19199" ending="19312" rID="r0632_phr"/>
+      <range gi="phr" starting="19314" ending="19376" rID="r0633_phr"/>
+      <range gi="phr" starting="19378" ending="19423" rID="r0634_phr"/>
+      <range gi="phr" starting="19425" ending="19479" rID="r0635_phr"/>
+      <range gi="phr" starting="19481" ending="19534" rID="r0636_phr"/>
+      <range gi="phr" starting="19536" ending="19540" rID="r0637_phr"/>
+      <range gi="phr" starting="19542" ending="19559" rID="r0638_phr"/>
+      <range gi="phr" starting="19561" ending="19616" rID="r0639_phr"/>
+      <range gi="s" starting="19618" ending="20014" rID="r0640_s"/>
+      <range gi="phr" starting="19618" ending="19654" rID="r0641_phr"/>
+      <range gi="phr" starting="19656" ending="19699" rID="r0642_phr"/>
+      <range gi="phr" starting="19701" ending="19724" rID="r0643_phr"/>
+      <range gi="phr" starting="19726" ending="19743" rID="r0644_phr"/>
+      <range gi="phr" starting="19745" ending="19764" rID="r0645_phr"/>
+      <range gi="phr" starting="19766" ending="19811" rID="r0646_phr"/>
+      <range gi="phr" starting="19813" ending="19827" rID="r0647_phr"/>
+      <range gi="phr" starting="19829" ending="19840" rID="r0648_phr"/>
+      <range gi="phr" starting="19842" ending="19870" rID="r0649_phr"/>
+      <range gi="phr" starting="19872" ending="19912" rID="r0650_phr"/>
+      <range gi="phr" starting="19914" ending="19952" rID="r0651_phr"/>
+      <range gi="phr" starting="19954" ending="19973" rID="r0652_phr"/>
+      <range gi="phr" starting="19975" ending="20013" rID="r0653_phr"/>
+      <range gi="s" starting="20015" ending="20136" rID="r0654_s"/>
+      <range gi="phr" starting="20015" ending="20034" rID="r0655_phr"/>
+      <range gi="phr" starting="20036" ending="20075" rID="r0656_phr"/>
+      <range gi="phr" starting="20077" ending="20120" rID="r0657_phr"/>
+      <range gi="phr" starting="20122" ending="20135" rID="r0658_phr"/>
+      <range gi="s" starting="20137" ending="20406" rID="r0659_s"/>
+      <range gi="phr" starting="20137" ending="20178" rID="r0660_phr"/>
+      <range gi="phr" starting="20180" ending="20200" rID="r0661_phr"/>
+      <range gi="phr" starting="20202" ending="20219" rID="r0662_phr"/>
+      <range gi="phr" starting="20222" ending="20226" rID="r0663_phr"/>
+      <range gi="phr" starting="20228" ending="20249" rID="r0664_phr"/>
+      <range gi="phr" starting="20251" ending="20324" rID="r0665_phr"/>
+      <range gi="phr" starting="20326" ending="20362" rID="r0666_phr"/>
+      <range gi="phr" starting="20364" ending="20405" rID="r0667_phr"/>
+      <range gi="s" starting="20407" ending="20653" rID="r0668_s"/>
+      <range gi="phr" starting="20407" ending="20438" rID="r0669_phr"/>
+      <range gi="phr" starting="20440" ending="20465" rID="r0670_phr"/>
+      <range gi="phr" starting="20468" ending="20474" rID="r0671_phr"/>
+      <range gi="phr" starting="20476" ending="20480" rID="r0672_phr"/>
+      <range gi="phr" starting="20482" ending="20486" rID="r0673_phr"/>
+      <range gi="phr" starting="20488" ending="20503" rID="r0674_phr"/>
+      <range gi="phr" starting="20506" ending="20652" rID="r0675_phr"/>
+      <range gi="s" starting="20654" ending="20973" rID="r0676_s"/>
+      <range gi="phr" starting="20654" ending="20688" rID="r0677_phr"/>
+      <range gi="phr" starting="20690" ending="20740" rID="r0678_phr"/>
+      <range gi="phr" starting="20742" ending="20798" rID="r0679_phr"/>
+      <range gi="phr" starting="20800" ending="20835" rID="r0680_phr"/>
+      <range gi="phr" starting="20838" ending="20845" rID="r0681_phr"/>
+      <range gi="phr" starting="20847" ending="20850" rID="r0682_phr"/>
+      <range gi="phr" starting="20852" ending="20864" rID="r0683_phr"/>
+      <range gi="phr" starting="20866" ending="20900" rID="r0684_phr"/>
+      <range gi="phr" starting="20902" ending="20972" rID="r0685_phr"/>
+      <range gi="s" starting="20974" ending="21081" rID="r0686_s"/>
+      <range gi="phr" starting="20974" ending="20990" rID="r0687_phr"/>
+      <range gi="phr" starting="20992" ending="21041" rID="r0688_phr"/>
+      <range gi="phr" starting="21043" ending="21080" rID="r0689_phr"/>
+      <range gi="s" starting="21082" ending="21274" rID="r0690_s"/>
+      <range gi="phr" starting="21082" ending="21120" rID="r0691_phr"/>
+      <range gi="phr" starting="21122" ending="21171" rID="r0692_phr"/>
+      <range gi="phr" starting="21173" ending="21202" rID="r0693_phr"/>
+      <range gi="phr" starting="21204" ending="21221" rID="r0694_phr"/>
+      <range gi="phr" starting="21223" ending="21273" rID="r0695_phr"/>
+      <range gi="s" starting="21275" ending="21528" rID="r0696_s"/>
+      <range gi="phr" starting="21275" ending="21311" rID="r0697_phr"/>
+      <range gi="phr" starting="21313" ending="21336" rID="r0698_phr"/>
+      <range gi="phr" starting="21338" ending="21397" rID="r0699_phr"/>
+      <range gi="phr" starting="21399" ending="21421" rID="r0700_phr"/>
+      <range gi="phr" starting="21423" ending="21426" rID="r0701_phr"/>
+      <range gi="phr" starting="21428" ending="21458" rID="r0702_phr"/>
+      <range gi="phr" starting="21460" ending="21496" rID="r0703_phr"/>
+      <range gi="phr" starting="21498" ending="21527" rID="r0704_phr"/>
+      <range gi="s" starting="21529" ending="21648" rID="r0705_s"/>
+      <range gi="phr" starting="21529" ending="21557" rID="r0706_phr"/>
+      <range gi="phr" starting="21559" ending="21583" rID="r0707_phr"/>
+      <range gi="phr" starting="21585" ending="21626" rID="r0708_phr"/>
+      <range gi="phr" starting="21628" ending="21647" rID="r0709_phr"/>
+      <range gi="s" starting="21650" ending="22040" rID="r0710_s"/>
+      <range gi="phr" starting="21650" ending="21692" rID="r0711_phr"/>
+      <range gi="phr" starting="21694" ending="21720" rID="r0712_phr"/>
+      <range gi="phr" starting="21722" ending="21757" rID="r0713_phr"/>
+      <range gi="phr" starting="21759" ending="21785" rID="r0714_phr"/>
+      <range gi="phr" starting="21787" ending="21828" rID="r0715_phr"/>
+      <range gi="phr" starting="21830" ending="21851" rID="r0716_phr"/>
+      <range gi="phr" starting="21854" ending="21859" rID="r0717_phr"/>
+      <range gi="phr" starting="21861" ending="21880" rID="r0718_phr"/>
+      <range gi="phr" starting="21882" ending="21905" rID="r0719_phr"/>
+      <range gi="phr" starting="21907" ending="21946" rID="r0720_phr"/>
+      <range gi="phr" starting="21948" ending="21969" rID="r0721_phr"/>
+      <range gi="phr" starting="21971" ending="21993" rID="r0722_phr"/>
+      <range gi="phr" starting="21995" ending="22013" rID="r0723_phr"/>
+      <range gi="phr" starting="22015" ending="22039" rID="r0724_phr"/>
+      <range gi="s" starting="22041" ending="22352" rID="r0725_s"/>
+      <range gi="phr" starting="22041" ending="22046" rID="r0726_phr"/>
+      <range gi="phr" starting="22048" ending="22076" rID="r0727_phr"/>
+      <range gi="phr" starting="22078" ending="22138" rID="r0728_phr"/>
+      <range gi="phr" starting="22140" ending="22160" rID="r0729_phr"/>
+      <range gi="phr" starting="22162" ending="22186" rID="r0730_phr"/>
+      <range gi="phr" starting="22188" ending="22200" rID="r0731_phr"/>
+      <range gi="phr" starting="22202" ending="22242" rID="r0732_phr"/>
+      <range gi="phr" starting="22244" ending="22306" rID="r0733_phr"/>
+      <range gi="phr" starting="22308" ending="22351" rID="r0734_phr"/>
+      <range gi="s" starting="22354" ending="22616" rID="r0735_s"/>
+      <range gi="phr" starting="22354" ending="22386" rID="r0736_phr"/>
+      <range gi="phr" starting="22388" ending="22420" rID="r0737_phr"/>
+      <range gi="phr" starting="22422" ending="22516" rID="r0738_phr"/>
+      <range gi="phr" starting="22518" ending="22566" rID="r0739_phr"/>
+      <range gi="phr" starting="22568" ending="22615" rID="r0740_phr"/>
+      <range gi="s" starting="22617" ending="22787" rID="r0741_s"/>
+      <range gi="phr" starting="22617" ending="22623" rID="r0742_phr"/>
+      <range gi="phr" starting="22625" ending="22659" rID="r0743_phr"/>
+      <range gi="phr" starting="22661" ending="22676" rID="r0744_phr"/>
+      <range gi="phr" starting="22678" ending="22706" rID="r0745_phr"/>
+      <range gi="phr" starting="22708" ending="22721" rID="r0746_phr"/>
+      <range gi="phr" starting="22723" ending="22759" rID="r0747_phr"/>
+      <range gi="phr" starting="22761" ending="22786" rID="r0748_phr"/>
+      <range gi="s" starting="22788" ending="22901" rID="r0749_s"/>
+      <range gi="phr" starting="22788" ending="22815" rID="r0750_phr"/>
+      <range gi="phr" starting="22817" ending="22867" rID="r0751_phr"/>
+      <range gi="phr" starting="22869" ending="22900" rID="r0752_phr"/>
+      <range gi="s" starting="22902" ending="23351" rID="r0753_s"/>
+      <range gi="phr" starting="22902" ending="22947" rID="r0754_phr"/>
+      <range gi="phr" starting="22949" ending="22962" rID="r0755_phr"/>
+      <range gi="phr" starting="22964" ending="23032" rID="r0756_phr"/>
+      <range gi="phr" starting="23034" ending="23039" rID="r0757_phr"/>
+      <range gi="phr" starting="23041" ending="23059" rID="r0758_phr"/>
+      <range gi="phr" starting="23061" ending="23102" rID="r0759_phr"/>
+      <range gi="phr" starting="23104" ending="23145" rID="r0760_phr"/>
+      <range gi="phr" starting="23147" ending="23173" rID="r0761_phr"/>
+      <range gi="phr" starting="23175" ending="23226" rID="r0762_phr"/>
+      <range gi="phr" starting="23228" ending="23296" rID="r0763_phr"/>
+      <range gi="phr" starting="23298" ending="23350" rID="r0764_phr"/>
+      <range gi="s" starting="23352" ending="23591" rID="r0765_s"/>
+      <range gi="phr" starting="23352" ending="23434" rID="r0766_phr"/>
+      <range gi="phr" starting="23436" ending="23462" rID="r0767_phr"/>
+      <range gi="phr" starting="23464" ending="23502" rID="r0768_phr"/>
+      <range gi="phr" starting="23504" ending="23532" rID="r0769_phr"/>
+      <range gi="phr" starting="23534" ending="23590" rID="r0770_phr"/>
+      <range gi="s" starting="23592" ending="24026" rID="r0771_s"/>
+      <range gi="phr" starting="23592" ending="23673" rID="r0772_phr"/>
+      <range gi="phr" starting="23675" ending="23745" rID="r0773_phr"/>
+      <range gi="phr" starting="23747" ending="23793" rID="r0774_phr"/>
+      <range gi="phr" starting="23795" ending="23799" rID="r0775_phr"/>
+      <range gi="phr" starting="23801" ending="23858" rID="r0776_phr"/>
+      <range gi="phr" starting="23860" ending="23937" rID="r0777_phr"/>
+      <range gi="phr" starting="23939" ending="24025" rID="r0778_phr"/>
+      <range gi="s" starting="24027" ending="24168" rID="r0779_s"/>
+      <range gi="phr" starting="24027" ending="24036" rID="r0780_phr"/>
+      <range gi="phr" starting="24038" ending="24079" rID="r0781_phr"/>
+      <range gi="phr" starting="24081" ending="24167" rID="r0782_phr"/>
+      <range gi="s" starting="24169" ending="24371" rID="r0783_s"/>
+      <range gi="phr" starting="24169" ending="24204" rID="r0784_phr"/>
+      <range gi="phr" starting="24206" ending="24257" rID="r0785_phr"/>
+      <range gi="phr" starting="24259" ending="24283" rID="r0786_phr"/>
+      <range gi="phr" starting="24285" ending="24314" rID="r0787_phr"/>
+      <range gi="phr" starting="24316" ending="24370" rID="r0788_phr"/>
+      <range gi="s" starting="24372" ending="24552" rID="r0789_s"/>
+      <range gi="phr" starting="24372" ending="24424" rID="r0790_phr"/>
+      <range gi="phr" starting="24426" ending="24469" rID="r0791_phr"/>
+      <range gi="phr" starting="24471" ending="24486" rID="r0792_phr"/>
+      <range gi="phr" starting="24488" ending="24524" rID="r0793_phr"/>
+      <range gi="phr" starting="24526" ending="24551" rID="r0794_phr"/>
+      <range gi="s" starting="24553" ending="25216" rID="r0795_s"/>
+      <range gi="phr" starting="24553" ending="24590" rID="r0796_phr"/>
+      <range gi="phr" starting="24592" ending="24595" rID="r0797_phr"/>
+      <range gi="phr" starting="24597" ending="24622" rID="r0798_phr"/>
+      <range gi="phr" starting="24624" ending="24631" rID="r0799_phr"/>
+      <range gi="phr" starting="24633" ending="24642" rID="r0800_phr"/>
+      <range gi="phr" starting="24644" ending="24661" rID="r0801_phr"/>
+      <range gi="phr" starting="24663" ending="24689" rID="r0802_phr"/>
+      <range gi="phr" starting="24691" ending="24707" rID="r0803_phr"/>
+      <range gi="phr" starting="24709" ending="24770" rID="r0804_phr"/>
+      <range gi="phr" starting="24772" ending="24874" rID="r0805_phr"/>
+      <range gi="phr" starting="24876" ending="24913" rID="r0806_phr"/>
+      <range gi="phr" starting="24915" ending="24967" rID="r0807_phr"/>
+      <range gi="phr" starting="24969" ending="25008" rID="r0808_phr"/>
+      <range gi="phr" starting="25010" ending="25027" rID="r0809_phr"/>
+      <range gi="phr" starting="25029" ending="25048" rID="r0810_phr"/>
+      <range gi="phr" starting="25050" ending="25070" rID="r0811_phr"/>
+      <range gi="phr" starting="25072" ending="25084" rID="r0812_phr"/>
+      <range gi="phr" starting="25086" ending="25093" rID="r0813_phr"/>
+      <range gi="phr" starting="25095" ending="25105" rID="r0814_phr"/>
+      <range gi="phr" starting="25107" ending="25119" rID="r0815_phr"/>
+      <range gi="phr" starting="25121" ending="25215" rID="r0816_phr"/>
+      <range gi="s" starting="25217" ending="25301" rID="r0817_s"/>
+      <range gi="phr" starting="25217" ending="25264" rID="r0818_phr"/>
+      <range gi="phr" starting="25266" ending="25300" rID="r0819_phr"/>
+      <range gi="s" starting="25302" ending="25378" rID="r0820_s"/>
+      <range gi="phr" starting="25302" ending="25304" rID="r0821_phr"/>
+      <range gi="phr" starting="25306" ending="25357" rID="r0822_phr"/>
+      <range gi="phr" starting="25359" ending="25377" rID="r0823_phr"/>
+      <range gi="s" starting="25379" ending="25726" rID="r0824_s"/>
+      <range gi="phr" starting="25379" ending="25432" rID="r0825_phr"/>
+      <range gi="phr" starting="25434" ending="25473" rID="r0826_phr"/>
+      <range gi="phr" starting="25475" ending="25507" rID="r0827_phr"/>
+      <range gi="phr" starting="25509" ending="25592" rID="r0828_phr"/>
+      <range gi="phr" starting="25594" ending="25596" rID="r0829_phr"/>
+      <range gi="phr" starting="25598" ending="25618" rID="r0830_phr"/>
+      <range gi="phr" starting="25620" ending="25634" rID="r0831_phr"/>
+      <range gi="phr" starting="25636" ending="25681" rID="r0832_phr"/>
+      <range gi="phr" starting="25683" ending="25725" rID="r0833_phr"/>
+      <range gi="s" starting="25727" ending="25940" rID="r0834_s"/>
+      <range gi="phr" starting="25727" ending="25738" rID="r0835_phr"/>
+      <range gi="phr" starting="25740" ending="25778" rID="r0836_phr"/>
+      <range gi="phr" starting="25780" ending="25829" rID="r0837_phr"/>
+      <range gi="phr" starting="25831" ending="25862" rID="r0838_phr"/>
+      <range gi="phr" starting="25864" ending="25900" rID="r0839_phr"/>
+      <range gi="phr" starting="25902" ending="25939" rID="r0840_phr"/>
+      <range gi="s" starting="25941" ending="26441" rID="r0841_s"/>
+      <range gi="phr" starting="25941" ending="25954" rID="r0842_phr"/>
+      <range gi="phr" starting="25956" ending="25993" rID="r0843_phr"/>
+      <range gi="phr" starting="25995" ending="26029" rID="r0844_phr"/>
+      <range gi="phr" starting="26031" ending="26084" rID="r0845_phr"/>
+      <range gi="phr" starting="26086" ending="26134" rID="r0846_phr"/>
+      <range gi="phr" starting="26137" ending="26188" rID="r0847_phr"/>
+      <range gi="phr" starting="26190" ending="26238" rID="r0848_phr"/>
+      <range gi="phr" starting="26240" ending="26267" rID="r0849_phr"/>
+      <range gi="phr" starting="26269" ending="26289" rID="r0850_phr"/>
+      <range gi="phr" starting="26291" ending="26293" rID="r0851_phr"/>
+      <range gi="phr" starting="26295" ending="26360" rID="r0852_phr"/>
+      <range gi="phr" starting="26362" ending="26398" rID="r0853_phr"/>
+      <range gi="phr" starting="26400" ending="26411" rID="r0854_phr"/>
+      <range gi="phr" starting="26413" ending="26440" rID="r0855_phr"/>
+      <range gi="s" starting="26442" ending="26597" rID="r0856_s"/>
+      <range gi="phr" starting="26442" ending="26466" rID="r0857_phr"/>
+      <range gi="phr" starting="26468" ending="26523" rID="r0858_phr"/>
+      <range gi="phr" starting="26525" ending="26570" rID="r0859_phr"/>
+      <range gi="phr" starting="26572" ending="26596" rID="r0860_phr"/>
+      <range gi="s" starting="26598" ending="26778" rID="r0861_s"/>
+      <range gi="phr" starting="26598" ending="26615" rID="r0862_phr"/>
+      <range gi="phr" starting="26617" ending="26627" rID="r0863_phr"/>
+      <range gi="phr" starting="26629" ending="26646" rID="r0864_phr"/>
+      <range gi="phr" starting="26648" ending="26653" rID="r0865_phr"/>
+      <range gi="phr" starting="26655" ending="26674" rID="r0866_phr"/>
+      <range gi="phr" starting="26676" ending="26687" rID="r0867_phr"/>
+      <range gi="phr" starting="26689" ending="26743" rID="r0868_phr"/>
+      <range gi="phr" starting="26748" ending="26777" rID="r0869_phr"/>
+      <range gi="s" starting="26779" ending="26950" rID="r0870_s"/>
+      <range gi="phr" starting="26779" ending="26797" rID="r0871_phr"/>
+      <range gi="phr" starting="26799" ending="26820" rID="r0872_phr"/>
+      <range gi="phr" starting="26823" ending="26857" rID="r0873_phr"/>
+      <range gi="phr" starting="26859" ending="26884" rID="r0874_phr"/>
+      <range gi="phr" starting="26886" ending="26909" rID="r0875_phr"/>
+      <range gi="phr" starting="26911" ending="26931" rID="r0876_phr"/>
+      <range gi="phr" starting="26933" ending="26949" rID="r0877_phr"/>
+      <range gi="s" starting="26951" ending="27147" rID="r0878_s"/>
+      <range gi="phr" starting="26951" ending="26973" rID="r0879_phr"/>
+      <range gi="phr" starting="26975" ending="26997" rID="r0880_phr"/>
+      <range gi="phr" starting="26999" ending="27042" rID="r0881_phr"/>
+      <range gi="phr" starting="27044" ending="27091" rID="r0882_phr"/>
+      <range gi="phr" starting="27093" ending="27121" rID="r0883_phr"/>
+      <range gi="phr" starting="27123" ending="27146" rID="r0884_phr"/>
+      <range gi="s" starting="27148" ending="27328" rID="r0885_s"/>
+      <range gi="phr" starting="27148" ending="27171" rID="r0886_phr"/>
+      <range gi="phr" starting="27173" ending="27190" rID="r0887_phr"/>
+      <range gi="phr" starting="27192" ending="27223" rID="r0888_phr"/>
+      <range gi="phr" starting="27225" ending="27256" rID="r0889_phr"/>
+      <range gi="phr" starting="27258" ending="27281" rID="r0890_phr"/>
+      <range gi="phr" starting="27283" ending="27294" rID="r0891_phr"/>
+      <range gi="phr" starting="27296" ending="27327" rID="r0892_phr"/>
+      <range gi="s" starting="27329" ending="27440" rID="r0893_s"/>
+      <range gi="phr" starting="27329" ending="27335" rID="r0894_phr"/>
+      <range gi="phr" starting="27337" ending="27370" rID="r0895_phr"/>
+      <range gi="phr" starting="27372" ending="27393" rID="r0896_phr"/>
+      <range gi="phr" starting="27395" ending="27418" rID="r0897_phr"/>
+      <range gi="phr" starting="27420" ending="27439" rID="r0898_phr"/>
+      <range gi="s" starting="27441" ending="27683" rID="r0899_s"/>
+      <range gi="phr" starting="27441" ending="27518" rID="r0900_phr"/>
+      <range gi="phr" starting="27520" ending="27540" rID="r0901_phr"/>
+      <range gi="phr" starting="27542" ending="27559" rID="r0902_phr"/>
+      <range gi="phr" starting="27561" ending="27598" rID="r0903_phr"/>
+      <range gi="phr" starting="27600" ending="27632" rID="r0904_phr"/>
+      <range gi="phr" starting="27635" ending="27660" rID="r0905_phr"/>
+      <range gi="phr" starting="27662" ending="27682" rID="r0906_phr"/>
+      <range gi="s" starting="27684" ending="27979" rID="r0907_s"/>
+      <range gi="phr" starting="27684" ending="27712" rID="r0908_phr"/>
+      <range gi="phr" starting="27714" ending="27730" rID="r0909_phr"/>
+      <range gi="phr" starting="27732" ending="27759" rID="r0910_phr"/>
+      <range gi="phr" starting="27761" ending="27786" rID="r0911_phr"/>
+      <range gi="phr" starting="27788" ending="27835" rID="r0912_phr"/>
+      <range gi="phr" starting="27837" ending="27854" rID="r0913_phr"/>
+      <range gi="phr" starting="27856" ending="27879" rID="r0914_phr"/>
+      <range gi="phr" starting="27881" ending="27923" rID="r0915_phr"/>
+      <range gi="phr" starting="27925" ending="27978" rID="r0916_phr"/>
+      <range gi="s" starting="27980" ending="28187" rID="r0917_s"/>
+      <range gi="phr" starting="27980" ending="28008" rID="r0918_phr"/>
+      <range gi="phr" starting="28010" ending="28089" rID="r0919_phr"/>
+      <range gi="phr" starting="28091" ending="28186" rID="r0920_phr"/>
+      <range gi="s" starting="28188" ending="28381" rID="r0921_s"/>
+      <range gi="phr" starting="28188" ending="28195" rID="r0922_phr"/>
+      <range gi="phr" starting="28197" ending="28210" rID="r0923_phr"/>
+      <range gi="phr" starting="28212" ending="28247" rID="r0924_phr"/>
+      <range gi="phr" starting="28249" ending="28256" rID="r0925_phr"/>
+      <range gi="phr" starting="28258" ending="28270" rID="r0926_phr"/>
+      <range gi="phr" starting="28272" ending="28339" rID="r0927_phr"/>
+      <range gi="phr" starting="28341" ending="28380" rID="r0928_phr"/>
+      <range gi="s" starting="28382" ending="28426" rID="r0929_s"/>
+      <range gi="phr" starting="28382" ending="28425" rID="r0930_phr"/>
+      <range gi="s" starting="28427" ending="28476" rID="r0931_s"/>
+      <range gi="phr" starting="28427" ending="28445" rID="r0932_phr"/>
+      <range gi="phr" starting="28447" ending="28475" rID="r0933_phr"/>
+      <range gi="s" starting="28477" ending="28529" rID="r0934_s"/>
+      <range gi="phr" starting="28477" ending="28480" rID="r0935_phr"/>
+      <range gi="phr" starting="28482" ending="28486" rID="r0936_phr"/>
+      <range gi="phr" starting="28488" ending="28510" rID="r0937_phr"/>
+      <range gi="phr" starting="28512" ending="28528" rID="r0938_phr"/>
+      <range gi="s" starting="28531" ending="28688" rID="r0939_s"/>
+      <range gi="phr" starting="28531" ending="28539" rID="r0940_phr"/>
+      <range gi="phr" starting="28541" ending="28544" rID="r0941_phr"/>
+      <range gi="phr" starting="28546" ending="28566" rID="r0942_phr"/>
+      <range gi="phr" starting="28568" ending="28602" rID="r0943_phr"/>
+      <range gi="phr" starting="28604" ending="28644" rID="r0944_phr"/>
+      <range gi="phr" starting="28646" ending="28687" rID="r0945_phr"/>
+      <range gi="s" starting="28689" ending="28851" rID="r0946_s"/>
+      <range gi="phr" starting="28689" ending="28726" rID="r0947_phr"/>
+      <range gi="phr" starting="28728" ending="28805" rID="r0948_phr"/>
+      <range gi="phr" starting="28807" ending="28850" rID="r0949_phr"/>
+      <range gi="s" starting="28853" ending="29047" rID="r0950_s"/>
+      <range gi="phr" starting="28853" ending="28879" rID="r0951_phr"/>
+      <range gi="phr" starting="28881" ending="28928" rID="r0952_phr"/>
+      <range gi="phr" starting="28930" ending="28971" rID="r0953_phr"/>
+      <range gi="phr" starting="28973" ending="29025" rID="r0954_phr"/>
+      <range gi="phr" starting="29027" ending="29046" rID="r0955_phr"/>
+      <range gi="s" starting="29048" ending="29223" rID="r0956_s"/>
+      <range gi="phr" starting="29048" ending="29055" rID="r0957_phr"/>
+      <range gi="phr" starting="29057" ending="29074" rID="r0958_phr"/>
+      <range gi="phr" starting="29076" ending="29103" rID="r0959_phr"/>
+      <range gi="phr" starting="29105" ending="29130" rID="r0960_phr"/>
+      <range gi="phr" starting="29132" ending="29160" rID="r0961_phr"/>
+      <range gi="phr" starting="29162" ending="29184" rID="r0962_phr"/>
+      <range gi="phr" starting="29186" ending="29203" rID="r0963_phr"/>
+      <range gi="phr" starting="29205" ending="29222" rID="r0964_phr"/>
+      <range gi="s" starting="29224" ending="29489" rID="r0965_s"/>
+      <range gi="phr" starting="29224" ending="29242" rID="r0966_phr"/>
+      <range gi="phr" starting="29245" ending="29251" rID="r0967_phr"/>
+      <range gi="phr" starting="29253" ending="29299" rID="r0968_phr"/>
+      <range gi="phr" starting="29301" ending="29368" rID="r0969_phr"/>
+      <range gi="phr" starting="29370" ending="29415" rID="r0970_phr"/>
+      <range gi="phr" starting="29417" ending="29429" rID="r0971_phr"/>
+      <range gi="phr" starting="29431" ending="29488" rID="r0972_phr"/>
+      <range gi="s" starting="29490" ending="29653" rID="r0973_s"/>
+      <range gi="phr" starting="29490" ending="29511" rID="r0974_phr"/>
+      <range gi="phr" starting="29513" ending="29541" rID="r0975_phr"/>
+      <range gi="phr" starting="29543" ending="29563" rID="r0976_phr"/>
+      <range gi="phr" starting="29565" ending="29652" rID="r0977_phr"/>
+      <range gi="s" starting="29654" ending="29739" rID="r0978_s"/>
+      <range gi="phr" starting="29654" ending="29709" rID="r0979_phr"/>
+      <range gi="phr" starting="29711" ending="29738" rID="r0980_phr"/>
+      <range gi="s" starting="29740" ending="29827" rID="r0981_s"/>
+      <range gi="phr" starting="29740" ending="29780" rID="r0982_phr"/>
+      <range gi="phr" starting="29782" ending="29826" rID="r0983_phr"/>
+      <range gi="s" starting="29828" ending="30138" rID="r0984_s"/>
+      <range gi="phr" starting="29828" ending="29873" rID="r0985_phr"/>
+      <range gi="phr" starting="29875" ending="29902" rID="r0986_phr"/>
+      <range gi="phr" starting="29904" ending="29935" rID="r0987_phr"/>
+      <range gi="phr" starting="29937" ending="29992" rID="r0988_phr"/>
+      <range gi="phr" starting="29994" ending="30001" rID="r0989_phr"/>
+      <range gi="phr" starting="30003" ending="30042" rID="r0990_phr"/>
+      <range gi="phr" starting="30044" ending="30078" rID="r0991_phr"/>
+      <range gi="phr" starting="30080" ending="30121" rID="r0992_phr"/>
+      <range gi="phr" starting="30123" ending="30137" rID="r0993_phr"/>
+      <range gi="s" starting="30139" ending="30356" rID="r0994_s"/>
+      <range gi="phr" starting="30139" ending="30156" rID="r0995_phr"/>
+      <range gi="phr" starting="30158" ending="30180" rID="r0996_phr"/>
+      <range gi="phr" starting="30182" ending="30244" rID="r0997_phr"/>
+      <range gi="phr" starting="30246" ending="30304" rID="r0998_phr"/>
+      <range gi="phr" starting="30306" ending="30324" rID="r0999_phr"/>
+      <range gi="phr" starting="30326" ending="30355" rID="r1000_phr"/>
+      <range gi="s" starting="30357" ending="30581" rID="r1001_s"/>
+      <range gi="phr" starting="30357" ending="30417" rID="r1002_phr"/>
+      <range gi="phr" starting="30419" ending="30491" rID="r1003_phr"/>
+      <range gi="phr" starting="30493" ending="30507" rID="r1004_phr"/>
+      <range gi="phr" starting="30509" ending="30531" rID="r1005_phr"/>
+      <range gi="phr" starting="30533" ending="30580" rID="r1006_phr"/>
+      <range gi="s" starting="30582" ending="30896" rID="r1007_s"/>
+      <range gi="phr" starting="30582" ending="30641" rID="r1008_phr"/>
+      <range gi="phr" starting="30643" ending="30695" rID="r1009_phr"/>
+      <range gi="phr" starting="30698" ending="30717" rID="r1010_phr"/>
+      <range gi="phr" starting="30719" ending="30749" rID="r1011_phr"/>
+      <range gi="phr" starting="30751" ending="30800" rID="r1012_phr"/>
+      <range gi="phr" starting="30802" ending="30838" rID="r1013_phr"/>
+      <range gi="phr" starting="30840" ending="30868" rID="r1014_phr"/>
+      <range gi="phr" starting="30870" ending="30895" rID="r1015_phr"/>
+      <range gi="s" starting="30897" ending="31090" rID="r1016_s"/>
+      <range gi="phr" starting="30897" ending="30974" rID="r1017_phr"/>
+      <range gi="phr" starting="30976" ending="31015" rID="r1018_phr"/>
+      <range gi="phr" starting="31017" ending="31036" rID="r1019_phr"/>
+      <range gi="phr" starting="31038" ending="31089" rID="r1020_phr"/>
+      <range gi="s" starting="31091" ending="31425" rID="r1021_s"/>
+      <range gi="phr" starting="31091" ending="31140" rID="r1022_phr"/>
+      <range gi="phr" starting="31142" ending="31164" rID="r1023_phr"/>
+      <range gi="phr" starting="31166" ending="31192" rID="r1024_phr"/>
+      <range gi="phr" starting="31194" ending="31202" rID="r1025_phr"/>
+      <range gi="phr" starting="31204" ending="31215" rID="r1026_phr"/>
+      <range gi="phr" starting="31217" ending="31268" rID="r1027_phr"/>
+      <range gi="phr" starting="31270" ending="31290" rID="r1028_phr"/>
+      <range gi="phr" starting="31292" ending="31315" rID="r1029_phr"/>
+      <range gi="phr" starting="31317" ending="31364" rID="r1030_phr"/>
+      <range gi="phr" starting="31366" ending="31395" rID="r1031_phr"/>
+      <range gi="phr" starting="31397" ending="31424" rID="r1032_phr"/>
+      <range gi="s" starting="31426" ending="31513" rID="r1033_s"/>
+      <range gi="phr" starting="31426" ending="31462" rID="r1034_phr"/>
+      <range gi="phr" starting="31464" ending="31488" rID="r1035_phr"/>
+      <range gi="phr" starting="31490" ending="31512" rID="r1036_phr"/>
+      <range gi="s" starting="31514" ending="31745" rID="r1037_s"/>
+      <range gi="phr" starting="31514" ending="31575" rID="r1038_phr"/>
+      <range gi="phr" starting="31577" ending="31619" rID="r1039_phr"/>
+      <range gi="phr" starting="31621" ending="31639" rID="r1040_phr"/>
+      <range gi="phr" starting="31641" ending="31684" rID="r1041_phr"/>
+      <range gi="phr" starting="31686" ending="31702" rID="r1042_phr"/>
+      <range gi="phr" starting="31704" ending="31725" rID="r1043_phr"/>
+      <range gi="phr" starting="31727" ending="31744" rID="r1044_phr"/>
+      <range gi="s" starting="31746" ending="32109" rID="r1045_s"/>
+      <range gi="phr" starting="31746" ending="31800" rID="r1046_phr"/>
+      <range gi="phr" starting="31802" ending="31846" rID="r1047_phr"/>
+      <range gi="phr" starting="31848" ending="31887" rID="r1048_phr"/>
+      <range gi="phr" starting="31889" ending="31944" rID="r1049_phr"/>
+      <range gi="phr" starting="31946" ending="31971" rID="r1050_phr"/>
+      <range gi="phr" starting="31973" ending="31994" rID="r1051_phr"/>
+      <range gi="phr" starting="31996" ending="32010" rID="r1052_phr"/>
+      <range gi="phr" starting="32012" ending="32058" rID="r1053_phr"/>
+      <range gi="phr" starting="32060" ending="32079" rID="r1054_phr"/>
+      <range gi="phr" starting="32081" ending="32090" rID="r1055_phr"/>
+      <range gi="phr" starting="32092" ending="32108" rID="r1056_phr"/>
+      <range gi="s" starting="32110" ending="32353" rID="r1057_s"/>
+      <range gi="phr" starting="32110" ending="32126" rID="r1058_phr"/>
+      <range gi="phr" starting="32128" ending="32134" rID="r1059_phr"/>
+      <range gi="phr" starting="32136" ending="32185" rID="r1060_phr"/>
+      <range gi="phr" starting="32187" ending="32247" rID="r1061_phr"/>
+      <range gi="phr" starting="32249" ending="32284" rID="r1062_phr"/>
+      <range gi="phr" starting="32286" ending="32307" rID="r1063_phr"/>
+      <range gi="phr" starting="32309" ending="32334" rID="r1064_phr"/>
+      <range gi="phr" starting="32336" ending="32352" rID="r1065_phr"/>
+      <range gi="s" starting="32355" ending="32580" rID="r1066_s"/>
+      <range gi="phr" starting="32355" ending="32383" rID="r1067_phr"/>
+      <range gi="phr" starting="32385" ending="32414" rID="r1068_phr"/>
+      <range gi="phr" starting="32416" ending="32455" rID="r1069_phr"/>
+      <range gi="phr" starting="32457" ending="32538" rID="r1070_phr"/>
+      <range gi="phr" starting="32540" ending="32579" rID="r1071_phr"/>
+      <range gi="s" starting="32581" ending="32739" rID="r1072_s"/>
+      <range gi="phr" starting="32581" ending="32671" rID="r1073_phr"/>
+      <range gi="phr" starting="32673" ending="32738" rID="r1074_phr"/>
+      <range gi="s" starting="32740" ending="33084" rID="r1075_s"/>
+      <range gi="phr" starting="32740" ending="32763" rID="r1076_phr"/>
+      <range gi="phr" starting="32765" ending="32791" rID="r1077_phr"/>
+      <range gi="phr" starting="32793" ending="32849" rID="r1078_phr"/>
+      <range gi="phr" starting="32851" ending="32890" rID="r1079_phr"/>
+      <range gi="phr" starting="32892" ending="32969" rID="r1080_phr"/>
+      <range gi="phr" starting="32971" ending="32992" rID="r1081_phr"/>
+      <range gi="phr" starting="32994" ending="33007" rID="r1082_phr"/>
+      <range gi="phr" starting="33009" ending="33042" rID="r1083_phr"/>
+      <range gi="phr" starting="33044" ending="33083" rID="r1084_phr"/>
+      <range gi="s" starting="33085" ending="33476" rID="r1085_s"/>
+      <range gi="phr" starting="33085" ending="33107" rID="r1086_phr"/>
+      <range gi="phr" starting="33109" ending="33139" rID="r1087_phr"/>
+      <range gi="phr" starting="33141" ending="33199" rID="r1088_phr"/>
+      <range gi="phr" starting="33201" ending="33249" rID="r1089_phr"/>
+      <range gi="phr" starting="33251" ending="33275" rID="r1090_phr"/>
+      <range gi="phr" starting="33277" ending="33316" rID="r1091_phr"/>
+      <range gi="phr" starting="33318" ending="33338" rID="r1092_phr"/>
+      <range gi="phr" starting="33340" ending="33349" rID="r1093_phr"/>
+      <range gi="phr" starting="33351" ending="33381" rID="r1094_phr"/>
+      <range gi="phr" starting="33383" ending="33434" rID="r1095_phr"/>
+      <range gi="phr" starting="33436" ending="33440" rID="r1096_phr"/>
+      <range gi="phr" starting="33442" ending="33458" rID="r1097_phr"/>
+      <range gi="phr" starting="33460" ending="33475" rID="r1098_phr"/>
+      <range gi="s" starting="33477" ending="33976" rID="r1099_s"/>
+      <range gi="phr" starting="33477" ending="33541" rID="r1100_phr"/>
+      <range gi="phr" starting="33543" ending="33572" rID="r1101_phr"/>
+      <range gi="phr" starting="33574" ending="33606" rID="r1102_phr"/>
+      <range gi="phr" starting="33608" ending="33654" rID="r1103_phr"/>
+      <range gi="phr" starting="33656" ending="33670" rID="r1104_phr"/>
+      <range gi="phr" starting="33672" ending="33693" rID="r1105_phr"/>
+      <range gi="phr" starting="33695" ending="33723" rID="r1106_phr"/>
+      <range gi="phr" starting="33725" ending="33750" rID="r1107_phr"/>
+      <range gi="phr" starting="33752" ending="33769" rID="r1108_phr"/>
+      <range gi="phr" starting="33771" ending="33809" rID="r1109_phr"/>
+      <range gi="phr" starting="33811" ending="33857" rID="r1110_phr"/>
+      <range gi="phr" starting="33859" ending="33863" rID="r1111_phr"/>
+      <range gi="phr" starting="33865" ending="33896" rID="r1112_phr"/>
+      <range gi="phr" starting="33898" ending="33929" rID="r1113_phr"/>
+      <range gi="phr" starting="33931" ending="33975" rID="r1114_phr"/>
+      <range gi="s" starting="33977" ending="34137" rID="r1115_s"/>
+      <range gi="phr" starting="33977" ending="34048" rID="r1116_phr"/>
+      <range gi="phr" starting="34050" ending="34067" rID="r1117_phr"/>
+      <range gi="phr" starting="34069" ending="34096" rID="r1118_phr"/>
+      <range gi="phr" starting="34098" ending="34136" rID="r1119_phr"/>
+      <range gi="s" starting="34138" ending="34334" rID="r1120_s"/>
+      <range gi="phr" starting="34138" ending="34152" rID="r1121_phr"/>
+      <range gi="phr" starting="34154" ending="34197" rID="r1122_phr"/>
+      <range gi="phr" starting="34199" ending="34276" rID="r1123_phr"/>
+      <range gi="phr" starting="34278" ending="34314" rID="r1124_phr"/>
+      <range gi="phr" starting="34316" ending="34333" rID="r1125_phr"/>
+      <range gi="s" starting="34335" ending="34403" rID="r1126_s"/>
+      <range gi="phr" starting="34335" ending="34359" rID="r1127_phr"/>
+      <range gi="phr" starting="34361" ending="34377" rID="r1128_phr"/>
+      <range gi="phr" starting="34379" ending="34402" rID="r1129_phr"/>
+   </layer>
+   <frontier>
+Of Man's first disobedience, and the fruit
+Of that forbidden tree whose mortal taste
+Brought death into the World, and all our woe,
+With loss of Eden, till one greater Man
+Restore us, and regain the blissful seat,
+Sing, Heavenly Muse, that, on the secret top
+Of Oreb, or of Sinai, didst inspire
+That shepherd who first taught the chosen seed
+In the beginning how the heavens and earth
+Rose out of Chaos: or, if Sion hill
+Delight thee more, and Siloa's brook that flowed
+Fast by the oracle of God, I thence
+Invoke thy aid to my adventurous song,
+That with no middle flight intends to soar
+Above th' Aonian mount, while it pursues
+Things unattempted yet in prose or rhyme.
+And chiefly thou, O Spirit, that dost prefer
+Before all temples th' upright heart and pure,
+Instruct me, for thou know'st; thou from the first
+Wast present, and, with mighty wings outspread,
+Dove-like sat'st brooding on the vast Abyss,
+And mad'st it pregnant: what in me is dark
+Illumine, what is low raise and support;
+That, to the height of this great argument,
+I may assert Eternal Providence,
+And justify the ways of God to men.
+
+Say first— for Heaven hides nothing from thy view,
+Nor the deep tract of Hell— say first what cause
+Moved our grand parents, in that happy state,
+Favoured of Heaven so highly, to fall off
+From their Creator, and transgress his will
+For one restraint, lords of the World besides.
+Who first seduced them to that foul revolt?
+
+Th' infernal Serpent; he it was whose guile,
+Stirred up with envy and revenge, deceived
+The mother of mankind, what time his pride
+Had cast him out from Heaven, with all his host
+Of rebel Angels, by whose aid, aspiring
+To set himself in glory above his peers,
+He trusted to have equalled the Most High,
+If he opposed, and with ambitious aim
+Against the throne and monarchy of God,
+Raised impious war in Heaven and battle proud,
+With vain attempt. Him the Almighty Power
+Hurled headlong flaming from th' ethereal sky,
+With hideous ruin and combustion, down
+To bottomless perdition, there to dwell
+In adamantine chains and penal fire,
+Who durst defy th' Omnipotent to arms.
+
+Nine times the space that measures day and night
+To mortal men, he, with his horrid crew,
+Lay vanquished, rolling in the fiery gulf,
+Confounded, though immortal. But his doom
+Reserved him to more wrath; for now the thought
+Both of lost happiness and lasting pain
+Torments him: round he throws his baleful eyes,
+That witnessed huge affliction and dismay,
+Mixed with obdurate pride and steadfast hate.
+At once, as far as Angels ken, he views
+The dismal situation waste and wild.
+A dungeon horrible, on all sides round,
+As one great furnace flamed; yet from those flames
+No light; but rather darkness visible
+Served only to discover sights of woe,
+Regions of sorrow, doleful shades, where peace
+And rest can never dwell, hope never comes
+That comes to all, but torture without end
+Still urges, and a fiery deluge, fed
+With ever-burning sulphur unconsumed.
+Such place Eternal Justice has prepared
+For those rebellious; here their prison ordained
+In utter darkness, and their portion set,
+As far removed from God and light of Heaven
+As from the centre thrice to th' utmost pole.
+Oh how unlike the place from whence they fell!
+There the companions of his fall, o'erwhelmed
+With floods and whirlwinds of tempestuous fire,
+He soon discerns; and, weltering by his side,
+One next himself in power, and next in crime,
+Long after known in Palestine, and named
+Beelzebub. To whom th' Arch-Enemy,
+And thence in Heaven called Satan, with bold words
+Breaking the horrid silence, thus began:— 
+
+If thou beest he— but O how fallen! how changed
+From him who, in the happy realms of light
+Clothed with transcendent brightness, didst outshine
+Myriads, though bright!— if he whom mutual league,
+United thoughts and counsels, equal hope
+And hazard in the glorious enterprise
+Joined with me once, now misery hath joined
+In equal ruin; into what pit thou seest
+From what height fallen: so much the stronger proved
+He with his thunder; and till then who knew
+The force of those dire arms? Yet not for those,
+Nor what the potent Victor in his rage
+Can else inflict, do I repent, or change,
+Though changed in outward lustre, that fixed mind,
+And high disdain from sense of injured merit,
+That with the Mightiest raised me to contend,
+And to the fierce contentions brought along
+Innumerable force of Spirits armed,
+That durst dislike his reign, and, me preferring,
+His utmost power with adverse power opposed
+In dubious battle on the plains of Heaven,
+And shook his throne. What though the field be lost?
+All is not lost— the unconquerable will,
+And study of revenge, immortal hate,
+And courage never to submit or yield:
+And what is else not to be overcome?
+That glory never shall his wrath or might
+Extort from me. To bow and sue for grace
+With suppliant knee, and deify his power
+Who, from the terror of this arm, so late
+Doubted his empire— that were low indeed;
+That were an ignominy and shame beneath
+This downfall; since, by fate, the strength of Gods,
+And this empyreal substance, cannot fail;
+Since, through experience of this great event,
+In arms not worse, in foresight much advanced,
+We may with more successful hope resolve
+To wage by force or guile eternal war,
+Irreconcilable to our grand Foe,
+Who now triumphs, and in th' excess of joy
+Sole reigning holds the tyranny of Heaven.
+
+So spake th' apostate Angel, though in pain,
+Vaunting aloud, but racked with deep despair;
+And him thus answered soon his bold compeer:— 
+
+O Prince, O Chief of many throned Powers
+That led th' embattled Seraphim to war
+Under thy conduct, and, in dreadful deeds
+Fearless, endangered Heaven's perpetual King,
+And put to proof his high supremacy,
+Whether upheld by strength, or chance, or fate,
+Too well I see and rue the dire event
+That, with sad overthrow and foul defeat,
+Hath lost us Heaven, and all this mighty host
+In horrible destruction laid thus low,
+As far as Gods and heavenly Essences
+Can perish: for the mind and spirit remains
+Invincible, and vigour soon returns,
+Though all our glory extinct, and happy state
+Here swallowed up in endless misery.
+But what if he our Conqueror (whom I now
+Of force believe almighty, since no less
+Than such could have o'erpowered such force as ours)
+Have left us this our spirit and strength entire,
+Strongly to suffer and support our pains,
+That we may so suffice his vengeful ire,
+Or do him mightier service as his thralls
+By right of war, whate'er his business be,
+Here in the heart of Hell to work in fire,
+Or do his errands in the gloomy Deep?
+What can it then avail though yet we feel
+Strength undiminished, or eternal being
+To undergo eternal punishment?
+
+Whereto with speedy words th' Arch-Fiend replied:— 
+Fallen Cherub, to be weak is miserable,
+Doing or suffering: but of this be sure— 
+To do aught good never will be our task,
+But ever to do ill our sole delight,
+As being the contrary to his high will
+Whom we resist. If then his providence
+Out of our evil seek to bring forth good,
+Our labour must be to pervert that end,
+And out of good still to find means of evil;
+Which ofttimes may succeed so as perhaps
+Shall grieve him, if I fail not, and disturb
+His inmost counsels from their destined aim.
+But see! the angry Victor hath recalled
+His ministers of vengeance and pursuit
+Back to the gates of Heaven: the sulphurous hail,
+Shot after us in storm, o'erblown hath laid
+The fiery surge that from the precipice
+Of Heaven received us falling; and the thunder,
+Winged with red lightning and impetuous rage,
+Perhaps hath spent his shafts, and ceases now
+To bellow through the vast and boundless Deep.
+Let us not slip th' occasion, whether scorn
+Or satiate fury yield it from our Foe.
+Seest thou yon dreary plain, forlorn and wild,
+The seat of desolation, void of light,
+Save what the glimmering of these livid flames
+Casts pale and dreadful? Thither let us tend
+From off the tossing of these fiery waves;
+There rest, if any rest can harbour there;
+And, re-assembling our afflicted powers,
+Consult how we may henceforth most offend
+Our enemy, our own loss how repair,
+How overcome this dire calamity,
+What reinforcement we may gain from hope,
+If not, what resolution from despair.
+
+Thus Satan, talking to his nearest mate,
+With head uplift above the wave, and eyes
+That sparkling blazed; his other parts besides
+Prone on the flood, extended long and large,
+Lay floating many a rood, in bulk as huge
+As whom the fables name of monstrous size,
+Titanian or Earth-born, that warred on Jove,
+Briareos or Typhon, whom the den
+By ancient Tarsus held, or that sea-beast
+Leviathan, which God of all his works
+Created hugest that swim th' ocean-stream.
+Him, haply slumbering on the Norway foam,
+The pilot of some small night-foundered skiff,
+Deeming some island, oft, as seamen tell,
+With fixed anchor in his scaly rind,
+Moors by his side under the lee, while night
+Invests the sea, and wished morn delays.
+So stretched out huge in length the Arch-fiend lay,
+Chained on the burning lake; nor ever thence
+Had risen, or heaved his head, but that the will
+And high permission of all-ruling Heaven
+Left him at large to his own dark designs,
+That with reiterated crimes he might
+Heap on himself damnation, while he sought
+Evil to others, and enraged might see
+How all his malice served but to bring forth
+Infinite goodness, grace, and mercy, shewn
+On Man by him seduced, but on himself
+Treble confusion, wrath, and vengeance poured.
+
+Forthwith upright he rears from off the pool
+His mighty stature; on each hand the flames
+Driven backward slope their pointing spires, and, rolled
+In billows, leave i' th' midst a horrid vale.
+Then with expanded wings he steers his flight
+Aloft, incumbent on the dusky air,
+That felt unusual weight; till on dry land
+He lights— if it were land that ever burned
+With solid, as the lake with liquid fire,
+And such appeared in hue as when the force
+Of subterranean wind transports a hill
+Torn from Pelorus, or the shattered side
+Of thundering Etna, whose combustible
+And fuelled entrails, thence conceiving fire,
+Sublimed with mineral fury, aid the winds,
+And leave a singed bottom all involved
+With stench and smoke. Such resting found the sole
+Of unblest feet. Him followed his next mate;
+Both glorying to have scaped the Stygian flood
+As gods, and by their own recovered strength,
+Not by the sufferance of supernal Power.
+
+Is this the region, this the soil, the clime,
+Said then the lost Archangel, this the seat
+That we must change for Heaven?— this mournful gloom
+For that celestial light? Be it so, since he
+Who now is sovereign can dispose and bid
+What shall be right: farthest from him is best
+Whom reason hath equalled, force hath made supreme
+Above his equals. Farewell, happy fields,
+Where joy for ever dwells! Hail, horrors! hail,
+Infernal world! and thou, profoundest Hell,
+Receive thy new possessor— one who brings
+A mind not to be changed by place or time.
+The mind is its own place, and in itself
+Can make a Heaven of Hell, a Hell of Heaven.
+What matter where, if I be still the same,
+And what I should be, all but less than he
+Whom thunder hath made greater? Here at least
+We shall be free; th' Almighty hath not built
+Here for his envy, will not drive us hence:
+Here we may reign secure; and, in my choice,
+To reign is worth ambition, though in Hell:
+Better to reign in Hell than serve in Heaven.
+But wherefore let we then our faithful friends,
+Th' associates and co-partners of our loss,
+Lie thus astonished on th' oblivious pool,
+And call them not to share with us their part
+In this unhappy mansion, or once more
+With rallied arms to try what may be yet
+Regained in Heaven, or what more lost in Hell?
+
+So Satan spake; and him Beelzebub
+Thus answered:— Leader of those armies bright
+Which, but th' Omnipotent, none could have foiled!
+If once they hear that voice, their liveliest pledge
+Of hope in fears and dangers— heard so oft
+In worst extremes, and on the perilous edge
+Of battle, when it raged, in all assaults
+Their surest signal— they will soon resume
+New courage and revive, though now they lie
+Grovelling and prostrate on yon lake of fire,
+As we erewhile, astounded and amazed;
+No wonder, fallen such a pernicious height!
+
+He scarce had ceased when the superior Fiend
+Was moving toward the shore; his ponderous shield,
+Ethereal temper, massy, large, and round,
+Behind him cast. The broad circumference
+Hung on his shoulders like the moon, whose orb
+Through optic glass the Tuscan artist views
+At evening, from the top of Fesole,
+Or in Valdarno, to descry new lands,
+Rivers, or mountains, in her spotty globe.
+His spear— to equal which the tallest pine
+Hewn on Norwegian hills, to be the mast
+Of some great ammiral, were but a wand— 
+He walked with, to support uneasy steps
+Over the burning marl, not like those steps
+On Heaven's azure; and the torrid clime
+Smote on him sore besides, vaulted with fire.
+Nathless he so endured, till on the beach
+Of that inflamed sea he stood, and called
+His legions— Angel Forms, who lay entranced
+Thick as autumnal leaves that strow the brooks
+In Vallombrosa, where th' Etrurian shades
+High over-arched embower; or scattered sedge
+Afloat, when with fierce winds Orion armed
+Hath vexed the Red-Sea coast, whose waves o'erthrew
+Busiris and his Memphian chivalry,
+While with perfidious hatred they pursued
+The sojourners of Goshen, who beheld
+From the safe shore their floating carcases
+And broken chariot-wheels. So thick bestrown,
+Abject and lost, lay these, covering the flood,
+Under amazement of their hideous change.
+He called so loud that all the hollow deep
+Of Hell resounded:— Princes, Potentates,
+Warriors, the Flower of Heaven— once yours; now lost,
+If such astonishment as this can seize
+Eternal Spirits! Or have ye chosen this place
+After the toil of battle to repose
+Your wearied virtue, for the ease you find
+To slumber here, as in the vales of Heaven?
+Or in this abject posture have ye sworn
+To adore the Conqueror, who now beholds
+Cherub and Seraph rolling in the flood
+With scattered arms and ensigns, till anon
+His swift pursuers from Heaven-gates discern
+Th' advantage, and, descending, tread us down
+Thus drooping, or with linked thunderbolts
+Transfix us to the bottom of this gulf?
+Awake, arise, or be for ever fallen!
+
+They heard, and were abashed, and up they sprung
+Upon the wing, as when men wont to watch
+On duty, sleeping found by whom they dread,
+Rouse and bestir themselves ere well awake.
+Nor did they not perceive the evil plight
+In which they were, or the fierce pains not feel;
+Yet to their General's voice they soon obeyed
+Innumerable. As when the potent rod
+Of Amram's son, in Egypt's evil day,
+Waved round the coast, up-called a pitchy cloud
+Of locusts, warping on the eastern wind,
+That o'er the realm of impious Pharaoh hung
+Like Night, and darkened all the land of Nile;
+So numberless were those bad Angels seen
+Hovering on wing under the cope of Hell,
+'Twixt upper, nether, and surrounding fires;
+Till, as a signal given, th' uplifted spear
+Of their great Sultan waving to direct
+Their course, in even balance down they light
+On the firm brimstone, and fill all the plain:
+A multitude like which the populous North
+Poured never from her frozen loins to pass
+Rhene or the Danaw, when her barbarous sons
+Came like a deluge on the South, and spread
+Beneath Gibraltar to the Libyan sands.
+Forthwith, from every squadron and each band,
+The heads and leaders thither haste where stood
+Their great Commander— godlike Shapes, and Forms
+Excelling human; princely Dignities;
+And Powers that erst in Heaven sat on thrones,
+Though on their names in Heavenly records now
+Be no memorial, blotted out and rased
+By their rebellion from the Books of Life.
+Nor had they yet among the sons of Eve
+Got them new names, till, wandering o'er the earth,
+Through God's high sufferance for the trial of man,
+By falsities and lies the greatest part
+Of mankind they corrupted to forsake
+God their Creator, and th' invisible
+Glory of him that made them to transform
+Oft to the image of a brute, adorned
+With gay religions full of pomp and gold,
+And devils to adore for deities:
+Then were they known to men by various names,
+And various idols through the heathen world.
+
+Say, Muse, their names then known, who first, who last,
+Roused from the slumber on that fiery couch,
+At their great Emperor's call, as next in worth
+Came singly where he stood on the bare strand,
+While the promiscuous crowd stood yet aloof?
+
+The chief were those who, from the pit of Hell
+Roaming to seek their prey on Earth, durst fix
+Their seats, long after, next the seat of God,
+Their altars by his altar, gods adored
+Among the nations round, and durst abide
+Jehovah thundering out of Sion, throned
+Between the Cherubim; yea, often placed
+Within his sanctuary itself their shrines,
+Abominations; and with cursed things
+His holy rites and solemn feasts profaned,
+And with their darkness durst affront his light.
+First, Moloch, horrid king, besmeared with blood
+Of human sacrifice, and parents' tears;
+Though, for the noise of drums and timbrels loud,
+Their children's cries unheard that passed through fire
+To his grim idol. Him the Ammonite
+Worshiped in Rabba and her watery plain,
+In Argob and in Basan, to the stream
+Of utmost Arnon. Nor content with such
+Audacious neighbourhood, the wisest heart
+Of Solomon he led by fraud to build
+His temple right against the temple of God
+On that opprobrious hill, and made his grove
+The pleasant valley of Hinnom, Tophet thence
+And black Gehenna called, the type of Hell.
+Next Chemos, th' obscene dread of Moab's sons,
+From Aroar to Nebo and the wild
+Of southmost Abarim; in Hesebon
+And Horonaim, Seon's real, beyond
+The flowery dale of Sibma clad with vines,
+And Eleale to th' Asphaltic Pool:
+Peor his other name, when he enticed
+Israel in Sittim, on their march from Nile,
+To do him wanton rites, which cost them woe.
+Yet thence his lustful orgies he enlarged
+Even to that hill of scandal, by the grove
+Of Moloch homicide, lust hard by hate,
+Till good Josiah drove them thence to Hell.
+With these came they who, from the bordering flood
+Of old Euphrates to the brook that parts
+Egypt from Syrian ground, had general names
+Of Baalim and Ashtaroth— those male,
+These feminine. For Spirits, when they please,
+Can either sex assume, or both; so soft
+And uncompounded is their essence pure,
+Not tried or manacled with joint or limb,
+Nor founded on the brittle strength of bones,
+Like cumbrous flesh; but, in what shape they choose,
+Dilated or condensed, bright or obscure,
+Can execute their airy purposes,
+And works of love or enmity fulfil.
+For those the race of Israel oft forsook
+Their Living Strength, and unfrequented left
+His righteous altar, bowing lowly down
+To bestial gods; for which their heads as low
+Bowed down in battle, sunk before the spear
+Of despicable foes. With these in troop
+Came Astoreth, whom the Phoenicians called
+Astarte, queen of heaven, with crescent horns;
+To whose bright image nightly by the moon
+Sidonian virgins paid their vows and songs;
+In Sion also not unsung, where stood
+Her temple on th' offensive mountain, built
+By that uxorious king whose heart, though large,
+Beguiled by fair idolatresses, fell
+To idols foul. Thammuz came next behind,
+Whose annual wound in Lebanon allured
+The Syrian damsels to lament his fate
+In amorous ditties all a summer's day,
+While smooth Adonis from his native rock
+Ran purple to the sea, supposed with blood
+Of Thammuz yearly wounded: the love-tale
+Infected Sion's daughters with like heat,
+Whose wanton passions in the sacred porch
+Ezekiel saw, when, by the vision led,
+His eye surveyed the dark idolatries
+Of alienated Judah. Next came one
+Who mourned in earnest, when the captive ark
+Maimed his brute image, head and hands lopt off,
+In his own temple, on the grunsel-edge,
+Where he fell flat and shamed his worshippers:
+Dagon his name, sea-monster, upward man
+And downward fish; yet had his temple high
+Reared in Azotus, dreaded through the coast
+Of Palestine, in Gath and Ascalon,
+And Accaron and Gaza's frontier bounds.
+Him followed Rimmon, whose delightful seat
+Was fair Damascus, on the fertile banks
+Of Abbana and Pharphar, lucid streams.
+He also against the house of God was bold:
+A leper once he lost, and gained a king— 
+Ahaz, his sottish conqueror, whom he drew
+God's altar to disparage and displace
+For one of Syrian mode, whereon to burn
+His odious offerings, and adore the gods
+Whom he had vanquished. After these appeared
+A crew who, under names of old renown— 
+Osiris, Isis, Orus, and their train— 
+With monstrous shapes and sorceries abused
+Fanatic Egypt and her priests to seek
+Their wandering gods disguised in brutish forms
+Rather than human. Nor did Israel scape
+Th' infection, when their borrowed gold composed
+The calf in Oreb; and the rebel king
+Doubled that sin in Bethel and in Dan,
+Likening his Maker to the grazed ox— 
+Jehovah, who, in one night, when he passed
+From Egypt marching, equalled with one stroke
+Both her first-born and all her bleating gods.
+Belial came last; than whom a Spirit more lewd
+Fell not from Heaven, or more gross to love
+Vice for itself. To him no temple stood
+Or altar smoked; yet who more oft than he
+In temples and at altars, when the priest
+Turns atheist, as did Eli's sons, who filled
+With lust and violence the house of God?
+In courts and palaces he also reigns,
+And in luxurious cities, where the noise
+Of riot ascends above their loftiest towers,
+And injury and outrage; and, when night
+Darkens the streets, then wander forth the sons
+Of Belial, flown with insolence and wine.
+Witness the streets of Sodom, and that night
+In Gibeah, when the hospitable door
+Exposed a matron, to avoid worse rape.
+
+These were the prime in order and in might:
+The rest were long to tell; though far renowned
+Th' Ionian gods— of Javan's issue held
+Gods, yet confessed later than Heaven and Earth,
+Their boasted parents;— Titan, Heaven's first-born,
+With his enormous brood, and birthright seized
+By younger Saturn: he from mightier Jove,
+His own and Rhea's son, like measure found;
+So Jove usurping reigned. These, first in Crete
+And Ida known, thence on the snowy top
+Of cold Olympus ruled the middle air,
+Their highest heaven; or on the Delphian cliff,
+Or in Dodona, and through all the bounds
+Of Doric land; or who with Saturn old
+Fled over Adria to th' Hesperian fields,
+And o'er the Celtic roamed the utmost Isles.
+
+All these and more came flocking; but with looks
+Downcast and damp; yet such wherein appeared
+Obscure some glimpse of joy to have found their Chief
+Not in despair, to have found themselves not lost
+In loss itself; which on his countenance cast
+Like doubtful hue. But he, his wonted pride
+Soon recollecting, with high words, that bore
+Semblance of worth, not substance, gently raised
+Their fainting courage, and dispelled their fears.
+Then straight commands that, at the warlike sound
+Of trumpets loud and clarions, be upreared
+His mighty standard. That proud honour claimed
+Azazel as his right, a Cherub tall:
+Who forthwith from the glittering staff unfurled
+Th' imperial ensign; which, full high advanced,
+Shone like a meteor streaming to the wind,
+With gems and golden lustre rich emblazed,
+Seraphic arms and trophies; all the while
+Sonorous metal blowing martial sounds:
+At which the universal host up-sent
+A shout that tore Hell's concave, and beyond
+Frighted the reign of Chaos and old Night.
+All in a moment through the gloom were seen
+Ten thousand banners rise into the air,
+With orient colours waving: with them rose
+A forest huge of spears; and thronging helms
+Appeared, and serried shields in thick array
+Of depth immeasurable. Anon they move
+In perfect phalanx to the Dorian mood
+Of flutes and soft recorders— such as raised
+To height of noblest temper heroes old
+Arming to battle, and instead of rage
+Deliberate valour breathed, firm, and unmoved
+With dread of death to flight or foul retreat;
+Nor wanting power to mitigate and swage
+With solemn touches troubled thoughts, and chase
+Anguish and doubt and fear and sorrow and pain
+From mortal or immortal minds. Thus they,
+Breathing united force with fixed thought,
+Moved on in silence to soft pipes that charmed
+Their painful steps o'er the burnt soil. And now
+Advanced in view they stand— a horrid front
+Of dreadful length and dazzling arms, in guise
+Of warriors old, with ordered spear and shield,
+Awaiting what command their mighty Chief
+Had to impose. He through the armed files
+Darts his experienced eye, and soon traverse
+The whole battalion views— their order due,
+Their visages and stature as of gods;
+Their number last he sums. And now his heart
+Distends with pride, and, hardening in his strength,
+Glories: for never, since created Man,
+Met such embodied force as, named with these,
+Could merit more than that small infantry
+Warred on by cranes— though all the giant brood
+Of Phlegra with th' heroic race were joined
+That fought at Thebes and Ilium, on each side
+Mixed with auxiliar gods; and what resounds
+In fable or romance of Uther's son,
+Begirt with British and Armoric knights;
+And all who since, baptized or infidel,
+Jousted in Aspramont, or Montalban,
+Damasco, or Marocco, or Trebisond,
+Or whom Biserta sent from Afric shore
+When Charlemain with all his peerage fell
+By Fontarabbia. Thus far these beyond
+Compare of mortal prowess, yet observed
+Their dread Commander. He, above the rest
+In shape and gesture proudly eminent,
+Stood like a tower. His form had yet not lost
+All her original brightness, nor appeared
+Less than Archangel ruined, and th' excess
+Of glory obscured: as when the sun new-risen
+Looks through the horizontal misty air
+Shorn of his beams, or, from behind the moon,
+In dim eclipse, disastrous twilight sheds
+On half the nations, and with fear of change
+Perplexes monarchs. Darkened so, yet shone
+Above them all th' Archangel: but his face
+Deep scars of thunder had intrenched, and care
+Sat on his faded cheek, but under brows
+Of dauntless courage, and considerate pride
+Waiting revenge. Cruel his eye, but cast
+Signs of remorse and passion, to behold
+The fellows of his crime, the followers rather
+(Far other once beheld in bliss), condemned
+For ever now to have their lot in pain— 
+Millions of Spirits for his fault amerced
+Of Heaven, and from eternal splendours flung
+For his revolt— yet faithful how they stood,
+Their glory withered; as, when heaven's fire
+Hath scathed the forest oaks or mountain pines,
+With singed top their stately growth, though bare,
+Stands on the blasted heath. He now prepared
+To speak; whereat their doubled ranks they bend
+From wing to wing, and half enclose him round
+With all his peers: attention held them mute.
+Thrice he assayed, and thrice, in spite of scorn,
+Tears, such as Angels weep, burst forth: at last
+Words interwove with sighs found out their way:— 
+
+O myriads of immortal Spirits! O Powers
+Matchless, but with th' Almighty!— and that strife
+Was not inglorious, though th' event was dire,
+As this place testifies, and this dire change,
+Hateful to utter. But what power of mind,
+Forseeing or presaging, from the depth
+Of knowledge past or present, could have feared
+How such united force of gods, how such
+As stood like these, could ever know repulse?
+For who can yet believe, though after loss,
+That all these puissant legions, whose exile
+Hath emptied Heaven, shall fail to re-ascend,
+Self-raised, and repossess their native seat?
+For me, be witness all the host of Heaven,
+If counsels different, or danger shunned
+By me, have lost our hopes. But he who reigns
+Monarch in Heaven till then as one secure
+Sat on his throne, upheld by old repute,
+Consent or custom, and his regal state
+Put forth at full, but still his strength concealed— 
+Which tempted our attempt, and wrought our fall.
+Henceforth his might we know, and know our own,
+So as not either to provoke, or dread
+New war provoked: our better part remains
+To work in close design, by fraud or guile,
+What force effected not; that he no less
+At length from us may find, who overcomes
+By force hath overcome but half his foe.
+Space may produce new Worlds; whereof so rife
+There went a fame in Heaven that he ere long
+Intended to create, and therein plant
+A generation whom his choice regard
+Should favour equal to the Sons of Heaven.
+Thither, if but to pry, shall be perhaps
+Our first eruption— thither, or elsewhere;
+For this infernal pit shall never hold
+Celestial Spirits in bondage, nor th' Abyss
+Long under darkness cover. But these thoughts
+Full counsel must mature. Peace is despaired;
+For who can think submission? War, then, war
+Open or understood, must be resolved.
+
+He spake; and, to confirm his words, outflew
+Millions of flaming swords, drawn from the thighs
+Of mighty Cherubim; the sudden blaze
+Far round illumined Hell. Highly they raged
+Against the Highest, and fierce with grasped arms
+Clashed on their sounding shields the din of war,
+Hurling defiance toward the vault of Heaven.
+
+There stood a hill not far, whose grisly top
+Belched fire and rolling smoke; the rest entire
+Shone with a glossy scurf— undoubted sign
+That in his womb was hid metallic ore,
+The work of sulphur. Thither, winged with speed,
+A numerous brigade hastened: as when bands
+Of pioneers, with spade and pickaxe armed,
+Forerun the royal camp, to trench a field,
+Or cast a rampart. Mammon led them on— 
+Mammon, the least erected Spirit that fell
+From Heaven; for even in Heaven his looks and thoughts
+Were always downward bent, admiring more
+The riches of heaven's pavement, trodden gold,
+Than aught divine or holy else enjoyed
+In vision beatific. By him first
+Men also, and by his suggestion taught,
+Ransacked the centre, and with impious hands
+Rifled the bowels of their mother Earth
+For treasures better hid. Soon had his crew
+Opened into the hill a spacious wound,
+And digged out ribs of gold. Let none admire
+That riches grow in Hell; that soil may best
+Deserve the precious bane. And here let those
+Who boast in mortal things, and wondering tell
+Of Babel, and the works of Memphian kings,
+Learn how their greatest monuments of fame
+And strength, and art, are easily outdone
+By Spirits reprobate, and in an hour
+What in an age they, with incessant toil
+And hands innumerable, scarce perform.
+Nigh on the plain, in many cells prepared,
+That underneath had veins of liquid fire
+Sluiced from the lake, a second multitude
+With wondrous art founded the massy ore,
+Severing each kind, and scummed the bullion-dross.
+A third as soon had formed within the ground
+A various mould, and from the boiling cells
+By strange conveyance filled each hollow nook;
+As in an organ, from one blast of wind,
+To many a row of pipes the sound-board breathes.
+Anon out of the earth a fabric huge
+Rose like an exhalation, with the sound
+Of dulcet symphonies and voices sweet— 
+Built like a temple, where pilasters round
+Were set, and Doric pillars overlaid
+With golden architrave; nor did there want
+Cornice or frieze, with bossy sculptures graven;
+The roof was fretted gold. Not Babylon
+Nor great Alcairo such magnificence
+Equalled in all their glories, to enshrine
+Belus or Serapis their gods, or seat
+Their kings, when Egypt with Assyria strove
+In wealth and luxury. Th' ascending pile
+Stood fixed her stately height, and straight the doors,
+Opening their brazen folds, discover, wide
+Within, her ample spaces o'er the smooth
+And level pavement: from the arched roof,
+Pendent by subtle magic, many a row
+Of starry lamps and blazing cressets, fed
+With naptha and asphaltus, yielded light
+As from a sky. The hasty multitude
+Admiring entered; and the work some praise,
+And some the architect. His hand was known
+In Heaven by many a towered structure high,
+Where sceptred Angels held their residence,
+And sat as Princes, whom the supreme King
+Exalted to such power, and gave to rule,
+Each in his Hierarchy, the Orders bright.
+Nor was his name unheard or unadored
+In ancient Greece; and in Ausonian land
+Men called him Mulciber; and how he fell
+From Heaven they fabled, thrown by angry Jove
+Sheer o'er the crystal battlements: from morn
+To noon he fell, from noon to dewy eve,
+A summer's day, and with the setting sun
+Dropt from the zenith, like a falling star,
+On Lemnos, th' Aegaean isle. Thus they relate,
+Erring; for he with this rebellious rout
+Fell long before; nor aught aviled him now
+To have built in Heaven high towers; nor did he scape
+By all his engines, but was headlong sent,
+With his industrious crew, to build in Hell.
+
+Meanwhile the winged Heralds, by command
+Of sovereign power, with awful ceremony
+And trumpet's sound, throughout the host proclaim
+A solemn council forthwith to be held
+At Pandemonium, the high capital
+Of Satan and his peers. Their summons called
+From every band and squared regiment
+By place or choice the worthiest: they anon
+With hundreds and with thousands trooping came
+Attended. All access was thronged; the gates
+And porches wide, but chief the spacious hall
+(Though like a covered field, where champions bold
+Wont ride in armed, and at the Soldan's chair
+Defied the best of Paynim chivalry
+To mortal combat, or career with lance),
+Thick swarmed, both on the ground and in the air,
+Brushed with the hiss of rustling wings. As bees
+In spring-time, when the Sun with Taurus rides,
+Pour forth their populous youth about the hive
+In clusters; they among fresh dews and flowers
+Fly to and fro, or on the smoothed plank,
+The suburb of their straw-built citadel,
+New rubbed with balm, expatiate, and confer
+Their state-affairs: so thick the airy crowd
+Swarmed and were straitened; till, the signal given,
+Behold a wonder! They but now who seemed
+In bigness to surpass Earth's giant sons,
+Now less than smallest dwarfs, in narrow room
+Throng numberless— like that pygmean race
+Beyond the Indian mount; or faery elves,
+Whose midnight revels, by a forest-side
+Or fountain, some belated peasant sees,
+Or dreams he sees, while overhead the Moon
+Sits arbitress, and nearer to the Earth
+Wheels her pale course: they, on their mirth and dance
+Intent, with jocund music charm his ear;
+At once with joy and fear his heart rebounds.
+Thus incorporeal Spirits to smallest forms
+Reduced their shapes immense, and were at large,
+Though without number still, amidst the hall
+Of that infernal court. But far within,
+And in their own dimensions like themselves,
+The great Seraphic Lords and Cherubim
+In close recess and secret conclave sat,
+A thousand demi-gods on golden seats,
+Frequent and full. After short silence then,
+And summons read, the great consult began.</frontier>
+</LAYERS>
