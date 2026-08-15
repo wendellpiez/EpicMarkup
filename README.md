@@ -42,6 +42,19 @@ This project uses the Laminator for LMNL processing (see below), installed in th
 
 It is set up as a git submodule, so it requires initialization and update for the repository runtimes to work: see git documentation on initializing (`git submodule init`) and updating (`git submodule update --remote`).
 
+## Quick way in
+
+We need to build an approach to the material that requires no prior knowledge of markup, just as no prior knowledge of Greek should be required to appreciate Homer (at least if read out loud or translated).
+
+For EpicMarkup as a whole, this might mean prioritizing an EpicMarkup version of Virgil (Aeneid), Dante, or Milton as more accessible for newcomers.
+
+Likewise, fighting old battles over markup syntax is not interesting. The newcomer needs only to know:
+
+- LMNL is like XML only slippery
+- Because it is slippery, *exploratory markup* with *late bindings to schemata* (meaning not only formal schemas but also ad-hoc pattern testing) become feasible.
+
+
+
 ## Namespaces
 
 Internally, pipelines may sometimes handle XML without namespaces. Caution is warranted lest your assumptions betray you.
@@ -54,6 +67,7 @@ xmlns:EPIC="https://github.com/wendellpiez/EpicMarkup/ns"
 
 Caveat Proscriptor!
 
+## 
 ## Coming attractions
 
 - [x] XProc pipeline to acquire and archive a copy of the open-source PerseusDL TEI Iliad (edition of Monro and Allen, encoded by Crane et al.)
@@ -83,6 +97,14 @@ When thinking about the Laminator, set aside thoughts of protective sheets of pl
 ## Editing LMNL
 
 If you have gotten this far, possibly you will be intrigued to know you can work with LMNL natively in a text editor with some dedicated tooling and syntax coloring. See the [Laminator `lib` directory](lib/Laminator/lib/Textpad/) for more details.
+
+## Further reading
+
+By the developer, see especially the [RavenTracks project](https://raventracks.org) where I am publishing Homer study materials.
+
+In general, the field is growing and changing at such a rate that open searches are necessary even if we start from a page of links.
+
+One such resource is the [Digital Classicist Wiki](https://wiki.digitalclassicist.org/Main_Page).
 
 ## Acknowledgements
 

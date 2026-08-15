@@ -50,3 +50,32 @@ Ranges marking the text for phenomena, properties or relations not given in the 
 This makes *exploratory markup* viable and rewarding in ways the XML feature set frustrates. A document can be tagged and then a schema can be derived, rather than having to codify the markup so early.
 
 Tags in this tag set atm include `scene`, `speech`, `tale` (for nested narrative) and others.
+
+## Notes
+
+### Useful facts
+
+There are 130479 words in the Iliad (or: 130479 **w** elements in PerseusDL Iliad treebank.)
+
+There are 15687 lines (**l** elements in PerseusDL Iliad TEI).
+
+This averages to about 8.3 words per line and 653.6 lines per book.
+
+### Fun ideas
+
+Since there are nearly ten words per line, we can use an order or magnitude in more-or-less base 10 (actually less) and make a set of 'metric units'
+
+- Book - 1000 lines
+- Century - 100 lines
+- Decade - 10 lines
+- Line
+- Word - 0.1 lines
+- Particle (morpheme) - 0.01 lines
+
+The last unit would capture meaning as the sub-word level.
+
+For example, τῐ́θεσθαι ("to be placed") contains at least three morphemes indicating its root and the role it plays (its 'part of speech', here the ). Since they are typically merged together, we ordinarily do not distinguish between morphemes unless talking about grammar. 
+
+As shown in this example, ordinary Greek words, even when not compounded from multiple roots, frequently give senses requiring more than one word in English to express.
+
+Greek also has some 'primitive words' that seem to be single morphemes - in Homer, δή, ἤτε, καί and the like.
