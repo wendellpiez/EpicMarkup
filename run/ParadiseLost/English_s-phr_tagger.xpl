@@ -21,22 +21,23 @@
   <p:input port="source"/>
 
   <p:output port="result"/>
-  
-  <!-- The grammar delimits between clauses as indicated by punctuation -->
+
+  <!-- The grammar parses sentences and phrases around punctuation. -->
   <p:invisible-xml cx:processor="markup-blitz">
     <p:with-input port="source" select="string(.)"/>
+    <!-- NB - all question marks without em dashes are construed to end sentences.
+         Provide an em dash or post process where this is wrong. -->
     <p:with-input port="grammar" expand-text="false">
       <p:inline content-type="text/plain" expand-text="false">
 
-RUN     = spacer?, s++spacer, spacer? .
-s       = phr**punctd, period .
-phr     = nows, char* .
--punctd = punct, spacer .
--punct  = ( ";" | "," | ":" | "—" | "?—" | ":—" | "!—" | ";—" ) .
--period = ["." | "?" | "!"] .
--spacer =  [#a | #d | #9 | #20 ]+ .
--char   = ~["." | "?" | "!" | ";" | "," | ":" | "—"] .
--nows   = ~[#a | #d | #9 | #20 | "—" | "." | "?" | "!" | ";" | "," | ":"] . { no whitespace }
+ RUN    = ws?, s++ws, ws? .
+-ws     = [#a; #d; #9; #20]+ . { run of ws }
+ s      = phr**punctd, period .
+ phr    = char, (char | ws)* . { starts with non-ws }
+-char   = ~[#a; #d; #9; #20; "—"; "."; "?"; "!"; ";"; ","; ":"] . { not ws or punctuation }
+-punctd = punct, ws? .
+-punct  = ";" | "," | ":" | "—" | "?—" | ":—" | "!—" | ";—" . { includes compounds }
+-period = ["."; "?"; "!"] .
 
         </p:inline>
     </p:with-input>
