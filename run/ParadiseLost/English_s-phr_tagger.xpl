@@ -27,41 +27,19 @@
     <p:with-input port="source" select="string(.)"/>
     <p:with-input port="grammar" expand-text="false">
       <p:inline content-type="text/plain" expand-text="false">
-        RUN       = spacer?, s++spacer, spacer? .
-        s         = pphrase**spacer, (spacer?, tphrase), period . { only thing required is tphrase, period }
-        -pphrase  = phr, punct . { ends with punctuation }
-        -tphrase  = phr .        { doesn't }
-        phr       = nows, char* .
-        -punct    = (";" | "," | ":" | "—" | "?—" | ":—" | "!—" | ";—" ) .
-        -period   = ["." | "?" | "!"] .
-        -spacer   =  [#a | #d | #9 | #20 ]+ .
-        -char     = ~["." | "?" | "!" | ";" | "," | ":" | "—"] .
-        -nows     = ~[#a | #d | #9 | #20 | "—" | "." | "?" | "!" | ";" | "," | ":"] . { no whitespace }
+
+RUN     = spacer?, s++spacer, spacer? .
+s       = phr**punctd, period .
+phr     = nows, char* .
+-punctd = punct, spacer .
+-punct  = ( ";" | "," | ":" | "—" | "?—" | ":—" | "!—" | ";—" ) .
+-period = ["." | "?" | "!"] .
+-spacer =  [#a | #d | #9 | #20 ]+ .
+-char   = ~["." | "?" | "!" | ";" | "," | ":" | "—"] .
+-nows   = ~[#a | #d | #9 | #20 | "—" | "." | "?" | "!" | ";" | "," | ":"] . { no whitespace }
+
         </p:inline>
     </p:with-input>
   </p:invisible-xml>
 
-  <!--
-old: 
-
-
-RUN      = spacer?, s++spacer .
-s        = phr++spacer, period .
-phr      = char, moretext, ("," | ";" | ":" | "!" | "—" | "?—" | ":—" )* .
--period   = ["." | "?"] .
--spacer   =  [#a | #d | #9 | #20 ]+ .
--char     = ~[#a | #d | #9 | #20 | "—" | "." | "?" | "!" | ";" | "," | ":"] .
--moretext = ~["—" | "." | "?" | "!" | ";" | "," | ":"]* .
-
--->
-  <!--<p:inline content-type="text/plain" expand-text="false">
-    RUN     = -spacer?, s++spacer .
-    s       = phr++spacer, -period  .
-    phr     = -word++spacer, ("," | ";" | ":" | "!" | "—" ) .
-    period  = ["." | "?"] .
-    -spacer =  [#a | #d | #9 | #20 ]+ . { spacer includes " }
-    word    = ~[#a | #d | #9 | #20 | "—" | '"' | "." | "?" | "!" | ";" | "," | ":"]+ .
-  </p:inline>-->
-  
-  <!--Next - XML to layers -->
 </p:declare-step>
