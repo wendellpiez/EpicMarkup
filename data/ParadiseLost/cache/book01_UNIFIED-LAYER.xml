@@ -1043,7 +1043,9 @@
    <start gi="lg" rID="i_lg.1560" off="3580" ext="1787"/>
    <text off="3580" ext="1" cf="i_BOOK.1 i_lg.1560 i_s.1553">
 </text>
-   <start gi="quote" rID="i_quote.1561" off="3581" ext="1786"/>
+   <start gi="quote" rID="i_quote.1561" off="3581" ext="1786">
+      <annotation gi="who">Satan</annotation>
+   </start>
    <start gi="l" rID="i_l.1562" off="3581" ext="47"/>
    <start gi="phr" rID="i_phr.1563" off="3581" ext="16"/>
    <text off="3581"
@@ -1804,7 +1806,9 @@
    <start gi="lg" rID="i_lg.1684" off="5507" ext="1166"/>
    <text off="5507" ext="1" cf="i_BOOK.1 i_lg.1684 i_s.1673">
 </text>
-   <start gi="quote" rID="i_quote.1685" off="5508" ext="1165"/>
+   <start gi="quote" rID="i_quote.1685" off="5508" ext="1165">
+      <annotation gi="who">Beelzebub</annotation>
+   </start>
    <start gi="l" rID="i_l.1686" off="5508" ext="40"/>
    <start gi="phr" rID="i_phr.1687" off="5508" ext="8"/>
    <text off="5508"
@@ -2232,7 +2236,9 @@
    <end off="6726" ext="51" gi="l" rID="i_l.1749"/>
    <text off="6726" ext="1" cf="i_BOOK.1 i_lg.1747 i_s.1748">
 </text>
-   <start gi="quote" rID="i_quote.1754" off="6727" ext="1474"/>
+   <start gi="quote" rID="i_quote.1754" off="6727" ext="1474">
+      <annotation gi="who">Satan</annotation>
+   </start>
    <start gi="l" rID="i_l.1755" off="6727" ext="39"/>
    <start gi="phr" rID="i_phr.1756" off="6727" ext="13"/>
    <text off="6727"
@@ -3468,7 +3474,9 @@
    <text off="10408" ext="28" cf="i_BOOK.1 i_l.34 i_lg.27 i_phr.35 i_s.28">Said then the lost Archangel</text>
    <end off="10436" ext="28" gi="phr" rID="i_phr.35"/>
    <text off="10436" ext="2" cf="i_BOOK.1 i_l.34 i_lg.27 i_s.28">, </text>
-   <start gi="quote" rID="i_quote.36" off="10438" ext="1219"/>
+   <start gi="quote" rID="i_quote.36" off="10438" ext="1219">
+      <annotation gi="who">Satan</annotation>
+   </start>
    <start gi="phr" rID="i_phr.37" off="10438" ext="44"/>
    <text off="10438"
          ext="13"
@@ -3947,7 +3955,9 @@
          cf="i_BOOK.1 i_l.127 i_lg.122 i_phr.126 i_s.123">Thus answered</text>
    <end off="11706" ext="31" gi="phr" rID="i_phr.126"/>
    <text off="11706" ext="3" cf="i_BOOK.1 i_l.127 i_lg.122 i_s.123">:— </text>
-   <start gi="quote" rID="i_quote.128" off="11709" ext="477"/>
+   <start gi="quote" rID="i_quote.128" off="11709" ext="477">
+      <annotation gi="who">Beelzebub</annotation>
+   </start>
    <start gi="phr" rID="i_phr.129" off="11709" ext="35"/>
    <text off="11709"
          ext="29"
@@ -4605,7 +4615,9 @@
          cf="i_BOOK.1 i_l.246 i_lg.157 i_phr.244 i_s.243">Of Hell resounded</text>
    <end off="13578" ext="60" gi="phr" rID="i_phr.244"/>
    <text off="13578" ext="3" cf="i_BOOK.1 i_l.246 i_lg.157 i_s.243">:— </text>
-   <start gi="quote" rID="i_quote.248" off="13581" ext="654"/>
+   <start gi="quote" rID="i_quote.248" off="13581" ext="654">
+      <annotation gi="who">Satan</annotation>
+   </start>
    <start gi="phr" rID="i_phr.249" off="13581" ext="7"/>
    <text off="13581"
          ext="7"
@@ -8810,7 +8822,9 @@
    <start gi="lg" rID="i_lg.1062" off="26747" ext="1782"/>
    <text off="26747" ext="1" cf="i_BOOK.1 i_lg.1062 i_s.1050">
 </text>
-   <start gi="quote" rID="i_quote.1063" off="26748" ext="1781"/>
+   <start gi="quote" rID="i_quote.1063" off="26748" ext="1781">
+      <annotation gi="who">Satan</annotation>
+   </start>
    <start gi="l" rID="i_l.1064" off="26748" ext="39"/>
    <start gi="phr" rID="i_phr.1065" off="26748" ext="29"/>
    <text off="26748"

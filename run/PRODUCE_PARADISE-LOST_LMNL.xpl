@@ -38,7 +38,7 @@ But the process should be repeatable across the 12 books
 1. Extract HTML from EPUB
 2. Clean up (minor) and flatten into a single XML element with plain text (uhuh)
 3. Brute-force 'quote' tagging as s/r for quote marks (regex)
-4. Parse to produce an XML marking quotes (only) and save it
+4. Parse to produce an XML marking quotes (only), enhance and save it
 5. Save back down to plain text
 6. Pass through an XSLT to group lines into lg/l and save it
 7. Pass plain text again, this time through an iXML grammar for s/phr structure
@@ -56,7 +56,9 @@ does not deliver perfect results. But the results are also easily corrigible.
   <!-- When wanted to go all the way back to the downloaded EPUB -->
   <!--<p:import href="ParadiseLost/EPUB-EXTRACTION.xpl"/>-->
   <p:import href="ParadiseLost/English_s-phr_tagger.xpl"/>
-
+  
+  <p:import href="ParadiseLost/PL-quotes_tagger.xpl"/>
+  
   <p:import href="ParadiseLost/merge-xml-layers.xpl"/>
 
   <p:import href="../lib/Laminator/lib/LAYERS/out/layers-xMNML-build.xpl"/>
@@ -92,9 +94,7 @@ does not deliver perfect results. But the results are also easily corrigible.
       message="STORING ../data/ParadiseLost/{ $cache-dir }/book01_RAW.xml"/>
   </p:group>
 
-
   <!--Evil way to promote quotes to tags -->
-
 
   <p:variable name="quotes-match-regex" select="string(.)">
     <p:inline>"([^"]+)"</p:inline>
@@ -114,10 +114,13 @@ does not deliver perfect results. But the results are also easily corrigible.
     </p:identity>
   </p:viewport>
 
+  <!-- Enhancements assigning (known) speakers to the quotes -->
+  <EPIC:PL-quotes_tagger/>
+  
   <!-- ### CAPTURE -->
-  <p:identity name="bare-quotes_XML"/>
+  <p:identity name="marked-quotes_XML"/>
 
-  <p:store name="bare-quotes" use-when="$caching"
+  <p:store name="marked-quotes" use-when="$caching"
     href="../data/ParadiseLost/{ $cache-dir }/book01_QUOTES.xml"
     message="STORING ../data/ParadiseLost/{ $cache-dir }/book01_QUOTES.xml"/>
 
@@ -155,7 +158,6 @@ does not deliver perfect results. But the results are also easily corrigible.
   <p:store use-when="$caching" href="../data/ParadiseLost/{ $cache-dir }/book01_LINES.xml"
     message="STORING ../data/ParadiseLost/{ $cache-dir }/book01_LINES.xml"/>
 
-
   <!-- ### CAPTURE -->
   <p:identity name="vp-lines_XML"/>
 
@@ -179,7 +181,7 @@ does not deliver perfect results. But the results are also easily corrigible.
     <mnml:merge-xml-layers name="MERGED">
       <p:with-input port="source">
         <p:pipe step="vp-lines_XML"/>
-        <p:pipe step="bare-quotes_XML"/>
+        <p:pipe step="marked-quotes_XML"/>
         <p:pipe step="phrased_XML"/>
       </p:with-input>
     </mnml:merge-xml-layers>
@@ -215,7 +217,7 @@ does not deliver perfect results. But the results are also easily corrigible.
     serialization="map { 'indent': true() }"
     message="STORING ../data/ParadiseLost/{ $cache-dir }/book01_UNIFIED-xMNML.xml"/>
 
-  <!-- Always writing even when not $caching -->
+  <!-- Always writing LMNL out even when not $caching interim results -->
   <p:store href="../data/ParadiseLost/book01_rich.lmnl"
     serialization="map { 'method': 'text', 'omit-xml-declaration': true() }"
     message="STORING ../data/ParadiseLost/book01_rich.lmnl">

@@ -825,14 +825,28 @@
    </layer>
    <layer form="ohco" ranges="BOOK quote">
       <range gi="BOOK" starting="0" ending="34403" rID="r1_BOOK"/>
-      <range gi="quote" starting="3581" ending="5367" rID="r2_quote"/>
-      <range gi="quote" starting="5508" ending="6673" rID="r3_quote"/>
-      <range gi="quote" starting="6727" ending="8201" rID="r4_quote"/>
+      <range gi="quote" starting="3581" ending="5367" rID="r2_quote">
+         <annotation gi="who">Satan</annotation>
+      </range>
+      <range gi="quote" starting="5508" ending="6673" rID="r3_quote">
+         <annotation gi="who">Beelzebub</annotation>
+      </range>
+      <range gi="quote" starting="6727" ending="8201" rID="r4_quote">
+         <annotation gi="who">Satan</annotation>
+      </range>
       <range gi="quote" starting="10362" ending="10407" rID="r5_quote"/>
-      <range gi="quote" starting="10438" ending="11657" rID="r6_quote"/>
-      <range gi="quote" starting="11709" ending="12186" rID="r7_quote"/>
-      <range gi="quote" starting="13581" ending="14235" rID="r8_quote"/>
-      <range gi="quote" starting="26748" ending="28529" rID="r9_quote"/>
+      <range gi="quote" starting="10438" ending="11657" rID="r6_quote">
+         <annotation gi="who">Satan</annotation>
+      </range>
+      <range gi="quote" starting="11709" ending="12186" rID="r7_quote">
+         <annotation gi="who">Beelzebub</annotation>
+      </range>
+      <range gi="quote" starting="13581" ending="14235" rID="r8_quote">
+         <annotation gi="who">Satan</annotation>
+      </range>
+      <range gi="quote" starting="26748" ending="28529" rID="r9_quote">
+         <annotation gi="who">Satan</annotation>
+      </range>
    </layer>
    <layer form="ohco" ranges="RUN s phr">
       <range gi="RUN" starting="0" ending="34403" rID="r0001_RUN"/>

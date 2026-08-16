@@ -33,10 +33,10 @@
  RUN    = ws?, s++ws, ws? .
 -ws     = [#a; #d; #9; #20]+ . { run of ws }
  s      = phr**punctd, period .
- phr    = char, (char | ws)* . { starts with non-ws }
+ phr    = char, (ws?, char)* . { starts with non-ws }
 -char   = ~[#a; #d; #9; #20; "—"; "."; "?"; "!"; ";"; ","; ":"] . { not ws or punctuation }
 -punctd = punct, ws? .
--punct  = ";" | "," | ":" | "—" | "?—" | ":—" | "!—" | ";—" . { includes compounds }
+-punct  = ";" | "," | ":" | "—" | "?—" | ":—" | "!—" | ";—" | " —" . { includes compounds }
 -period = ["."; "?"; "!"] .
 
         </p:inline>
