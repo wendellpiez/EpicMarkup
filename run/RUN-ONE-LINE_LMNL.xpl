@@ -15,13 +15,13 @@
   <p:import href="../lib/Laminator/lib/parse_mnml-lmnl.xpl"/>
 
   <p:input port="source" expand-text="false">
-    <p:inline content-type="text/plain">[l [n}4.439{]}ὄρσε δὲ τοὺς μὲν [nom}Ἄρης{nom], τοὺς δὲ [ep}γλαυκῶπις [nom}Ἀθήνη{nom]{ep]{l]</p:inline>
+    <p:inline content-type="text/plain">[line [no}5.791{]}ὣς ἔφατ̓, [ltt}οὐ δ̓ ἀπίθησε [nom}θεὰ{ltt] γλαυκῶπις Ἀθήνη{nom].{line]</p:inline>
   </p:input>
   
-  <p:output port="result" primary="true" serialization="map { 'indent': true() }"/>
+  <!--<p:output port="result" primary="true" serialization="map { 'indent': false(), 'omit-xml-declaration': true() }"/>-->
   
-  <p:output port="LAYERS" serialization="map { 'indent': true() }" sequence="true"
-    pipe="LAYERS@parsed_LMNL"/>
+  <!--<p:output port="LAYERS" serialization="map { 'indent': true() }" sequence="true"
+    pipe="LAYERS@parsed_LMNL"/>-->
   
   <p:output port="xMNML" serialization="map { 'indent': true() }" sequence="true"
     pipe="xMNML@parsed_LMNL"/>
@@ -34,7 +34,5 @@
     <p:with-input port="stylesheet" href="../lib/Laminator/lib/xMNML/out/xMNML-xml-ripper.xsl"/>
   </p:xslt>
   
-  
-    <!-- NEXT: filter ranges and 'rip' two XML documents, one l/nom and one l/ep -->
    
 </p:declare-step>
