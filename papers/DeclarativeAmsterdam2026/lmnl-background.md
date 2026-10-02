@@ -12,4 +12,6 @@ As described at the [First International Symposium on iXML](https://invisiblexml
 
 During this period I learned from everyone else who also looked at the beast. Many of their initiatives and proposed solutions are reflected in the work being offered. Similarly, many of the XML "usual tricks" around overlap -- milestones, segmenting, standoff -- can be readily accommodated by the Laminator as inputs and in its (XML) productions.
 
+(Wendell Piez)
+
 ---

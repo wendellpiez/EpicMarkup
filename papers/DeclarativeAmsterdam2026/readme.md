@@ -15,6 +15,6 @@ Additional reading for background:
 
 - Some [background on LMNL](./lmnl-background.md)
 
-Slides also forthcoming.
+- [Presentation slides in PDF](DA2026-wendellpiez-slides.pdf)
 
 -----
