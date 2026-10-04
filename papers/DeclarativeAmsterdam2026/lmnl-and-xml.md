@@ -48,11 +48,11 @@ In effect, the ETMR means that a single tree of elements can be unambiguously di
 - An element whose end tag appears before my start tag, precedes me
 - An element whose start tag appears after my end tag, follows me
 - Otherwise, an element that starts after my start, must end before my end (following the ETMR), and appears "inside" me
-- And an element whose start tag precedes mine, must "enclose" or "contain" me, as its end tag must appear after mine (following the EMTR)
+- And an element whose start tag precedes mine, must "enclose" or "contain" me, as its end tag must appear after mine (following the ETMR)
 
-It is possible to eliminate the end-tag matching rule and retain a rule that each end tag must pair unambiguously with a start tag given prior to it. If we stipulate that this can be the most recent start tag with the same name, everything can be matched up; if we add to this a convention on representing a range ID on the tag, we can even provide for ranges of the same name to overlap one another ("sibling rivalry".)
+It is possible to eliminate the end-tag matching rule and retain a rule (only) that each end tag must pair unambiguously with a start tag given prior to it. If we stipulate that this can be the most recent start tag with the same name, everything can be matched up; if we add to this a convention on representing a range ID on the tag, we can even provide for ranges of the same *type* name (generic identifier) to overlap one another ("sibling rivalry"), since their *tags* (type name plus identifier) do not match.
 
-When the EMTR is *not* followed, as long as tags still appear in pairs, we have these categories plus two more:
+When the ETMR is *not* followed, as long as tags still appear in pairs, we have these categories plus two more:
 
 - A range that starts before my start and ends before my end, but after my start, overlaps me at the start
 - A range that starts after my start and before my end, and ends after my end, overlaps me at the end

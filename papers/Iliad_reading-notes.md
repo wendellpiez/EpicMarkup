@@ -28,14 +28,21 @@ Even if we can't say this, can we say which parts and pieces are *necessary* to 
 
 At low level (word and morpheme) Greek exhibits the same kind of "grammar of combination" as it does at the phrase and sentence level.
 
-Paragraps `para` ranges interpolated from upstream (PerseusDL) might be removed entirely in favor of a phalanx/stratos grouping.
+Paragraphs `para` ranges interpolated from upstream (PerseusDL) might be removed entirely in favor of a phalanx/stratos grouping.
 
-Phalanges / stratoi - how many are 'portable'
+Phalanxes / stratoi - how many are 'portable'
 
 Which ones are clearly "by Homer"?
 
 The fact that LMNL is so permissive means that individual researchers can have their own Iliads.
 
+We see several kinds of repetition --
+
+formulas and epithets
+lines w/ variations
+stories
+  (e.g. Tydeus gaming with the Kadmeions told in book 4 and again in 5)
+  
 ### Phenomena of interest
 
 - Addressing the reader, or a character, in 2nd person.
