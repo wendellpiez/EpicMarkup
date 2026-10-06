@@ -10,7 +10,7 @@ With new tools come new capabilities, leading to new ideas, and to new possibili
 
 One such old idea is LMNL, the Layered Markup and Annotation Language. In this paper I explore using LMNL to provide descriptive markup to the *Iliad* of Homer (the Greek text in a modern edition).
 
-[Some background on LMNL](./lmnl-background.md) is described on another page.
+[Some background on LMNL](./lmnl-background.md) is offered on another page.
 
 ## What are we trying to achieve?
 
@@ -35,17 +35,17 @@ And because it is permissive, it can also be used without schemas or rule sets, 
 
 **Exploratory Markup** is the idea is that markup might itself become an interpretive instrument, a research device, for both learning about a text, and tracing and exposing findings relating to it.
 
-This is the opposite of the schema-driven paint-by-numbers game we most often play today with markup. Having acquired a text, we determine (or someone tells us) which schema and tag set to use. Then the art becomes fitting the text into tags defined for the available (approved) features, without resorting to "creative" applications of tags and tagging patterns.
+This is the opposite of the schema-driven paint-by-numbers game we are so often presented with. Having acquired a text, we determine (or someone tells us) which schema and tag set to use. Then the art becomes fitting the text into tags defined for the available (approved) features and rule set, without resorting to "creative" applications of tags and tagging patterns.
 
-Essentially, we decide we have "won" when our text (and our requirements) are conventional enough - or can be made to be - to find expression using the off-the-shelf tagging system. (We have achieved valid results!) To a great degree, outcomes are determined at the start by the choice of tag set or schema and its suitability for the application(s) intended.
+Regrettably, to a great degree, this means outcomes are determined at the start by the choice of tag set or schema and its suitability for the application(s) intended.
 
 This is because success is defined as a text suitable for interchange using the nominal standard, not a text that is representative of the source in any *special* way.
 
-A compromise position is found in those projects that have defined, effectively, a bespoke and tailored schema.
+Outlier projects whose models must be different from any standard are necessarily excluded and on their own. Only some projects are able to take on the development and maintenance burdens of a bespoke and tailored schema.
 
-Exploratory markup is based on the idea that for the scholar and student, tagging a text should be anything but trying to fit it into predefined categories.
+Exploratory markup is based on the idea that for the scholar and student, tagging a text should be anything but trying to fit it into predefined categories; and that "lightweight" means that *nothing* inhibits the introduction of new tags and tagging conventions.
 
-Not only is interchangeability (based on standardized tagging) not a primary goal, it is something we are willing to postpone.
+In contrast, not only is interchangeability (based on standardized tagging) not a primary goal, it is something we are willing to postpone.
 
 If we are free to make our own tags, how can we know what tags to use before we have even seen the text? While we might have ideas, those should not be determinative, or we are not doing research. (Or we are researching tagging standards, not the text under examination.)
 
@@ -74,15 +74,13 @@ Additionally, the present project assumes the user also has the technical expert
 
 This project does not (and may never) amount to a "publishing system" in the sense that given inputs (valid to a given schema and tagging use profile or rule set) might always "drop in" to produce good outputs, even without any extension. On the contrary, extension -- or rather, adaptation, since we are not canning a process for a nominally stable input format we will actually never see again -- is not the exception, but the rule -- constant, endless extension and adaptation, like a highway system that is never completed. (Think of it not as a job or a chore, but a life!) A narrow focus on a small set of texts in a particular genre also helps.
 
-That being said, there is no reason in principle that any set of validation and production pipelines, contrived to make some kind of useful outputs for some set of inputs, should not also be useful to as many encoding specialists as want to use it. (Rules for a LMNL Shakespeare remain to be promulgated. And so much else.) As always, specification and communication are the key.
+That being said, there is no reason in principle that any set of validation and production pipelines, contrived to make some kind of useful outputs for some set of inputs, should not also be useful to as many encoding specialists as want to use it. (Rules for a LMNL Shakespeare remain to be defined. And so much else.) As always, specification and communication are the key.
 
 ## Laminator: project and architecture
 
 This project uses the **Laminator** library to support its MNML LMNL syntax processing; it is included in the EpicMarkup repository as a git submodule.
 
-See the [Laminator repository](https://github.com/wendellpiez/Laminator/tree/main) for much more. **Laminator** (or "the Laminator") runs in an XProc 3.0 processor such as XML Calabash or Morgana IIIse (both Java applications).
-
-The Laminator is designed to be used by calling libraries, that is to say XProc pipelines that embed (import) Laminator pipelines, to use their functionality internally. This project offers a number of examples of these.
+See the [Laminator repository](https://github.com/wendellpiez/Laminator/tree/main) for much more. **Laminator** (or "the Laminator") runs in an XProc 3.0/3.1 processor such as XML Calabash or Morgana IIIse (both Java applications). The Laminator is designed to be used by calling libraries, that is to say XProc pipelines that embed (import) Laminator pipelines, to use their functionality internally. This project offers a number of examples of these.
 
 An attempt is being made to provide XProc pipeline definitions and XSLT transformation code with comments, and to keep them up to date.
 
@@ -121,6 +119,7 @@ For comparison, *Eluciated Iliad* is a different rendering of the poem as an ass
 
 ## Further prospects
 
-Are there further prospects for LMNL? It has evidently done its work and more, for me. Only a hard-hearted person would not be amazed at how much I have received back for making this poor effort, and how much I have learned from everyone I met doing so. An old professor of mine once said of a little story he had written, that he was proud of it the way one is proud of one's idiot child. And yet, LMNL surprises!
+Are there further prospects for LMNL? For this developer it has evidently done its work and more. Only a hard-hearted person would fail to be amazed at how much I have received back for making this poor effort, and how much I have learned from everyone I met doing so. LMNL continues to surprise.
 
 -----
+October 2026

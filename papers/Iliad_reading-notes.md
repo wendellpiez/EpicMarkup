@@ -51,31 +51,29 @@ stories
 
 - Speeches inside speeches
 
+- "Glimpses": when mortals perceive immortals
+  - Achilles I, Diomedes V
+- vs whenever immortals are disguised as mortals
+  - Evil Dream II, Iris III, Athena ... 
+
 - Death scenes and their variations
     slayer, slain, weapons, body parts
     *pathoi*
-    [teuxa}{teuxa] [guia}{guia]
 
 - How do we know what is really Homer (irony? similes? seams between passages?)
+ 
+- Litotes!
 
-- Characters using epithets or other attributes of epic language?
+- Irony between characters
+  - Athena: "did Aphrodite prick herself on some Greek woman's needle?"
 
-- Idioms?
+- Set pieces
+  - e.g. Hera's and Athena's chariot V
 
-## LMNL and document engineering
+- Characters using epithets or other attributes of epic language
 
-One planned outcomes will be the production of a web-based edition. An open question is whether and to what extent starting from LMNL markup either saves us effort, or increases our leverage in rendering these ambiguous structures in HTML results (where overlap must be hidden, typically using segmentation).
+- Idioms and things that 'feel like idioms' (criteria?)
 
-### LMNL Documents and their text values
-
-The text value or 'frontier' is an intrinsic property of a LMNL document, as of a LMNL annotation in full (not MNML) LMNL.
-
-Indeed, it is reasonable to consider two separate LMNL instances, which have the same frontier (as a string of Unicode characters in a given ordre), as two different variants of the same document, since they can be so easily combined into a single LMNL instance, which can be produced by serializing the union of the two range sets over the (common) frontier.
-
-This characteristic also leads to two interesting findings:
-
-(a) a 'checksum' or the functional equivalent can be provided for any LMNL document as a hash value of its frontier. Two LMNL documents with the same hash, can be unified freely. If a document's frontier is altered, the change is detectable by comparing a prior with a current hash value.
-
-(b) LMNL demonstrates better than XML does the truth of Alan Renear's claim that "documents cannot be edited". In effect, the paradox is moved out a layer, since we can conceive of a document as the same (as long as the string value is constant) even when the ranges attributed to it or projected over it, have changed. Only its string value - an abstraction - is identified with the document as such, while the ranges are extrinsic and relative.
+---
 
 
