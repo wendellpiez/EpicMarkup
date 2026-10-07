@@ -1,0 +1,127 @@
+# What can we see when we can see overlap?
+
+**Modeling Homer's Iliad with exploratory markup: A MNML LMNL case study**
+
+Declarative Amsterdam 2026
+
+## The opportunity
+
+With new tools come new capabilities, leading to new ideas, and to new possibilities for old ideas.
+
+One such old idea is LMNL, the Layered Markup and Annotation Language. In this paper I explore using LMNL to provide descriptive markup to the *Iliad* of Homer (the Greek text in a modern edition).
+
+[Some background on LMNL](./lmnl-background.md) is offered on another page.
+
+## What are we trying to achieve?
+
+What can we learn about markup by working a system that does not restrict us to a single hierarchy, once for all?
+
+What can we learn about Homer's poem, about epic and about poetry, from seeking to apply markup to phenomena at both large and small levels of scale, from word or syllable level on up to speeches, scenes and books?
+
+## What is LMNL about and why is it suitable?
+
+See the companion page on [LMNL and XML](lmnl-and-xml.md) for more on how LMNL is similar, and different, from XML.
+
+Details aside, the most important difference between LMNL tagging and XML tagging is that *LMNL tagging tolerates overlap*.
+
+The nomenclature must also change with the mental model: we no longer mark "elements" with tags; instead we mark *ranges*.
+
+LMNL's tolerance of overlap also makes it suitable as the first step in marking texts that show not single hierarchies, but **Multiple Concurrent Hierarchies** (MCH).
+
+And because it is permissive, it can also be used without schemas or rule sets, until such time in the lifecycle of a dataset to normalize and standardize the tagging, for regularity and predictability in processing. If publication is not the aim, for a LMNL document, this can be late or never.
+
+<details>
+<summary>Exploratory Markup</summary>
+
+**Exploratory Markup** is the idea is that markup might itself become an interpretive instrument, a research device, for both learning about a text, and tracing and exposing findings relating to it.
+
+This is the opposite of the schema-driven paint-by-numbers game we are so often presented with. Having acquired a text, we determine (or someone tells us) which schema and tag set to use. Then the art becomes fitting the text into tags defined for the available (approved) features and rule set, without resorting to "creative" applications of tags and tagging patterns.
+
+Regrettably, to a great degree, this means outcomes are determined at the start by the choice of tag set or schema and its suitability for the application(s) intended.
+
+This is because success is defined as a text suitable for interchange using the nominal standard, not a text that is representative of the source in any *special* way.
+
+Outlier projects whose models must be different from any standard are necessarily excluded and on their own. Only some projects are able to take on the development and maintenance burdens of a bespoke and tailored schema.
+
+Exploratory markup is based on the idea that for the scholar and student, tagging a text should be anything but trying to fit it into predefined categories; and that "lightweight" means that *nothing* inhibits the introduction of new tags and tagging conventions.
+
+In contrast, not only is interchangeability (based on standardized tagging) not a primary goal, it is something we are willing to postpone.
+
+If we are free to make our own tags, how can we know what tags to use before we have even seen the text? While we might have ideas, those should not be determinative, or we are not doing research. (Or we are researching tagging standards, not the text under examination.)
+
+When working with a text, we should be able to make up tags describing and outlining phenomena as they appear, with no prior commitment to any scheme, any schema, or even any project result (web site or publication). Producing a publication might be a helpful beneficial outcome of a markup project, but it should not have to be its only motive or driver. When understanding a text's own unique organization, composition and internal structure counts for something in itself, exploratory markup opens a way forward. Tag the features; then assess and interpolate a schema.
+</details>
+
+### LMNL in application
+
+As noted, LMNL has features that make it more suitable for exploratory markup than XML:
+
+- Tolerating overlap means that we can add new ranges and *range types* freely any time, at no cost
+- Because hierarchies are not imposed, "natural outlines" become visible
+- "Cleanup" and regularization become both necessary and instructive
+
+For a practical solution, these must considered in the context of an actual scholarly *workflow* (to use a term of art appropriated from UI/UX). Each one is far-reaching in its own way.
+
+Responsibility for each spans across both scholarly and technical domains, with implications for application design.
+
+Either XML or LMNL assumes that practitioners have enough understanding to be able to make good judgements about content, while learning about markup. It may be that XML makes good "training wheels" for LMNL. But the opposite might also be the case.
+
+Today, LMNL is not for beginners working alone -- but it might be for experts (even self-taught) and for beginners working with experts.
+
+### Here Be XSLT
+
+Additionally, the present project assumes the user also has the technical expertise to design and build project results -- artifacts, publishable versions, analysis.
+
+This project does not (and may never) amount to a "publishing system" in the sense that given inputs (valid to a given schema and tagging use profile or rule set) might always "drop in" to produce good outputs, even without any extension. On the contrary, extension -- or rather, adaptation, since we are not canning a process for a nominally stable input format we will actually never see again -- is not the exception, but the rule -- constant, endless extension and adaptation, like a highway system that is never completed. (Think of it not as a job or a chore, but a life!) A narrow focus on a small set of texts in a particular genre also helps.
+
+That being said, there is no reason in principle that any set of validation and production pipelines, contrived to make some kind of useful outputs for some set of inputs, should not also be useful to as many encoding specialists as want to use it. (Rules for a LMNL Shakespeare remain to be defined. And so much else.) As always, specification and communication are the key.
+
+## Laminator: project and architecture
+
+This project uses the **Laminator** library to support its MNML LMNL syntax processing; it is included in the EpicMarkup repository as a git submodule.
+
+See the [Laminator repository](https://github.com/wendellpiez/Laminator/tree/main) for much more. **Laminator** (or "the Laminator") runs in an XProc 3.0/3.1 processor such as XML Calabash or Morgana IIIse (both Java applications). The Laminator is designed to be used by calling libraries, that is to say XProc pipelines that embed (import) Laminator pipelines, to use their functionality internally. This project offers a number of examples of these.
+
+An attempt is being made to provide XProc pipeline definitions and XSLT transformation code with comments, and to keep them up to date.
+
+## Epic Results (so far)
+
+See the general [Iliad Reading Notes](../Iliad_reading-notes.md) for a summary version of reading notes.
+
+Topics of interest to the classicist and student of literature range across Ancient Greek and the epic tradition; poetic language and oral tradition; rhapsody as a cultural and literary form; narrative and genre theory; Greek prosody, grammar and rhetoric; and many others.
+
+Working closely with the Iliad also suggests we need terms to distinguish between intermediate-size structures. In the medium term the tagging may be free form. This should be considered a feature, not a bug. *I would write on the lintels of the door-post, Whim. I hope it is somewhat better than whim at last, but we cannot spend the day in explanation.* (R W Emerson, "Self-reliance".)
+
+Having *names* for units of poetry may help, and we propose the terms **metron**, **onoma** (word), **stichos** (line), **phalanx**, **stratos**, **rhapsody**
+
+Comparing the structures of these could be interesting as well. At the level of the phalanx (8-10 lines) and above we see both formula, and much playing around with formula.
+
+### Publication
+
+This project aims to be self-publishing in the sense that this source repository will always have everything. Many project outputs will accordingly be committed to the repository for demonstration, while the runtimes responsible for generating them are also in place, ready to be run again for refreshing or tracing.
+
+Already I have developed and published, on the Internet, [helper materials for readers of the Iliad](https://raventracks.org). Their main (and so far only) audience is myself. They already work for me (well enough to use) but might benefit from new critical users: feel free. Source materials developed here may appear there as well.
+
+In order to test out the concepts here, I plan also to produce an *Illuminated Iliad*. It will probably combine HTML, CSS and SVG for a "styled view" not an assisted reader (with vocabulary help etc.)
+
+With regard to data publication and reuse, the license of at least one project on which this project depends  stipulates that corrections be made available. While "corrections" are less likely than enhancements or adjustments, in keeping with this principle, all changes, corrections, or enhancements to data in these pipelines are made explicitly; are externalized where possible (in intermediate or final outputs); and kept traceable, so as to provide patches for data sources upstream, if called on.
+
+## Presentation slides - summary
+
+[Presentation slides in PDF are available in this folder](DA2026-wendellpiez-slides.pdf).
+
+1.  Thanks for coming to listen. I am absolutely thrilled to be here.
+1.  The first thing I want to notice is the problem of UNKNOWING - the 'wall of text' - where is our Rosetta stone?
+1.  Leap forward: this is how we make our study aid - Exploratory markup: concept and goal
+1.  One way to do this is with LMNL syntax in a text editor - very old-fashioned - reminiscent of the cutting edge in 1999
+1.  I am doing this today using iXML, XSLT and XProc, built around a pair of XML-based data models
+1.  The data models together support operations over a well defined format, MNML LMNL, which can be acquired/procured a variety of ways and is (as designed) entirely *general purpose*
+1.  Tagging Homer free-form is incredibly interesting and promises to keep me busy for years
+1.  What do you all think? THANKS FOR LISTENING
+
+## Further prospects
+
+Are there further prospects for LMNL? For this developer it has done its work and more. Yet it is amazing how much I have received back for making this poor effort, and how much I have learned from everyone I met doing so. LMNL continues to surprise.
+
+-----
+October 2026
