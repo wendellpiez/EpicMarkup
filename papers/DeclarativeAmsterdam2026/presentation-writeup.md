@@ -98,11 +98,13 @@ Comparing the structures of these could be interesting as well. At the level of 
 
 ### Publication
 
-Already for the Iliad I have developed and published, on the Internet, helper materials for readers. Their main (and so far only) audience is myself.
+This project aims to be self-publishing in the sense that this source repository will always have everything. Many project outputs will accordingly be committed to the repository for demonstration, while the runtimes responsible for generating them are also in place, ready to be run again for refreshing or tracing.
+
+Already I have developed and published, on the Internet, [helper materials for readers of the Iliad](https://raventracks.org). Their main (and so far only) audience is myself. They already work for me (well enough to use) but might benefit from new critical users: feel free. Source materials developed here may appear there as well.
 
 In order to test out the concepts here, I plan also to produce an *Illuminated Iliad*. It will probably combine HTML, CSS and SVG for a "styled view" not an assisted reader (with vocabulary help etc.)
 
-For comparison, *Eluciated Iliad* is a different rendering of the poem as an assisted reader, with vocabulary help (produced from public domain XML sources, not LMNL markup). See my initiative at raventracks.org.
+With regard to data publication and reuse, the license of at least one project on which this project depends  stipulates that corrections be made available. While "corrections" are less likely than enhancements or adjustments, in keeping with this principle, all changes, corrections, or enhancements to data in these pipelines are made explicitly; are externalized where possible (in intermediate or final outputs); and kept traceable, so as to provide patches for data sources upstream, if called on.
 
 ## Presentation slides - summary
 
@@ -119,7 +121,7 @@ For comparison, *Eluciated Iliad* is a different rendering of the poem as an ass
 
 ## Further prospects
 
-Are there further prospects for LMNL? For this developer it has evidently done its work and more. Only a hard-hearted person would fail to be amazed at how much I have received back for making this poor effort, and how much I have learned from everyone I met doing so. LMNL continues to surprise.
+Are there further prospects for LMNL? For this developer it has done its work and more. Yet it is amazing how much I have received back for making this poor effort, and how much I have learned from everyone I met doing so. LMNL continues to surprise.
 
 -----
 October 2026
