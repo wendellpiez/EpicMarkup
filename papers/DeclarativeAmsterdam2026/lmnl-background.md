@@ -14,11 +14,11 @@ During this period I learned from everyone else who also looked at the beast. Ma
 
 ## 2026 Perspective
 
-Problems that result directly from a design feature of a technology (such as a language or metalanguage) -- in this case, XML's element hierarchy -- tend to take many different forms and to be more or less severe or troublesome, given the case. Today (2026) overlap in markup languages, including XML-based tagging languages, is not perceived as a problem, both because workarounds and mitigations are better known, and because we are better at anticipating the issues and defining requirements as out of bounds. This leaves a smaller number of initiatives -- notably, those interested in overlap *per se* (perhaps in the context of literary studies) -- with no really good solutions, just manageable ones.
+Problems that result directly from a design feature of a technology (such as a language or metalanguage) -- in this case, XML's element hierarchy -- tend to take many different forms and to be more or less severe or troublesome, given the case. Today (2026) overlap in markup languages, including XML-based tagging languages, is not perceived as a problem, both because workarounds and mitigations are better known, and because we are better at anticipating the issues and finding ways to avoid or reduce them. (What seems awkward eventually becomes acceptable after doing it a few times.) This leaves a smaller number of initiatives -- notably, those interested in overlap *per se* (perhaps in the context of literary studies) -- with no really good solutions, just manageable ones.
 
-At the same time, being able to thread this particular needle and made LMNL markup "work" (to some definition) is actually pretty thrilling, however small and "human-scaled" the demonstration.
+At the same time, being able to thread this particular needle and make LMNL markup "work" (to some definition) is personally thrilling, however small and "human-scaled" the demonstration.
 
-Expressing my sincere gratitude
+*Expressing my sincere gratitude*
 is the only answerable attitude
 I could bring
 to the entire overlap thing.
