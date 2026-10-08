@@ -20,15 +20,15 @@ What can we learn about Homer's poem, about epic and about poetry, from seeking 
 
 ## What is LMNL about and why is it suitable?
 
-See the companion page on [LMNL and XML](lmnl-and-xml.md) for more on how LMNL is similar, and different, from XML.
+See the companion page on [LMNL and XML](lmnl-and-xml.md) for more on how LMNL is similar to XML, and how it is different.
 
 Details aside, the most important difference between LMNL tagging and XML tagging is that *LMNL tagging tolerates overlap*.
 
 The nomenclature must also change with the mental model: we no longer mark "elements" with tags; instead we mark *ranges*.
 
-LMNL's tolerance of overlap also makes it suitable as the first step in marking texts that show not single hierarchies, but **Multiple Concurrent Hierarchies** (MCH).
+LMNL's tolerance of overlap also makes it suitable as the first step in marking texts that show not single hierarchies, but **Multiple Concurrent Hierarchies** (MCH). LMNL documents have ranges, not hierarchies, but those ranges sometimes form hierarchical patterns.
 
-And because it is permissive, it can also be used without schemas or rule sets, until such time in the lifecycle of a dataset to normalize and standardize the tagging, for regularity and predictability in processing. If publication is not the aim, for a LMNL document, this can be late or never.
+Because it is permissive, LMNL can also be used without schemas or rule sets, until such time as it is useful to normalize and standardize tagging, for regularity and predictability in processing. If publication is not the aim, for a LMNL document, this can be late or never.
 
 <details>
 <summary>Exploratory Markup</summary>
@@ -37,13 +37,13 @@ And because it is permissive, it can also be used without schemas or rule sets, 
 
 This is the opposite of the schema-driven paint-by-numbers game we are so often presented with. Having acquired a text, we determine (or someone tells us) which schema and tag set to use. Then the art becomes fitting the text into tags defined for the available (approved) features and rule set, without resorting to "creative" applications of tags and tagging patterns.
 
-Regrettably, to a great degree, this means outcomes are determined at the start by the choice of tag set or schema and its suitability for the application(s) intended.
+Regrettably, to a great degree, this means outcomes are determined at the start by the choice of tag set (or schema) and its suitability for the application(s) intended.
 
 This is because success is defined as a text suitable for interchange using the nominal standard, not a text that is representative of the source in any *special* way.
 
-Outlier projects whose models must be different from any standard are necessarily excluded and on their own. Only some projects are able to take on the development and maintenance burdens of a bespoke and tailored schema.
+Outlier projects whose models must be different from any standard are necessarily excluded, on their own. Only some projects are able to take on the development and maintenance burdens of a bespoke and tailored schema.
 
-Exploratory markup is based on the idea that for the scholar and student, tagging a text should be anything but trying to fit it into predefined categories; and that "lightweight" means that *nothing* inhibits the introduction of new tags and tagging conventions.
+Exploratory markup is based on the idea that for the scholar and student, tagging a text should be anything but trying to fit it into predefined categories; and that "lightweight" should mean that *nothing* inhibits the introduction of new tags and tagging conventions.
 
 In contrast, not only is interchangeability (based on standardized tagging) not a primary goal, it is something we are willing to postpone.
 
@@ -58,7 +58,7 @@ As noted, LMNL has features that make it more suitable for exploratory markup th
 
 - Tolerating overlap means that we can add new ranges and *range types* freely any time, at no cost
 - Because hierarchies are not imposed, "natural outlines" become visible
-- "Cleanup" and regularization become both necessary and instructive
+- Cleanup, normalization and regularization become both necessary and instructive, *because* regularities are not otherwise imposed
 
 For a practical solution, these must considered in the context of an actual scholarly *workflow* (to use a term of art appropriated from UI/UX). Each one is far-reaching in its own way.
 
@@ -72,7 +72,7 @@ Today, LMNL is not for beginners working alone -- but it might be for experts (e
 
 Additionally, the present project assumes the user also has the technical expertise to design and build project results -- artifacts, publishable versions, analysis.
 
-This project does not (and may never) amount to a "publishing system" in the sense that given inputs (valid to a given schema and tagging use profile or rule set) might always "drop in" to produce good outputs, even without any extension. On the contrary, extension -- or rather, adaptation, since we are not canning a process for a nominally stable input format we will actually never see again -- is not the exception, but the rule -- constant, endless extension and adaptation, like a highway system that is never completed. (Think of it not as a job or a chore, but a life!) A narrow focus on a small set of texts in a particular genre also helps.
+This project does not (and may never) amount to a "publishing system" in the sense that given inputs (valid to a given schema or rule set) might always "drop in" to produce good outputs, without any extension. On the contrary, extension -- or rather, adaptation, since we are not canning a process for a nominally stable input format we will actually never see again -- is not the exception, but the rule -- constant, endless extension and adaptation, like a highway system we drive on every day, which still being built somewhere. (Think of it not as a job or a chore, but a life!) A narrow focus on a small set of texts in a particular genre also helps.
 
 That being said, there is no reason in principle that any set of validation and production pipelines, contrived to make some kind of useful outputs for some set of inputs, should not also be useful to as many encoding specialists as want to use it. (Rules for a LMNL Shakespeare remain to be defined. And so much else.) As always, specification and communication are the key.
 
@@ -80,7 +80,7 @@ That being said, there is no reason in principle that any set of validation and 
 
 This project uses the **Laminator** library to support its MNML LMNL syntax processing; it is included in the EpicMarkup repository as a git submodule.
 
-See the [Laminator repository](https://github.com/wendellpiez/Laminator/tree/main) for much more. **Laminator** (or "the Laminator") runs in an XProc 3.0/3.1 processor such as XML Calabash or Morgana IIIse (both Java applications). The Laminator is designed to be used by calling libraries, that is to say XProc pipelines that embed (import) Laminator pipelines, to use their functionality internally. This project offers a number of examples of these.
+See the [Laminator repository](https://github.com/wendellpiez/Laminator/tree/main) for much more. **Laminator** (or "the Laminator") runs in an XProc 3.0/3.1 processor such as XML Calabash or Morgana IIIse (both Java applications). The Laminator is designed to be used by calling libraries, that is to say XProc pipelines that embed (import) Laminator pipelines, to use their functionality internally. This project offers a number of examples.
 
 An attempt is being made to provide XProc pipeline definitions and XSLT transformation code with comments, and to keep them up to date.
 
@@ -104,7 +104,7 @@ Already I have developed and published, on the Internet, [helper materials for r
 
 In order to test out the concepts here, I plan also to produce an *Illuminated Iliad*. It will probably combine HTML, CSS and SVG for a "styled view" not an assisted reader (with vocabulary help etc.)
 
-With regard to data publication and reuse, the license of at least one project on which this project depends  stipulates that corrections be made available. While "corrections" are less likely than enhancements or adjustments, in keeping with this principle, all changes, corrections, or enhancements to data in these pipelines are made explicitly; are externalized where possible (in intermediate or final outputs); and kept traceable, so as to provide patches for data sources upstream, if called on.
+With regard to data publication and reuse, the license of at least one project on which this project depends  stipulates that corrections be made available. While corrections are less likely than enhancements or adjustments, in keeping with this principle, all changes, corrections, or enhancements to data in these pipelines are made explicitly; are externalized where possible (in intermediate or final outputs); and kept traceable, so as to provide patches for data sources upstream, if called on.
 
 ## Presentation slides - summary
 
@@ -121,7 +121,7 @@ With regard to data publication and reuse, the license of at least one project o
 
 ## Further prospects
 
-Are there further prospects for LMNL? For this developer it has done its work and more. Yet it is amazing how much I have received back for making this poor effort, and how much I have learned from everyone I met doing so. LMNL continues to surprise.
+Are there further prospects for LMNL? For this developer it has done its work and more. Yet it is amazing how much I have received back for making this poor effort, and how much I have learned from everyone I have met doing so. LMNL continues to surprise.
 
 -----
 October 2026
