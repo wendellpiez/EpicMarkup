@@ -18,9 +18,9 @@ Problems that result directly from a design feature of a technology (such as a l
 
 At the same time, being able to thread this particular needle and make LMNL markup "work" (to some definition) is personally thrilling, however small and "human-scaled" the demonstration.
 
-*Expressing my sincere gratitude*
-is the only answerable attitude
-I could bring
+*Expressing my sincere gratitude*<br class="br"/>
+is the only answerable attitude<br class="br"/>
+I could bring<br class="br"/>
 to the entire overlap thing.
 
 Critical developments in XML tools 2010-2025, enabling the Laminator:
