@@ -12,6 +12,8 @@ Last checked Aug 16 2026.
 
 ## Homer
 
+Easy-to-read transcription of Monro and Allen 1920 at Wikisource: https://el.wikisource.org/wiki/%CE%99%CE%BB%CE%B9%CE%AC%CF%82
+
 Perseus at www.perseus.tufts.edu.
 
 Perseus Digital Library at https://github.com/PerseusDL.
