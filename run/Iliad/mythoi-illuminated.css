@@ -1,0 +1,133 @@
+
+html, body { font-family: Constantia;
+  background: linen; box-sizing: border-box }
+  
+main div.illumination { display: inline }
+
+.callout { display: none }
+
+a, a:visited { color: black; text-decoration: none }
+
+a[href]:hover { text-decoration: underline }
+
+a.lnchr { display: inline-block; width: 1.6em }
+
+span.spacer { display: none }
+
+span.w.vocab:hover { text-decoration: underline }
+
+footer { max-width: 40em; margin: auto; 
+  padding: 2em; margin-top: 3em; border-top: thin solid black;
+  font-size: smaller }
+
+footer details summary { text-align: center; font-size: 122%; margin: auto }
+
+footer * {  }
+footer p { margin-top: 1em }
+
+/* text-box-trim: trim-both; */
+
+span.lno { display: inline-block; position: fixed; top: anchor(top); 
+            font-family: sans-serif; font-size: 62%;
+           width: 3rem; padding: 0.6rem; text-align: right;
+           user-select: none; pointer-events: none; }
+
+.callout { position: fixed; top: calc(anchor(top) + 2vh);
+  background-color: linen; font-size: 80%; right: 16%;
+  max-width: 20%; opacity: 0.9 }
+
+.callout:hover   { z-index: 2; opacity: 1 }
+.callout.shining { z-index: 2; opacity: 1 }
+
+.callout.tale   { right: 22% }
+.callout.simile { right: 22% }
+.callout.trope  { right: 28% }
+.callout.song   { right: 22% }
+.callout.echo   { right: 22% }
+.callout.force  { right: 28% }
+
+.callout { padding: 0.4rem; outline: thin outset darkred }
+.callout, .callout * { margin: 0em }
+
+.callout.tale:hover,
+.callout.simile:hover,
+.callout.trope:hover,
+.callout.song:hover,
+.callout.echo:hover,
+.callout.force:hover { outline: medium inset darkred }
+
+main { margin-left: 5rem; line-height: 1.6; max-width: 60% }
+
+/* suppressing line feeds */
+main div br:first-child { display: block }
+
+nav { position: fixed; right: 5vw; top: 1vw; display: flex; font-family: sans-serif; font-size: smaller; text-align: right; align-items: first baseline;
+ gap: 0.4em;}
+
+.linkbox { padding: 0.3em; outline: thin solid black; margin: 0.3rem 0.2rem;
+           background-color: white } 
+
+.linkbox * { display: inline-block; padding: 0.2rem; margin: 0.1rem }
+
+nav a { outline: thin solid black }
+nav a:hover { outline: medium solid black; background-color: white }
+
+         
+.defn.hiding { display: none }
+
+.w:not(.hiding) { text-decoration: underline }
+
+.defn { position: absolute;
+        padding: 0.6em; font-size: smaller;
+        width: fit-content; outline: thin solid purple;
+        background-color: whitesmoke }
+
+.defn * { margin: 0em }
+
+.defn .trans { float: right; clear: both; font-style: italic; font-weight: bold }
+.trans { display: none }
+
+.defn .morph { font-size: smaller }
+
+html:has(#illuminator:checked),
+body:has(#illuminator:checked) {
+
+background: linear-gradient( ivory, #F4DBC3 );
+
+.defn { color: initial }
+
+.defn .trans { display: block }
+
+.defn .morph { min-width: 24em }
+
+main div.illumination
+  { display: block; padding: 0.7rem;
+    margin-top: 1.3em; margin-left: 1em;
+    width: fit-content; border-radius: 0.6vh }
+
+.illumination { outline: thin solid darkred }
+
+.callout { display: block }
+.callout:hover { outline-thickness: medium }
+
+.assembly { background-color: inherit; outline: thin dotted grey }
+.speech { background-color: papayawhip }
+.scene  { background-color: snow }
+.prayer { background-color: #F2DBE7 }
+
+.shining { outline-thickness: medium; opacity: 1 }
+
+.shining.simile       { background-color: #D7E3ED }
+.shining.trope        { background-color: peachpuff }
+.shining.force        { color: maroon; background-color: gainsboro }
+.shining.tale         { background-color: navajowhite }
+.shining.song         { background-color: #C0FFE7; color: midnightblue }
+.shining.echo         { background-color: pink }
+
+div.shining { outline: medium inset darkred }
+
+a.lnchr { width: 0em }
+
+span.spacer { display: inline-block }
+
+}
