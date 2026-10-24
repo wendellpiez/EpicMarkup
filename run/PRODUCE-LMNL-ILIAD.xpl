@@ -19,6 +19,8 @@
   <!-- Use pipeline ../Sources/ACQUIRE_PerseusDL-TEI.xpl to acquire a copy -->
   <p:input port="source" href="../Sources/PerseusDL/tlg0012.tlg001.perseus-grc2.xml"/>
 
+  <p:variable name="filename" select="tokenize(base-uri(/*),'/')[last()]"/>
+  
   <p:delete match="/processing-instruction()"/>
   <p:identity name="PerseusDL-TEI"/>
 
@@ -84,6 +86,9 @@
     <p:with-input select="//EPIC/book" pipe="result@adjusted"/>
     <p:variable name="book00" select="p:iteration-position() => format-number('00')"/>
     
+    <p:add-attribute match="/*" attribute-name="src"  attribute-value="{ $filename }"/>
+    <p:add-attribute match="/*" attribute-name="repo" attribute-value="PerseusDL"/>
+    <p:add-attribute match="/*" attribute-name="ed"   attribute-value="Monro and Allen 1920"/>
     <p:xslt>
       <p:with-input port="stylesheet" href="Iliad/adjustedIliad-to-sawteeth.xsl"/>
     </p:xslt>
