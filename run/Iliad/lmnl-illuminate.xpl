@@ -126,6 +126,8 @@
       <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
           <title>ILIAD ILLUMINATED Book { $bookNo }</title>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>    
         </head>
       </html>
     </p:with-input>
@@ -135,13 +137,20 @@
     <p:variable name="last" select="$bookNo - 1"/>
     <p:variable name="next" select="xs:integer($bookNo) + 1" as="xs:integer"/>
 
+    <p:insert match="nav/div[@class='controlbox']" position="last-child">
+      <p:with-input port="insertion">
+          <div class="linkbox">
+            <a href="ILIAD-illuminated_book{ format-number($last,'00') }.html">Book { $last }</a>
+            <span> Book { $bookNo }</span>
+            <a href="ILIAD-illuminated_book{ format-number($next,'00') }.html">Book { $next }</a>
+          </div>
+      </p:with-input>
+    </p:insert>
+    
     <p:insert match="nav" position="last-child">
       <p:with-input port="insertion">
-        <div class="linkbox">
-          <a href="ILIAD-illuminated_book{ format-number($last,'00') }.html">Book { $last }</a>
-          <span> Book { $bookNo }</span>
-          <a href="ILIAD-illuminated_book{ format-number($next,'00') }.html">Book { $next }</a>
-        </div>
+        <input id="fontSlider" type="range" min="6" max="24" value="12"
+          oninput="document.body.style.fontSize = ( this.value + 'pt' );"/>
       </p:with-input>
     </p:insert>
 

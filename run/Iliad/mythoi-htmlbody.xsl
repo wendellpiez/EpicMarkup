@@ -41,11 +41,14 @@
         <xsl:apply-templates select=".//lb" mode="label"/>
       </aside>
       <nav><!-- Placing nav over callouts -->
-        <button style="margin: 0em 0.3em" onclick="document.querySelectorAll('.vocab').forEach(e=>e.classList.add('hiding'));
-          document.querySelectorAll('.shining').forEach(f=>f.classList.remove('shining'))">Clear</button>
-        <div class="linkbox">
-          <span>Illuminated</span>
-          <input type="checkbox" id="illuminator"/>
+        <div class="controlbox">
+          <button style="margin: 0em 0.3em"
+            onclick="document.querySelectorAll('.vocab').forEach(e=>e.classList.add('hiding')); document.querySelectorAll('.shining').forEach(f=>f.classList.remove('shining'))"
+            >Clear</button>
+          <div class="linkbox">
+            <span>Illuminated</span>
+            <input type="checkbox" id="illuminator"/>
+          </div>
         </div>
       </nav>
       <main>
@@ -68,7 +71,7 @@
             href="https://creativecommons.org/licenses/by-sa/4.0/">CC&#xA0;BY-SA</a> (Creative
           Commons license: free to use with acknowledgement; share alike).</p>
         <p>Design goals include complementarity with <a href="https://scaife.perseus.org/">other open source resources</a>, while pages are standalone and independent, suitable for cache, copy, and off-network use. If you like what you see, make a copy.</p>
-        <p>Code in this project is made by hand, or under automation using deterministic methods (data transformations). No LLMs, probabalistic code generators or AI coding assistants are used unless for incidental background research. No connections are made and no one reads or records you, your inputs or interactions.</p>
+        <p>Code in this project is made by hand, or under automation using deterministic methods (data transformations). Use of LLMs, probabalistic code generators or AI coding assistants is restricted to incidental background research. No connections are made and no one reads or records you, your inputs or interactions.</p>
         <p><a href="https://github.com/wendellpiez/EpicMarkup/">Project source code</a> is available to inspect and acquire from Github in the developer's <a href="https://github.com/wendellpiez/EpicMarkup/" style="font-family: monospace" >EpicMarkup</a> repository.</p>
         <p class="raventracks-plug">For more study materials on Homer and Ancient Greek by the developer, see the <a style="font-weight: bold" href="https://raventracks.org" >RavenTracks</a> project; see <a style="font-weight: bold" href="https://pellucidliterature.org">Pellucid Literature</a> for more declarative markup for — and as — literary study.</p>
       </details>

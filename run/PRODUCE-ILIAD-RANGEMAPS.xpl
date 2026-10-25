@@ -28,7 +28,7 @@
     <p:variable name="filepath" select="/*/@name => resolve-uri(base-uri(.))"/>
     <p:variable name="svg-name" select="tokenize($filepath,'/')[last()] ! replace(.,'lmnl$','svg')"/>
     <p:variable name="bookN" select="replace($svg-name,'\D','') => number()"/>
-    <p:variable name="svg-path" select="('../data/Iliad/rangemaps', $lmnl-dir, $svg-name) => string-join('/')"/>
+    <p:variable name="svg-path" select="('../data/Iliad/rangemaps', $svg-name) => string-join('/')"/>
     
     <p:load href="{ $filepath }" content-type="text/plain"/>
     

@@ -61,8 +61,9 @@ main { margin-left: 5rem; line-height: 1.6; max-width: 60% }
 /* suppressing line feeds */
 main div br:first-child { display: block }
 
-nav { position: fixed; right: 5vw; top: 1vw; display: flex; font-family: sans-serif; font-size: smaller; text-align: right; align-items: first baseline;
- gap: 0.4em;}
+nav { position: fixed; right: 5vw; top: 1vw; display: flex; font-family: sans-serif; font-size: smaller; text-align: right; flex-flow: column }
+ 
+.controlbox { display: flex; align-items: first baseline; gap: 0.4em; }
 
 .linkbox { padding: 0.3em; outline: thin solid black; margin: 0.3rem 0.2rem;
            background-color: white } 

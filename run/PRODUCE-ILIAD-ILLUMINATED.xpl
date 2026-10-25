@@ -49,8 +49,8 @@
           <p:with-input port="source" pipe="@ILLUMINATION"/>
           <p:with-input port="insertion">
             <p:inline xml:space="preserve">
-<?xml-stylesheet type="text/css" href="mythoi-xml-authoring.css" title="MYTHOI XML" alternate="no"?>
-<?xml-model href="mythoi.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-stylesheet type="text/css" href="../../../lib/Mythoi/mythoi-xml-authoring.css" title="MYTHOI XML" alternate="no"?>
+<?xml-model href="../../../lib/Mythoi/mythoi.rnc" type="application/relax-ng-compact-syntax"?>
 </p:inline>
           </p:with-input>
         </p:insert>
