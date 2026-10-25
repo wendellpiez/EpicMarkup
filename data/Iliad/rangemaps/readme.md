@@ -17,7 +17,7 @@ Each SVG illustrates the relative sizes and positions of ranges in the respectiv
   - prayer - invocations to a god or to the Muses
   - tale - a nested narrative
   - simile - likening or comparing
-  - prolepsis - looking forward
+  - tropes etc - similarly
 - lines are marked as well (but you really have to zoom in to see them)
 - yes, a unified image showing all 24 books is feasible
 
@@ -26,7 +26,7 @@ The images presented are released under a [CC BY-SA 4.0](https://creativecommons
 Images are available for use under a CC-BY-SA license, with credit:
 
   - [PerseusDL](https://github.com/PerseusDL) for data sources (canonical TEI markup of Monro and Allen edition)
-  - Wendell Piez (EpicMarkup) for markup enhancements and images
+  - Wendell Piez (EpicMarkup) for markup enhancements and design of SVG images
 
 But we can also make nicer images: these are just prototypes.
 
@@ -34,17 +34,43 @@ Here we are so far (June 2026):
 
 ## Book 1 - Achilles takes offense
 
+Agamemnon offends Achilles. He will not fight.
+
 See the [source LMNL](../lmnl/edited/book01.lmnl)
 
-![Iliad Book 1 Mythoi range map](edited/book01.svg "Iliad Book I Mythoi range map")
+![Iliad Book 1 Mythoi range map](book01.svg "Iliad Book I Mythoi range map")
 
 ## Book 2 - Agamememnon gathers the Achaians
 
-The latter part of Book 2 is given to the Catalog of the Ships listing the Greek navies, with a shorter account of the Trojan allies.
+Agamemnon is tricked by Zeus into thinking victory is close, and tries to trick his own men into thinking otherwise, to test them. They fail the test, but are rallied. The latter part of Book 2 is given to the Catalog of the Ships listing the Greek navies, with a shorter account of the Trojan allies.
 
 See the [source LMNL](../lmnl/edited/book02.lmnl)
 
-![Iliad Book 2 Mythoi range map](edited/book02.svg "Iliad Book 2 Mythoi range map")
+![Iliad Book 2 Mythoi range map](book02.svg "Iliad Book 2 Mythoi range map")
+
+## Book 3 -
+
+After promising satisfaction, Paris is made a fool of by Menelaus on the battlefield, but is rescued by Aphrodite.
+
+See the [source LMNL](../lmnl/edited/book03.lmnl)
+
+![Iliad Book 3 Mythoi range map](book03.svg "Iliad Book 3 Mythoi range map")
+
+## Book 4 -
+
+The gods conniving, Athena goads the Trojan Pandarus into breaking the truce by shooting at Menelaus. Mayhem.
+
+See the [source LMNL](../lmnl/edited/book04.lmnl)
+
+![Iliad Book 4 Mythoi range map](book04.svg "Iliad Book 4 Mythoi range map")
+
+## Book 5 - Aristeia of Diomedes
+
+Diomedes takes the fight to the Trojans, even wounding Ares.
+
+See the [source LMNL](../lmnl/edited/book05.lmnl)
+
+![Iliad Book 5 Mythoi range map](book05.svg "Iliad Book 5 Mythoi range map")
 
 ---
-20260610
+20261025
