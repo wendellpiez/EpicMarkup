@@ -71,7 +71,7 @@
             href="https://creativecommons.org/licenses/by-sa/4.0/">CC&#xA0;BY-SA</a> (Creative
           Commons license: free to use with acknowledgement; share alike).</p>
         <p>Design goals include complementarity with <a href="https://scaife.perseus.org/">other open source resources</a>, while pages are standalone and independent, suitable for cache, copy, and off-network use. If you like what you see, make a copy.</p>
-        <p>Code in this project is made by hand, or under automation using deterministic methods (data transformations). Use of LLMs, probabalistic code generators or AI coding assistants is restricted to incidental background research. No connections are made and no one reads or records you, your inputs or interactions.</p>
+        <p>Code in this project is made by hand, or under automation using deterministic methods (data transformations). The foundation is the XML stack (XProc, XSLT, XPath), with the assistance of the Laminator library. No LLMs, probabilistic code generators or AI coding assistants have been used, except for occasional and incidental background research. No connections are made and no one reads or records you, your inputs or interactions.</p>
         <p><a href="https://github.com/wendellpiez/EpicMarkup/">Project source code</a> is available to inspect and acquire from Github in the developer's <a href="https://github.com/wendellpiez/EpicMarkup/" style="font-family: monospace" >EpicMarkup</a> repository.</p>
         <p class="raventracks-plug">For more study materials on Homer and Ancient Greek by the developer, see the <a style="font-weight: bold" href="https://raventracks.org" >RavenTracks</a> project; see <a style="font-weight: bold" href="https://pellucidliterature.org">Pellucid Literature</a> for more declarative markup for — and as — literary study.</p>
       </details>
@@ -83,7 +83,7 @@
     select="function($s as xs:string) as xs:string { (tokenize($s,'\.') ! number(.) ! format-number(.,'000')) => string-join('_') => substring(2) }"/>
   
   <xsl:variable name="mythID" as="function(*)"
-    select="function($n as node()) as xs:string { (name($n), generate-id($n)) => string-join('_') }"/>
+    select="function($n as node()) as xs:string { $n/(name(), generate-id()) => string-join('_') }"/>
   
   <xsl:variable name="capz" as="function(*)"
     select="function($c as xs:string) as xs:string { (substring($c,1,1) => upper-case()) || substring($c,2) }"/>
@@ -109,21 +109,9 @@
   
   <xsl:template match="lb" mode="label" expand-text="true">
     <span class="lno" style="position-anchor: --L{ $lNO(@n) }">{ @n }</span>
-    <!--<xsl:for-each select="key('english-at-line',@n, $english)">
-      <details class="coach" style="position-anchor: -\-L{ $lNO(@n) }">
-        <summary>Butler 1898</summary>
-        <xsl:apply-templates/>
-      </details>
-    </xsl:for-each>-->
   </xsl:template>
   
-  <!--Use an accumulator to track line values throughout the book
-    accumulator-start gives value of any line already started
-    accumulator-end gives value of any line left remaining at the end
-    
-  
-  -->
-  
+  <!-- Accumulator keeps track of the line so far -->  
   <xsl:accumulator name="hemistich" initial-value="''">    
     <xsl:accumulator-rule match="lb" select="''"/>
     <xsl:accumulator-rule match="text()" select="$value || ."/>
@@ -134,7 +122,7 @@
       <!-- make a spacer for the last line part if there is a first line part -->
       
       <xsl:if test="descendant::lb[1] >> descendant::text()[normalize-space(.)][1]">
-        <xsl:variable name="start-spacer">
+        <xsl:variable name="start-spacer" as="text()">
           <xsl:value-of select="accumulator-before('hemistich')"/>
         </xsl:variable>  
         <xsl:apply-templates mode="spacer" select="$start-spacer[normalize-space(.)]"/>
@@ -146,7 +134,7 @@
       <xsl:apply-templates/>   
     </div>
     <!-- make a spacer for the last line part if there is a subsequent line part -->
-    <xsl:variable name="end-spacer">
+    <xsl:variable name="end-spacer" as="text()">
       <xsl:value-of select="accumulator-after('hemistich')"/>
     </xsl:variable>
     <xsl:apply-templates mode="spacer" select="$end-spacer[normalize-space(.)]"/>
@@ -197,12 +185,8 @@
     <xsl:apply-templates mode="#current"/>
   </xsl:template>
   
-  <!--<xsl:template match="tale" mode="callout" expand-text="true">
-    <div class="callout tale" style="position-anchor: -\-{ $mythID(.) }">
-      <p><b>recounting</b> { @summry/'— ' }{ @summry }</p>
-    </div>
-    <xsl:apply-templates mode="#current"/>
-  </xsl:template>-->
+  <!-- Mode spacer produces text hidden to take up space
+  where lines continue into and after blocks (divs) -->
   
   <xsl:template mode="spacer" match="text()[normalize-space(.) => not()]"/>
     
