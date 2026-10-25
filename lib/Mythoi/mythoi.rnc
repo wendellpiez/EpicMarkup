@@ -1,0 +1,76 @@
+default namespace = ""
+
+start =
+  element BOOK {
+    attribute n { xsd:integer },
+    attribute src  { text },
+    attribute repo { text },
+    attribute ed   { text },
+    (text
+     | spanners
+     | force
+     | lb
+     | prayer
+     | scene
+     | speech
+     | element assembly {
+         attribute who { text }?,
+         (text | force | lb)+
+       })+
+  }
+
+tale =
+  element tale {
+    gloss?,
+    (text | lb | speech | spanners)+
+  }
+
+simile =
+  element simile {
+    gloss,
+    (text | lb | echo | song)+
+  }
+
+prayer =
+  element prayer {
+    attribute by { text }?,
+    attribute to { xsd:NCName },
+    (text | lb | spanners )+
+  }
+
+# spanners are mixed displayed inline
+# as opposed to scenes, speeches and assemblies i.e. structural units
+# permit text and lb but nothing else -
+# consider them 'atomic' units of poetry
+# treated exclusive categories b/c always overlapping
+# (yes we know all similes are tropes and so are echoes)
+spanners = tale | trope | simile | echo | song
+
+speech =
+  element speech {
+    attribute by { text },
+    attribute to { text }?,
+    (text | lb | simile | speech | spanners)+
+  }
+
+lb =
+  element lb {
+    attribute n { xsd:decimal }
+  }
+
+force = element force { (text | force | lb | spanners)+ }
+
+scene =
+  element scene {
+    attribute set { text }?,
+    (text | lb | prayer | scene | speech | spanners)+
+  }
+
+trope = element trope {
+  gloss?, (text | lb)+ }
+
+echo  = element echo  { (text | lb)+ }
+
+song  = element song  { (text | lb)+ }
+
+gloss = attribute glss { text }?

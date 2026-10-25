@@ -1,0 +1,20 @@
+
+BOOK { font-family: Calibri }
+
+lb { content: '\A' attr(n); font-size: 80% }
+
+assembly { margin-top: 1em; margin-left: 1em } 
+
+tale { margin: 0.5em; font-size: 80%; color: midnightblue } 
+
+simile { color: midnightblue; background-color: lemonchiffon} 
+
+prayer { color: darkred; background-color: gold } 
+
+speech { color: darkgreen; background-color: moccasin } 
+
+force { background-color: gainsboro } 
+
+scene { margin: 1em; background-color: whitesmoke } 
+
+trope { color: purple; background-color: lemonchiffon } 
