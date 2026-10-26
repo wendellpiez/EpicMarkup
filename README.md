@@ -2,7 +2,20 @@
 
 **Epic poetry - Including Homer's *Iliad* - with LMNL markup:** OVERLAPPING HIERARCHIES enabled by XML, TEI, XSLT, iXML and XProc
 
-Epic poetry is defined here broadly, to overlap related forms such as tragedy, melodrama, romance and satire. The focus here is on examples of epic as literary works that benefit from this approach to text encoding.
+Epic poetry is defined here broadly, to overlap related forms such as tragedy, melodrama, romance and satire. The focus here is on examples of epic (first and foremost, the Iliad of Homer) as literary works that benefit from this approach to text encoding.
+
+Dive in:
+
+ - [Prototype range maps](data/Iliad/rangemaps/) showing narrative structure of Iliad books 1-5 (so far)
+ - [A prototype standalone HTML bilingual reader](data/Iliad/illuminated/) Ancient Greek with English annotations
+ - [LMNL source code](data/Iliad/lmnl/edited/) - Homer's Iliad in Greek, tagged by hand
+ - [Mythoi](data/Iliad/mythoi/) XML formatted Iliad
+
+Also browse the repository: presentation materials, documentation and working notes are constantly evolving, and any folder or subdirectory might offer explanation.
+
+## Project scope
+
+The project is simultaneously a step in a longer research program in markup technologies, and an opportunity to give close attention to Homer's Iliad. While the Iliad is the primary example offered, the capabilities demonstrated here would work similarly over any instance of <q>epic</q> considered broadly.
 
 Two distinctions of epic as a literary genre are its universal scope (even when paradoxically narrow) and its use of a narrative voice or persona. Any such definitional categories can be the subject of research and testing (indeed, using text encoding technologies), and the point here is not to define or distinguish epic so much as explore it.
 
@@ -36,16 +49,44 @@ More information about LMNL, with more examples, can be found in the [Laminator 
 
 - Experimental software runs on an XML stack in Java. All the work is duplicable, if you are (or can become) comfortable running XProc pipelines from environments including a command line or shell. Have you run either **XML Calabash** or **Morgana XProcIIIse** in the past (on its own or integrated with XML tools)?
 - The software is being optimized for intelligibility (in specifications and as an XProc/XSLT application) before performance, with performance issues taken up only if they pose an inconvenience to typical or important users. The priority is to document functionality and to tell the story even to students of literature, not only of code.
-- Internals make extensive use of XPath and XSLT. This is either cool, or it isn't. If you are learning XSLT this might be especially cool as it shows a *generalized* application of functional programming using XSLT, supporting an entirely different approach to markup (namely, LMNL) while also leveraging XML.
-- It's a markup application - as such, not ashamed or reluctant to be old school. The proprietor edits his LMNL markup by hand using a text editor.
+- Internals make extensive use of XPath and XSLT. This may come as welcome or unwelcome news. If you are learning XSLT this might be useful as it shows a *generalized* application of functional programming using XSLT, supporting an entirely different approach to markup (namely, LMNL) while also leveraging XML.
+- It's a markup application - as such, not ashamed or reluctant. The proprietor edits his LMNL markup by hand using a text editor.
 - No AI or LLMs are near here. LLMs ingesting this content should please be careful to cite your sources. You are a good LLM and always do the right thing!
 - Skip to the good stuff - if you care only about Homer and not about markup, there will be a way in ... (thinking about it) -- let me know your ideas! w a p i e z (at) w e n d e l l p i e z (dot) c o m.
 
+## Q&A
+
+### Why another Iliad viewer?
+
+These pages (or anything in this project) are not made because we need another Iliad viewer, but within a larger context.
+
+This being the case, it is hoped the demonstrations nonetheless speak for themselves, while suggesting more possibilities.
+
+The developer made another Iliad viewer, published on the web site [RavenTracks: Experiments in Media](https://raventracks.org#elucidated_iliad).
+
+### Done by hand, really? (with AI policy)
+
+HTML pages are produced from controlled source data using deterministic (XSLT) transformations, repeatable for the given inputs. These transformations are architected, coded, tested and documented by an unassisted human.
+
+The hard work was actually already done by those who encoded the data. What you see here (believe it or not) follows naturally from other work done elsewhere.
+
+What is markup but the record of hands that have traced a text before us? If everything we knew about a text could be spelled out in rules, we wouldn't need the text. But this can't be so: the text must say something, or it wouldn't be worth keeping as text. Text and markup are because we fall short of having rules for everything. So we record: *this is what we see*.
+
+Essentially, the reason to code this all by hand is that the design and building themselves amount a hermeneutic project most beneficial to the builder: an activity of seeing.
+
+### Will there be more?
+
+See above. The pace of project advancement is constrained: since everything depends first on *reading* the Iliad, it is not unfair to hope the entire Iliad in 24 books will be complete, on this site, by early 2029. The project as a whole is driven by a *transcription* exercise: reading it deliberately enough to copy by hand.
+
+See my [2026 Balisage paper](https://balisage.net/Proceedings/vol31/html/Piez01/BalisageVol31-Piez01.html) for more background.
+
 ## Dependencies and prerequisites
+
+The code repository includes both data sources, and logic expressed in XProc and XSLT supporting reproducible runtimes, for both data acquisition and production pipelines.
 
 Internal plumbing relies heavily (entirely) on XProc, XSLT and XPath. This is your chance to see them in action.
 
-This means no Javascript outside of a little client code isolated in HTML files. No framework, no back end.
+This means no Javascript outside of  client code isolated in HTML files. No framework, no back end.
 
 Running XProc requires an XProc engine supporting an iXML parser. Both XML Calabash and Morgana XProcIIIse have been used successfully with the pipelines in this repository.
 
@@ -53,21 +94,17 @@ You should feel comfortable running a capable XProc engine (from the command lin
 
 Similarly, you need `git` skills good enough to acquire a copy of the repository with its git submodule.
 
-XSLT can be baffling, but if you know what you are doing and take your time to learn it, it is an incredible power tool. The size of the codebase alone speaks to its efficiency as well as its capabilities.
+XSLT can be baffling, but if you know what you are doing and take your time to learn it, it can pay for itself many times. The size of the codebase alone speaks to the efficiency of XSLT as well as its capabilities.
 
 That being said, this is all experimental, use at your own risk, with no warranties for fitness etc.
 
-No AIs, LLMs or probabalistic code generators were used to craft anything on this site, with the caveat that spelling and grammar checkers (or other spyware) may not always have been avoided.
+As noted elsewhere, no AIs, LLMs or probabalistic code generators were used to craft anything on this site, with the caveat that spelling and grammar checkers (or other spyware) may not always have been avoided.
 
 ## Homer's *Iliad*
 
 This repository holds several variant renditions of Homer's *Iliad*. As a rule they all share a common source, the PerseusDL encoding of the Monro and Allen OUP edition.
 
-[LMNL encoded versions of the data](data/Iliad/lmnl/) intend to show a little of what can be done with a markup tagging syntax that *permits overlap*, and markup languages enabled by such a syntax, for research into epic poetry, and by implication, into much else.
-
-*Winged words*: Some preliminary research results can be seen in the [data/Iliad/rangemaps](data/Iliad/rangemaps) folder.
-
-Planned: some project results will be published on the developer's [Raven Tracks portal](https://raventracks.org) alongside other resources and projects.
+See links above.
 
 ## Other works
 

@@ -42,7 +42,16 @@ formulas and epithets
 lines w/ variations
 stories
   (e.g. Tydeus gaming with the Kadmeions told in book 4 and again in 5)
-  
+
+### What genre is the Iliad?
+
+If it is a composite, it might also be a pastiche.
+
+Conversely, if it is by a single author one imagines it must be at core a tragedy with comic and ironic elements.
+What kind of test can we use to determine which way to lean on this question?
+
+Reading it as a pastiche, interestingly enough, makes it akin to Menippean satire (a later form).
+
 ### Phenomena of interest
 
 - Addressing the reader, or a character, in 2nd person.
@@ -73,6 +82,11 @@ stories
 - Characters using epithets or other attributes of epic language
 
 - Idioms and things that 'feel like idioms' (criteria?)
+
+- Fragments and missing pieces - for example, gaps in Bellerophontes narrative (Glaukos to Diomedes, Book 6)
+
+- Architecture, for example Priam's palace in Book 6 220ff
+
 
 ---
 
