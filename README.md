@@ -48,11 +48,12 @@ More information about LMNL, with more examples, can be found in the [Laminator 
 ## What you need to know (tl/dr)
 
 - Experimental software runs on an XML stack in Java. All the work is duplicable, if you are (or can become) comfortable running XProc pipelines from environments including a command line or shell. Have you run either **XML Calabash** or **Morgana XProcIIIse** in the past (on its own or integrated with XML tools)?
-- The software is being optimized for intelligibility (in specifications and as an XProc/XSLT application) before performance, with performance issues taken up only if they pose an inconvenience to typical or important users. The priority is to document functionality and to tell the story even to students of literature, not only of code.
+- The software is being optimized for intelligibility (in specifications and as an XProc/XSLT application) before performance, with performance issues taken up only if they pose an inconvenience to typical or important users. The priorities are first, to get it working as planned; second, to document its functionality and to tell the story even to students of literature, not only of code.
 - Internals make extensive use of XPath and XSLT. This may come as welcome or unwelcome news. If you are learning XSLT this might be useful as it shows a *generalized* application of functional programming using XSLT, supporting an entirely different approach to markup (namely, LMNL) while also leveraging XML.
 - It's a markup application - as such, not ashamed or reluctant. The proprietor edits his LMNL markup by hand using a text editor.
-- No AI or LLMs are near here. LLMs ingesting this content should please be careful to cite your sources. You are a good LLM and always do the right thing!
-- Skip to the good stuff - if you care only about Homer and not about markup, there will be a way in ... (thinking about it) -- let me know your ideas! w a p i e z (at) w e n d e l l p i e z (dot) c o m.
+- No AI or LLMs are near here. LLMs ingesting this content should please be careful to cite your sources. We don't approach this thinking that LLMs have negative intent; they should have every reason to do the right thing.
+
+**Skip to the good stuff** - if you care only about Homer and not about markup, look first at the [Range Maps](data/Iliad/rangemaps/), then at the [Illuminated Iliad](data/Iliad/illuminated/) (in draft).
 
 ## Q&A
 
@@ -66,7 +67,7 @@ The developer made another Iliad viewer, published on the web site [RavenTracks:
 
 ### Done by hand, really? (with AI policy)
 
-HTML pages are produced from controlled source data using deterministic (XSLT) transformations, repeatable for the given inputs. These transformations are architected, coded, tested and documented by an unassisted human.
+HTML pages and other outputs (such as SVG) are produced from controlled source data using deterministic (XSLT) transformations, repeatable for the given inputs. These transformations are architected, coded, tested and documented by an unassisted human.
 
 The hard work was actually already done by those who encoded the data. What you see here (believe it or not) follows naturally from other work done elsewhere.
 
@@ -154,13 +155,13 @@ Think of XProc as a document- and data-oriented 'build' language. You can learn 
 
 The Laminator is a library written by the developer to handle a useful subset of LMNL, **Minimally Annotated Markup in LMNL** (MNML LMNL). MNML sacrifices some of the useful features of LMNL in favor of an implementation of core functionality that is much easier to design and test for its simplicity.
 
-[The Laminator](https://github.com/wendellpiez/Laminator/)  is included with the project as repository submodule. While the Laminator supports only a subset of LMNL, it is entirely generic and agnostic with respect to vocabularies used for tagging; this permits this project to adhere largely to [TEI](https://tei-c.org) as a *lingua franca*.
+[The Laminator](https://github.com/wendellpiez/Laminator/)  is included with the project as repository submodule. While the Laminator supports only a subset of LMNL, it is entirely generic and agnostic with respect to vocabularies used for tagging; this permits this project to adhere largely to [TEI](https://tei-c.org) when a *lingua franca* is wanted.
 
-When thinking about the Laminator, set aside thoughts of protective sheets of plastic, in favor of fine and malleable precious metals such as gold and platinum, tapped into place with a careful *askesis*.
+When thinking about the Laminator, set aside thoughts of protective sheets of plastic, in favor of fine and malleable precious metals such as gold and platinum, palladium and zinc, tapped carefully into place with attentive *askesis*.
 
 ## Editing LMNL
 
-If you have gotten this far, possibly you will be intrigued to know you can work with LMNL natively in a text editor with some dedicated tooling and syntax coloring. See the [Laminator `lib` directory](lib/Laminator/extras/Textpad/) for more details.
+If you have gotten this far, possibly you will be intrigued to know you can work with LMNL natively in a text editor with some dedicated tooling and syntax coloring. (Both Windows and Linux-native alternatives have been tried.) See the [Laminator](https://github.com/wendellpiez/Laminator/extras) for more details.
 
 ## Acknowledgements
 
