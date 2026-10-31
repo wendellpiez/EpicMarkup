@@ -21,8 +21,7 @@
 -->      <xsl:apply-templates/>
     </span>
     <div class="defn vocab hiding" id="{ $thisID }"
-      style="position-anchor: --{ $thisID }; top: anchor(--{ $thisID } bottom);
-      left: anchor(--{$thisID} right)">
+      style="position-anchor: --{ $thisID }; top: anchor(--{ $thisID } bottom); left: anchor(--{$thisID} right)">
       <xsl:apply-templates mode="glossing" select="@data-trans, @data-stem, @data-morph"/>
     </div>
   </xsl:template>
@@ -44,7 +43,6 @@
   </xsl:template>
   
   <xsl:template match="@title | @data-stem | @data-morph | @data-trans"/>
-    
-  
+
   
 </xsl:stylesheet>

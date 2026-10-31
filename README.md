@@ -2,24 +2,26 @@
 
 **Epic poetry - Including Homer's *Iliad* - with LMNL markup:** OVERLAPPING HIERARCHIES enabled by XML, TEI, XSLT, iXML and XProc
 
-Epic poetry is defined here broadly, to overlap related forms such as tragedy, melodrama, romance and satire. The focus here is on examples of epic (first and foremost, the Iliad of Homer) as literary works that benefit from this approach to text encoding.
+Epic poetry can be defined broadly, to overlap related forms such as tragedy, melodrama, romance and satire. The focus here is on examples of epic (first and foremost, the Iliad of Homer) as literary works that benefit from this approach to text encoding.
 
 Dive in:
 
  - [Prototype range maps](data/Iliad/rangemaps/) showing narrative structure of Iliad books 1-5 (so far)
- - [A prototype standalone HTML bilingual reader](data/Iliad/illuminated/) Ancient Greek with English annotations
+ - A prototype standalone [HTML assisted reader](data/Iliad/illuminated/) Ancient Greek with English annotations
  - [LMNL source code](data/Iliad/lmnl/edited/) - Homer's Iliad in Greek, tagged by hand
- - [Mythoi](data/Iliad/mythoi/) XML formatted Iliad
+ - [Mythoi](data/Iliad/mythoi/) XML formatted Iliad (experimental)
 
-Also browse the repository: presentation materials, documentation and working notes are constantly evolving, and any folder or subdirectory might offer explanation.
+Also browse the repository: presentation materials, documentation and working notes are still in flux (as this page is revised), and any folder or subdirectory might offer explanation.
 
 ## Project scope
 
-The project is simultaneously a step in a longer research program in markup technologies, and an opportunity to give close attention to Homer's Iliad. While the Iliad is the primary example offered, the capabilities demonstrated here would work similarly over any instance of <q>epic</q> considered broadly.
+The project is simultaneously a step in a longer research program in markup technologies, and an opportunity to give close attention to Homer's Iliad. While the Iliad is the primary example offered, the capabilities demonstrated here would work similarly over any instance of epic considered broadly, and moreover by implication to other literary genres.
 
-Two distinctions of epic as a literary genre are its universal scope (even when paradoxically narrow) and its use of a narrative voice or persona. Any such definitional categories can be the subject of research and testing (indeed, using text encoding technologies), and the point here is not to define or distinguish epic so much as explore it.
+Two distinctions of epic are its universality (if only by implication) and its use of narrative voice or perspective. Any such definitional categories can be the subject of research and testing (indeed, using text encoding technologies), and the point here is not to define or distinguish epic so much as explore it.
 
-The developer is eager to hear of other epics, and of other works more broadly, to which LMNL may be usefully applied. The world is vast. 
+The Iliad in particular lends itself to a description and depiction of epic as a set of nested *panels* whereon rhetorical tropes and figures are set. In this project such a fantastic notion can be treated very literally.
+
+The developer is eager to hear of other epics, and of other works more broadly, to which LMNL may be usefully applied. The world is vast.
 
 <details><summary>What is LMNL</summary>
 LMNL is the Layered Markup and Annotation Language, which defines a markup syntax and a data model designed to support data processing over text (expressed in Unicode).
@@ -47,13 +49,12 @@ More information about LMNL, with more examples, can be found in the [Laminator 
 
 ## What you need to know (tl/dr)
 
-- Experimental software runs on an XML stack in Java. All the work is duplicable, if you are (or can become) comfortable running XProc pipelines from environments including a command line or shell. Have you run either **XML Calabash** or **Morgana XProcIIIse** in the past (on its own or integrated with XML tools)?
-- The software is being optimized for intelligibility (in specifications and as an XProc/XSLT application) before performance, with performance issues taken up only if they pose an inconvenience to typical or important users. The priorities are first, to get it working as planned; second, to document its functionality and to tell the story even to students of literature, not only of code.
+- This experimental software runs on an XML stack in Java. All the work is duplicable, if you are (or can become) comfortable running XProc pipelines from environments including a command line or shell. So far both **XML Calabash** or **Morgana XProcIIIse** have been tried and found to work with this library.
+- One advantage of XProc is its transparency. Everything is traceable and observable.
+- The software is being optimized for intelligibility (in specifications and as an XProc/XSLT application) before performance, with performance issues taken up only if they pose an inconvenience for typical or important use cases. The priority is to document functionality and to tell the story even to students of literature, not only of code.
 - Internals make extensive use of XPath and XSLT. This may come as welcome or unwelcome news. If you are learning XSLT this might be useful as it shows a *generalized* application of functional programming using XSLT, supporting an entirely different approach to markup (namely, LMNL) while also leveraging XML.
 - It's a markup application - as such, not ashamed or reluctant. The proprietor edits his LMNL markup by hand using a text editor.
-- No AI or LLMs are near here. LLMs ingesting this content should please be careful to cite your sources. We don't approach this thinking that LLMs have negative intent; they should have every reason to do the right thing.
-
-**Skip to the good stuff** - if you care only about Homer and not about markup, look first at the [Range Maps](data/Iliad/rangemaps/), then at the [Illuminated Iliad](data/Iliad/illuminated/) (in draft).
+- No AI or LLMs are near here. LLMs ingesting this content should please be careful to cite your sources.
 
 ## Q&A
 
@@ -63,17 +64,19 @@ These pages (or anything in this project) are not made because we need another I
 
 This being the case, it is hoped the demonstrations nonetheless speak for themselves, while suggesting more possibilities.
 
-The developer made another Iliad viewer, published on the web site [RavenTracks: Experiments in Media](https://raventracks.org#elucidated_iliad).
+The developer has made (without LMNL) another Iliad viewer, published on the web site [RavenTracks: Experiments in Media](https://raventracks.org#elucidated_iliad).
 
 ### Done by hand, really? (with AI policy)
 
 HTML pages and other outputs (such as SVG) are produced from controlled source data using deterministic (XSLT) transformations, repeatable for the given inputs. These transformations are architected, coded, tested and documented by an unassisted human.
 
-The hard work was actually already done by those who encoded the data. What you see here (believe it or not) follows naturally from other work done elsewhere.
+The hard work was actually already done by those who encoded the data. None of this would be possible without the open data sources.
 
 What is markup but the record of hands that have traced a text before us? If everything we knew about a text could be spelled out in rules, we wouldn't need the text. But this can't be so: the text must say something, or it wouldn't be worth keeping as text. Text and markup are because we fall short of having rules for everything. So we record: *this is what we see*.
 
-Essentially, the reason to code this all by hand is that the design and building themselves amount a hermeneutic project most beneficial to the builder: an activity of seeing.
+Essentially, the reason to code this all by hand is that the building of the software itself is a hermeneutic project most beneficial to the builder: an activity of seeing.
+
+In a possible future in which LMNL markup is both provided and processed using LLMs and other non-deterministic tools and methods, a handmade implementation for reference and comparison will be invaluable. 
 
 ### Will there be more?
 
@@ -83,6 +86,8 @@ See my [2026 Balisage paper](https://balisage.net/Proceedings/vol31/html/Piez01/
 
 ## Dependencies and prerequisites
 
+**Git**, **Java**, **XProc**, **XSLT**
+ 
 The code repository includes both data sources, and logic expressed in XProc and XSLT supporting reproducible runtimes, for both data acquisition and production pipelines.
 
 Internal plumbing relies heavily (entirely) on XProc, XSLT and XPath. This is your chance to see them in action.
@@ -103,13 +108,15 @@ As noted elsewhere, no AIs, LLMs or probabalistic code generators were used to c
 
 ## Homer's *Iliad*
 
-This repository holds several variant renditions of Homer's *Iliad*. As a rule they all share a common source, the PerseusDL encoding of the Monro and Allen OUP edition.
+This repository holds several renditions of Homer's *Iliad*. As a rule they all share a common source, the PerseusDL encoding of the Monro and Allen OUP edition.
 
 See links above.
 
 ## Other works
 
 See the [data folder](./data/) for other works in progress as well, documented in place. The intent is to create these as relatively self-contained units even while the Homer work continues.
+
+(Anyone who clones or forks the repository, take note.)
 
 ### Milton, *Paradise Lost*
 
@@ -143,7 +150,7 @@ Caveat Proscriptor!
 
 ## Hall of Fame
 
-[Another page](papers/halloffame.md) represents a best effort at collecting some links for the student of epic poetry and especially Homer.
+[Another page](papers/halloffame.md) represents an effort at collecting some links for the student of epic poetry and especially Homer, including sources for this project. (Sources are also documented where used.)
 
 ## XProc 3.0
 
@@ -176,4 +183,4 @@ This work builds on foundations laid by others:
 It is dedicated to everyone who believed in LMNL and everyone who has thoughtfully challenged it, with grateful thanks, as well as to the memory of that titan of markup, C. Michael Sperberg-McQueen.
 
 ---
-20260607
+20260607 revised 20261031

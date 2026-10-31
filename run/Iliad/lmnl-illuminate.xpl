@@ -127,7 +127,12 @@
         <head>
           <title>ILIAD ILLUMINATED Book { $bookNo }</title>
           <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1"/>    
+          <meta name="viewport" content="width=device-width, initial-scale=1"/>  
+          <meta name="description" content="Homer's Iliad Book { $bookNo } in Greek original with English annotations, produced and enhanced from open data using XML, LMNL and XSLT"/>
+            <meta name="keywords" content="Homer, Iliad, epic, Ancient Greek, overlap"/>
+          <meta name="dc:creator" content="Homer"/>
+          <meta name="dc:contributor" content="Perseus Project"/>
+          <meta name="dc:contributor" content="Wendell Piez"/>
         </head>
       </html>
     </p:with-input>

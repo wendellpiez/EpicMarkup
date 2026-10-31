@@ -10,7 +10,41 @@ TODO: display CSS for this format? Simple XSLT?
 
 SEE ALSO: ILLUMINATED ILIAD [Book 1](../illuminated/ILIAD-illuminated_book01.html)
 
+Build out some more outlandish examples as demos
 
-===
+```
+[wave} .. [crest} ... {crest] ... {wave]
+```
 
-Text
+This is an architectural form for a widespread pattern, for example:
+
+```
+[deth} ... [lif} ... {lif] ...{deth]
+```
+
+[echo alliteration, assonance, effect]
+
+Priam's palace, Book 6, wow - architecture in verse
+
+## ideas
+
+### [glmpse}
+
+Any time a hero or mortal person sees a god or thinks they might see a god.
+
+### [deth}
+
+One figure kills another. Multiple `by` and `of` annotations are possible.
+
+### [trope}
+
+subtypes? irony, metonymy, euphemism all make appearances ...
+
+### Gaps
+
+Are there spots suggestive of gaps, such as in Book 6, tale of Bellerophontes?
+
+### Proposed units
+
+`stratos` and `phalanx` boundaries.
+
