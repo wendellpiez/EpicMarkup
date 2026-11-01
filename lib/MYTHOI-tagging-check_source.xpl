@@ -42,7 +42,7 @@
   <p:variable name="filename"
     select="p:document-property(.,'base-uri') => tokenize('/') => reverse() => head()"/>
 
-  <p:variable name="echo" select="string(.) ! normalize-space(.)"/>
+  <p:variable name="echo" select="string(/) ! normalize-space(.)"/>
 
   <p:try message="Parsing { $filename } - nominal tagging stack limit is { $max-tagging-depth }">
     <mnml:sawteeth-to-xMNML>
@@ -97,5 +97,4 @@
     </p:xslt>
     
   </p:group>
-    
-</p:declare-step>
+  </p:declare-step>

@@ -68,6 +68,8 @@
     <SKIPPED_CHECK/>
   </xsl:template>
   
+  <xsl:variable name="ranges" select="//start | //empty"/>
+  
   <xsl:template match="/LMNL" priority="202">
     <xsl:apply-templates/>
     <xsl:on-non-empty>
@@ -76,7 +78,20 @@
       </model>
     </xsl:on-non-empty>
     <xsl:on-empty>
-      <LOOKING_GOOD/>
+      <LOOKING_GOOD ranges="{ count( $ranges ) }"
+        extent="{ string-length( /*/text => string-join('') ) }">
+        <xsl:for-each-group select="$ranges" group-by="@gi">
+          <xsl:sort select="count(current-group())"/>
+          <range gi="{ (current-grouping-key()[normalize-space(.)],'[ANON]')[1] }"
+            count="{ current-group() => count() }">
+            <xsl:for-each-group select="current-group()/annotation" group-by="@gi">
+              <annotation gi="{ (current-grouping-key()[normalize-space(.)],'[ANON]')[1] }"
+                count="{ current-group() => count() }"
+                distinct="{ current-group()/string(.) => distinct-values() => count()}"/>
+            </xsl:for-each-group>
+          </range>
+        </xsl:for-each-group>
+      </LOOKING_GOOD>
     </xsl:on-empty>
   </xsl:template>
   
