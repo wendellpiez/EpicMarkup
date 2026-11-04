@@ -10,6 +10,7 @@ Dive in:
  - A prototype standalone [HTML assisted reader](data/Iliad/illuminated/) Ancient Greek with English annotations
  - [LMNL source code](data/Iliad/lmnl/edited/) - Homer's Iliad in Greek, tagged by hand
  - [Mythoi](data/Iliad/mythoi/) XML formatted Iliad (experimental)
+ - Milton's [Paradise Lost Book I](data/ParadiseLost) in LMNL - another example, casting plain text into rich LMNL (showing enjambment where lines overlap phrases), in English not Greek
 
 Also browse the repository: presentation materials, documentation and working notes are still in flux (as this page is revised), and any folder or subdirectory might offer explanation.
 
@@ -17,9 +18,9 @@ Also browse the repository: presentation materials, documentation and working no
 
 The project is simultaneously a step in a longer research program in markup technologies, and an opportunity to give close attention to Homer's Iliad. While the Iliad is the primary example offered, the capabilities demonstrated here would work similarly over any instance of epic considered broadly, and moreover by implication to other literary genres.
 
-Two distinctions of epic are its universality (if only by implication) and its use of narrative voice or perspective. Any such definitional categories can be the subject of research and testing (indeed, using text encoding technologies), and the point here is not to define or distinguish epic so much as explore it.
+Two distinctions of epic are its universality (if only by implication) and its use of narrative voice or perspective. Any such definitional categories can be the subject of research and testing (indeed, using text encoding technologies), and the aim here is not to define or distinguish epic so much as to explore it.
 
-The Iliad in particular lends itself to a description and depiction of epic as a set of nested *panels* whereon rhetorical tropes and figures are set. In this project such a fantastic notion can be treated very literally.
+The Iliad in particular lends itself to a description and depiction of epic as a set of nested pieces (or <q>stacked panels</q>, whereon rhetorical tropes and figures are placed. In this project such a fantastic notion can be treated very literally.
 
 The developer is eager to hear of other epics, and of other works more broadly, to which LMNL may be usefully applied. The world is vast.
 
@@ -50,7 +51,7 @@ More information about LMNL, with more examples, can be found in the [Laminator 
 ## What you need to know (tl/dr)
 
 - This experimental software runs on an XML stack in Java. All the work is duplicable, if you are (or can become) comfortable running XProc pipelines from environments including a command line or shell. So far both **XML Calabash** or **Morgana XProcIIIse** have been tried and found to work with this library.
-- One advantage of XProc is its transparency. Everything is traceable and observable.
+- One advantage of XProc is its transparency. Everything is observable and repeatable.
 - The software is being optimized for intelligibility (in specifications and as an XProc/XSLT application) before performance, with performance issues taken up only if they pose an inconvenience for typical or important use cases. The priority is to document functionality and to tell the story even to students of literature, not only of code.
 - Internals make extensive use of XPath and XSLT. This may come as welcome or unwelcome news. If you are learning XSLT this might be useful as it shows a *generalized* application of functional programming using XSLT, supporting an entirely different approach to markup (namely, LMNL) while also leveraging XML.
 - It's a markup application - as such, not ashamed or reluctant. The proprietor edits his LMNL markup by hand using a text editor.
@@ -104,13 +105,15 @@ XSLT can be baffling, but if you know what you are doing and take your time to l
 
 That being said, this is all experimental, use at your own risk, with no warranties for fitness etc.
 
-As noted elsewhere, no AIs, LLMs or probabalistic code generators were used to craft anything on this site, with the caveat that spelling and grammar checkers (or other spyware) may not always have been avoided.
+As noted elsewhere, no AIs, LLMs or probabilistic code generators were used to craft anything on this site, with the caveat that 'agentic systems' can be difficult to avoid entirely (for example in background research and maintenance tasks).
+
+Learn more about XProc starting in the [XProc Zone](https://xproc.zone), also a project of the developer.
 
 ## Homer's *Iliad*
 
 This repository holds several renditions of Homer's *Iliad*. As a rule they all share a common source, the PerseusDL encoding of the Monro and Allen OUP edition.
 
-See links above.
+Links into research initiatives including works in progress are provided above. See also [raventracks.org](https://raventracks.org) for more from me -- a site devoted to learning materials.
 
 ## Other works
 
@@ -138,19 +141,21 @@ It is set up as a git submodule, so it requires initialization and update for th
 
 ## Namespaces
 
-Internally, pipelines may sometimes handle XML without namespaces. Caution is warranted lest your assumptions betray you.
+In XProc and XSLT, namespaces play a vital role to distinguish element semantics, but their design also admits a useful flexibility, in that the same namespace can be used in different places with different identifiers (element name prefixes). Sometimes these pipelines take advantage of this flexibility internally, including using XML without a namespace (or, the "no-namespace namespace". When working with this code, caution is warranted lest your assumptions betray you.
 
-When needed, a common namespace may be assigned for elements not expected to be useful outside this repository:
+When needed, a common namespace is sometimes assigned for elements not expected to be useful outside this repository:
 
 ```
 xmlns:EPIC="https://github.com/wendellpiez/EpicMarkup/ns"
 ```
 
-Caveat Proscriptor!
+Feel free to use this namespace in your own extensions, or coin your own.
 
 ## Hall of Fame
 
-[Another page](papers/halloffame.md) represents an effort at collecting some links for the student of epic poetry and especially Homer, including sources for this project. (Sources are also documented where used.)
+[Another page](papers/halloffame.md) represents an effort at collecting some links for the student of epic poetry and especially Homer, including sources for this project.
+
+In addition to sources listed in the Hall of Fame, data sources for pipelines are documented in place.
 
 ## XProc 3.0
 
@@ -168,7 +173,7 @@ When thinking about the Laminator, set aside thoughts of protective sheets of pl
 
 ## Editing LMNL
 
-If you have gotten this far, possibly you will be intrigued to know you can work with LMNL natively in a text editor with some dedicated tooling and syntax coloring. (Both Windows and Linux-native alternatives have been tried.) See the [Laminator](https://github.com/wendellpiez/Laminator/extras) for more details.
+If you have gotten this far, possibly you will be interested to know you can work with LMNL natively in a text editor with some dedicated tooling and syntax coloring. (Both Windows and Linux-native alternatives have been tried.) See the [Laminator](https://github.com/wendellpiez/Laminator/extras) for more details.
 
 ## Acknowledgements
 
@@ -183,4 +188,4 @@ This work builds on foundations laid by others:
 It is dedicated to everyone who believed in LMNL and everyone who has thoughtfully challenged it, with grateful thanks, as well as to the memory of that titan of markup, C. Michael Sperberg-McQueen.
 
 ---
-20260607 revised 20261031
+20260607 revised 20261104
