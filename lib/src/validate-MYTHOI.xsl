@@ -29,14 +29,20 @@
       </range>
       <range gi="trope"><!-- More or less any trope except simile and onomatopoeia -->
         <annotation gi="glss"/>
+        <annotation gi="type"/>
       </range>
       <range gi="tale"><!-- Nested narrative, either complete or fragmentary -->
         <annotation gi="glss"/>
       </range>
+      <range gi="batl">
+        <annotation gi="who"/>
+      </range>
       <range gi="simile">
         <annotation gi="glss"/>
       </range>
-      <range gi="echo"><!-- For repeated lines --></range>
+      <range gi="echo"><!-- For repeated lines -->
+        <annotation gi="cf"/>
+      </range>
       <range gi="song"><!-- Noteworthy for aural effect or onomatopoeia --></range>
       <range gi="scene">
         <annotation gi="set"/>
@@ -46,6 +52,7 @@
         <annotation gi="to"/>
       </range>
       <range gi="para"/>
+      <range gi="q"/>
       <range gi="l">
         <annotation gi="n"/>
       </range>
@@ -71,12 +78,13 @@
   <xsl:variable name="ranges" select="//start | //empty"/>
   
   <xsl:template match="/LMNL" priority="202">
-    <xsl:apply-templates/>
     <xsl:on-non-empty>
       <model>
         <xsl:apply-templates select="$scheme" mode="spill"/>
       </model>
+      <!--<xsl:copy-of select="$scheme"/>-->
     </xsl:on-non-empty>
+    <xsl:apply-templates/>
     <xsl:on-empty>
       <LOOKING_GOOD ranges="{ count( $ranges ) }"
         extent="{ string-length( /*/text => string-join('') ) }">
@@ -95,12 +103,16 @@
     </xsl:on-empty>
   </xsl:template>
   
-  <xsl:variable name="anon" as="function(*)" select="function($gi as attribute()) as xs:string { ( if (string($gi)) then ('''' || string($gi) || '''') else '(ANONYMOUS)') }"/>
+  <xsl:variable name="anon" as="function(*)"
+    select="function($gi as attribute()) as xs:string { ( if (string($gi)) then ('''' || string($gi) || '''') else '(ANONYMOUS)') }"/>
     
   <xsl:template match="start[not(@gi = $scheme/range/@gi)]">
-    <finding>Unexpected range type { $anon(@gi) }' at line { @L }, column { @ch }</finding>
+    <finding>Unexpected range type { $anon(@gi) } at line { @L }, column { @ch }</finding>
     <xsl:next-match/>
   </xsl:template>
+  
+  <!-- skipping all annotations on unrecognized ranges -->
+  <xsl:template priority="101" match="*[not(@gi = $scheme)]/@gi/annotation"/>
   
   <!-- Catches annotations out of place as well as unknowns -->
   <xsl:template priority="99" match="annotation[
@@ -110,6 +122,6 @@
   </xsl:template>
   
   <xsl:template match="range" mode="spill">
-    <xsl:text> [{ @gi }{ child::annotation/(' [' || @gi || '}{]') => string-join('') }]</xsl:text>
+    <xsl:text>&#xA;[{ @gi }{ child::annotation/(' [' || @gi || ']') => string-join('') }]</xsl:text>
   </xsl:template>
 </xsl:stylesheet>

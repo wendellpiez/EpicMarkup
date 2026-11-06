@@ -1,0 +1,18 @@
+# IDE project file
+*.xpr
+
+# Local working files
+punchlist.txt
+working/
+scratch/
+
+process data cache (reproducible; for tracing)
+cache/
+
+# XSpec test results
+
+*-result.html
+*_report.html
+**/xspec/*-result.html
+**/*xspec*-result.html
+*junit-report.xml
