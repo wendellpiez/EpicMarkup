@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="../../../lib/Mythoi/mythoi-xml-authoring.css" title="MYTHOI XML" alternate="no"?>
 <?xml-model href="../../../lib/Mythoi/mythoi.rnc" type="application/relax-ng-compact-syntax"?>
 <BOOK n="1" src="tlg0012.tlg001.perseus-grc2.xml" repo="PerseusDL" ed="Monro and Allen 1920">
-<prayer to="Muses">
+<prayer to="The Muse (Calliope)">
 <lb n="1.1"/>μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος
 <lb n="1.2"/>οὐλομένην, ἣ μυρίʼ Ἀχαιοῖς ἄλγεʼ ἔθηκε,
 <lb n="1.3"/>πολλὰς δʼ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
@@ -653,7 +653,7 @@
 <lb n="1.599"/>ἄσβεστος δʼ ἄρʼ ἐνῶρτο γέλως μακάρεσσι θεοῖσιν
 <lb n="1.600"/>ὡς ἴδον Ἥφαιστον διὰ δώματα ποιπνύοντα.
 <lb n="1.601"/>ὣς τότε μὲν πρόπαν ἦμαρ ἐς ἠέλιον καταδύντα
-<lb n="1.602"/>δαίνυντʼ, <trope glss="formula">οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης</trope>,
+<lb n="1.602"/>δαίνυντʼ, <trope type="formula">οὐδέ τι θυμὸς ἐδεύετο δαιτὸς ἐΐσης</trope>,
 <lb n="1.603"/>οὐ μὲν φόρμιγγος περικαλλέος ἣν ἔχʼ Ἀπόλλων,
 <lb n="1.604"/>Μουσάων θʼ αἳ ἄειδον ἀμειβόμεναι ὀπὶ καλῇ.
 <lb n="1.605"/>αὐτὰρ ἐπεὶ κατέδυ λαμπρὸν φάος ἠελίοιο,

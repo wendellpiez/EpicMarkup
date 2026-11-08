@@ -163,7 +163,7 @@
   </xsl:template>
   
   <xsl:template name="make-callout">
-    <xsl:param name="contents">
+    <xsl:param name="contents" expand-text="true">
       <h3>{ local-name() => $capz() }</h3>      
     </xsl:param>
     <div class="callout { local-name() }" style="position-anchor: --{ $mythID(.) }"
